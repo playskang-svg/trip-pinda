@@ -30,6 +30,9 @@ export const metadata: Metadata = {
   alternates: {
     types: { 'application/rss+xml': '/rss.xml' },
   },
+  verification: {
+    other: { 'naver-site-verification': 'b05ef30d065548854031f53f4f23b38102586afa' },
+  },
 }
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID

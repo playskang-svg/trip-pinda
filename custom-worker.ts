@@ -4,7 +4,9 @@ import handler from './.open-next/worker.js'
 
 // Low traffic means most visits would be cache misses at 5 minutes, and a miss is what risks Error 1102.
 const TTL_SECONDS = 6 * 60 * 60
-const NEVER_CACHE = /^\/(admin|api|search)(\/|$)/
+// Bump to drop every cached page on the next deploy, for example after a data push.
+const CACHE_VERSION = 2
+const NEVER_CACHE =/^\/(admin|api|search)(\/|$)/
 
 export default {
   async fetch(request: Request, env: unknown, ctx: { waitUntil(promise: Promise<unknown>): void }) {
@@ -14,7 +16,7 @@ export default {
       return handler.fetch(request, env, ctx)
     }
     // Next answers the same URL with HTML or a client-side payload depending on these headers.
-    const key = new Request(`${url.href}${url.search ? '&' : '?'}__v=${request.headers.get('rsc') ?? 'html'}`)
+    const key = new Request(`${url.href}${url.search ? '&' : '?'}__v=${CACHE_VERSION}-${request.headers.get('rsc') ?? 'html'}`)
     const cache = (caches as unknown as { default: Cache }).default
     const hit = await cache.match(key)
     if (hit) return hit
