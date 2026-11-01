@@ -112,7 +112,7 @@ export const destinations: Record<string, { country: string; lede: string; alt: 
 }
 
 // Written once the catalog titles were reviewed by hand; these products lead the home and tours pages.
-export const featuredProducts = ['klook-70672', 'klook-46604', 'klook-82312', 'klook-13283', 'klook-11988', 'klook-1659', 'klook-127', 'klook-765', 'klook-7467', 'klook-15699', 'klook-20380', 'kkday-18680', 'klook-3250', 'klook-96022', 'kkday-5038', 'klook-20750', 'klook-1112', 'klook-145733', 'klook-197655', 'klook-3021', 'kkday-162495', 'kkday-27448', 'klook-117', 'klook-10276']
+export const featuredProducts = ['klook-70672', 'klook-46604', 'klook-82312', 'klook-25300', 'klook-41352', 'klook-3407', 'klook-28959', 'klook-19854', 'klook-94833', 'kkday-2247', 'kkday-18618', 'trip-994472', 'trip-2803775', 'trip-705448', 'agoda-732906', 'klook-13283', 'klook-11988', 'klook-1659', 'klook-127', 'klook-765', 'klook-7467', 'klook-15699', 'klook-20380', 'kkday-18680', 'klook-3250', 'klook-96022', 'kkday-5038', 'klook-20750', 'klook-1112', 'klook-145733', 'klook-197655', 'klook-3021', 'kkday-162495', 'kkday-27448', 'klook-117', 'klook-10276']
 
 export const pages = [
   {

@@ -18,7 +18,7 @@ sh('tar --force-local -xzf open-next.tgz')
 rmSync('open-next.tgz')
 // Absolute Linux paths in the handler only resolve on the runner, so the runner bundles and this uploads as is.
 // OPEN_NEXT_DEPLOY stops wrangler from handing off to opennextjs-cloudflare deploy, which would rebundle here.
-execSync('pnpm exec wrangler deploy worker-dist/worker.js --no-bundle', {
+execSync('pnpm exec wrangler deploy worker-dist/custom-worker.js --no-bundle', {
   stdio: 'inherit',
   env: { ...process.env, OPEN_NEXT_DEPLOY: 'true' },
 })
