@@ -16,7 +16,7 @@ rmSync('.open-next', { recursive: true, force: true })
 rmSync('worker-dist', { recursive: true, force: true })
 rmSync('open-next.tgz', { force: true })
 sh(`gh run download ${runId} --repo ${repo} --name open-next --dir .`)
-sh('tar --force-local -xzf open-next.tgz')
+sh('tar -xzf open-next.tgz')
 rmSync('open-next.tgz')
 // Absolute Linux paths in the handler only resolve on the runner, so the runner bundles and this uploads as is.
 // OPEN_NEXT_DEPLOY stops wrangler from handing off to opennextjs-cloudflare deploy, which would rebundle here.
