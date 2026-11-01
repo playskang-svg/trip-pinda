@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "main": "custom-worker.ts",
+  "name": "trip-pinda",
+  "compatibility_date": "2025-08-15",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": { "enabled": true },
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [{ "pattern": "trip.pinda.kr", "custom_domain": true }],
+  "d1_databases": [
+    {
+      "binding": "D1",
+      "database_id": "6bc410c6-5ac4-447b-a0d6-840755d1a49b",
+      "database_name": "trip-pinda",
+      "remote": true
+    }
+  ],
+  "r2_buckets": [{ "binding": "R2", "bucket_name": "trip-pinda-media", "remote": true }]
+}

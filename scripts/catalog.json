@@ -1,0 +1,2552 @@
+{
+ "tokyo": {
+  "name": "도쿄",
+  "slug": "tokyo",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-tokyo",
+   "hotelAgoda": "hotel-agoda-tokyo",
+   "flightTrip": "flight-trip-tokyo",
+   "tourKkday": "tour-kkday-tokyo",
+   "tourKlook": "tour-klook-tokyo"
+  },
+  "products": [
+   {
+    "slug": "klook-70672",
+    "partner": "klook",
+    "title": "시부야 스카이 티켓",
+    "source": "https://www.klook.com/ko/activity/70672-shibuya-sky-tokyo/",
+    "image": ""
+   },
+   {
+    "slug": "klook-171099",
+    "partner": "klook",
+    "title": "도쿄 치이카와 파크",
+    "source": "https://www.klook.com/ko/activity/171099-chiikawa-park/",
+    "image": ""
+   },
+   {
+    "slug": "klook-93901",
+    "partner": "klook",
+    "title": "후지산 SNS 인기 명소 투어 1일권 텐타이 마을 오시노 하카이 가와구치호 로슨 편의점 (도쿄역 또는 신주쿠역 출발)",
+    "source": "https://www.klook.com/ko/activity/93901-mtfuji-one-day-tour-tokyo/",
+    "image": ""
+   },
+   {
+    "slug": "klook-110632",
+    "partner": "klook",
+    "title": "후지산 당일치기 투어: 가와구치코 텐조산 공원 케이블카 티켓 & 신쿠라야마 센겐 공원 & 히카와 시계점 & 로손 편의점 & 오",
+    "source": "https://www.klook.com/ko/activity/110632-mount-fuji-arakurayama-sengen-park-lake-kawakuchi-tour-from-tokyo/",
+    "image": ""
+   },
+   {
+    "slug": "klook-84374",
+    "partner": "klook",
+    "title": "해리 포터 스튜디오 투어 도쿄",
+    "source": "https://www.klook.com/ko/activity/84374-warner-bros-studio-tour-tokyo-making-harry-potter/",
+    "image": ""
+   },
+   {
+    "slug": "klook-30450",
+    "partner": "klook",
+    "title": "도쿄 국립 박물관 입장권",
+    "source": "https://www.klook.com/ko/activity/30450-tokyo-national-museum-ticket/",
+    "image": ""
+   },
+   {
+    "slug": "klook-161643",
+    "partner": "klook",
+    "title": "닛코 도쇼구 신사, 이로하 등산로, 주젠지 호수, 게곤 폭포 일일 투어",
+    "source": "https://www.klook.com/ko/activity/161643-nikko-classic-one-day-tour-depart-from-tokyo/",
+    "image": ""
+   },
+   {
+    "slug": "klook-149592",
+    "partner": "klook",
+    "title": "가마쿠라 당일치기 산책 · 가마쿠라 대불, 에노덴(전철표 포함), 가마쿠라 고교 앞 쇼난 해변 풍경, 에노시마 산책, 쓰루가오",
+    "source": "https://www.klook.com/ko/activity/149592-kamakura-one-day-stroll-enoden-string-of-youth-shrine-encounter-a/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-133300",
+    "partner": "kkday",
+    "title": "도쿄 시부야 스카이 전망대 입장권",
+    "source": "https://www.kkday.com/ko/product/133300-shibuya-sky-observatory-e-ticket-tokyo",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_133300/20220915065553_dvR7F/jpg"
+   },
+   {
+    "slug": "kkday-584238",
+    "partner": "kkday",
+    "title": "[THE GUEST CAFE BY PARCO 이케부쿠로] 치이카와 레스토랑 (이케부쿠로 파르코점) 식사권 포함 예약",
+    "source": "https://www.kkday.com/ko/product/584238",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_584238/20260515015205_CVxm5/jpg"
+   },
+   {
+    "slug": "kkday-7913",
+    "partner": "kkday",
+    "title": "게이세이 스카이라이너 티켓",
+    "source": "https://www.kkday.com/ko/product/7913-keisei-skyliner-narita-airport-express-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_18566/20180430104240_XHgkl/jpg"
+   },
+   {
+    "slug": "kkday-115284",
+    "partner": "kkday",
+    "title": "도쿄 · 에어포터 당일 수하물 배송 서비스 (호텔 ↔ 나리타/하네다 공항)",
+    "source": "https://www.kkday.com/ko/product/115284-tokyo-sightseeing-luggage-delivery-airport-station",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_115284/20260623024013_EDFkp/png"
+   },
+   {
+    "slug": "kkday-529712",
+    "partner": "kkday",
+    "title": "N'EX 나리타 익스프레스 왕복 티켓 · 나리타 공항(NRT) ⇄ 도쿄/신주쿠/요코하마",
+    "source": "https://www.kkday.com/ko/product/529712",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_529712/20250828033509_xa1o2/jpg"
+   },
+   {
+    "slug": "kkday-564564",
+    "partner": "kkday",
+    "title": "치이카와 공원: 입장권 · 이케부쿠로 도쿄",
+    "source": "https://www.kkday.com/ko/product/564564",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_564564/20251215091732_n8QGq/png"
+   },
+   {
+    "slug": "agoda-732906",
+    "partner": "agoda",
+    "title": "더 리츠 칼튼 도쿄",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_732906&pcs=1&hid=9074254",
+    "image": ""
+   },
+   {
+    "slug": "trip-994472",
+    "partner": "tripcom",
+    "title": "시부야 엑셀 호텔 도큐 호텔",
+    "source": "https://kr.trip.com/hotels/tokyo-hotel-detail-994472/shibuya-excel-hotel-tokyu",
+    "image": ""
+   },
+   {
+    "slug": "trip-1841600",
+    "partner": "tripcom",
+    "title": "호텔 그레이스리 신주쿠",
+    "source": "https://kr.trip.com/hotels/tokyo-hotel-detail-1841600/hotel-gracery-shinjuku",
+    "image": ""
+   },
+   {
+    "slug": "klook-25300",
+    "partner": "klook",
+    "title": "도쿄 팀랩 플래닛 입장권",
+    "source": "https://www.klook.com/ko/activity/25300/",
+    "image": ""
+   },
+   {
+    "slug": "klook-41352",
+    "partner": "klook",
+    "title": "도쿄 스카이트리® 입장권",
+    "source": "https://www.klook.com/ko/activity/41352/",
+    "image": ""
+   },
+   {
+    "slug": "agoda-684229",
+    "partner": "agoda",
+    "title": "시부야 엑셀 호텔 도큐",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684229&pcs=1&hid=7005",
+    "image": ""
+   },
+   {
+    "slug": "agoda-684222",
+    "partner": "agoda",
+    "title": "호텔 그레이스리 신주쿠",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684222&pcs=1&hid=706347",
+    "image": ""
+   }
+  ]
+ },
+ "osaka": {
+  "name": "오사카",
+  "slug": "osaka",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-osaka",
+   "hotelAgoda": "hotel-agoda-osaka",
+   "flightTrip": "flight-trip-osaka",
+   "tourKkday": "tour-kkday-osaka",
+   "tourKlook": "tour-klook-osaka"
+  },
+  "products": [
+   {
+    "slug": "klook-46604",
+    "partner": "klook",
+    "title": "유니버설 스튜디오 재팬 스튜디오 패스",
+    "source": "https://www.klook.com/ko/activity/46604-universal-studios-japan-e-ticket-osaka-qr-code-direct-entry/",
+    "image": ""
+   },
+   {
+    "slug": "klook-82312",
+    "partner": "klook",
+    "title": "오사카 주유패스",
+    "source": "https://www.klook.com/ko/activity/82312-amazing-pass-osaka/",
+    "image": ""
+   },
+   {
+    "slug": "klook-3407",
+    "partner": "klook",
+    "title": "유니버설 스튜디오 재팬 익스프레스 패스",
+    "source": "https://www.klook.com/ko/activity/3407-universal-studios-japan-express-pass-osaka/",
+    "image": ""
+   },
+   {
+    "slug": "klook-110001",
+    "partner": "klook",
+    "title": "[교토&나라 당일 투어] 아라시야마 토롯코 열차 & 나라 공원 & 후시미 이나리 신사 센본 토리이 & 도게츠교 & 대나무 숲길",
+    "source": "https://www.klook.com/ko/activity/110001-kyoto-nara-deer-arashiyama-fushimi-inari-day-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-80315",
+    "partner": "klook",
+    "title": "간사이 조이 패스",
+    "source": "https://www.klook.com/ko/activity/80315-have-fun-in-kansai-pass-one-week-free-pass-haruka/",
+    "image": ""
+   },
+   {
+    "slug": "klook-176566",
+    "partner": "klook",
+    "title": "오사카 도톤보리 나니와 관광선",
+    "source": "https://www.klook.com/ko/activity/176566-osaka-dotonbori-river-cruise/",
+    "image": ""
+   },
+   {
+    "slug": "klook-181355",
+    "partner": "klook",
+    "title": "시라카와고 & 가나자와 일일 투어 (신칸센 선택 가능)",
+    "source": "https://www.klook.com/ko/activity/181355-shirakawago-and-kanazawa-day-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-87236",
+    "partner": "klook",
+    "title": "교토 나라 당일치기 · 기요미즈데라 + 후시미 이나리 신사 + 나라 공원 (오사카/교토 출발)",
+    "source": "https://www.klook.com/ko/activity/87236-kyoto-tour-nara/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-19691",
+    "partner": "kkday",
+    "title": "오사카 라피트 예약·간사이 공항 ⇄ 난바역 (편도/왕복)",
+    "source": "https://www.kkday.com/ko/product/19691-nankai-rapit-airport-express-kix-to-osaka",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_29003/20241008010030_lcvE4/jpg"
+   },
+   {
+    "slug": "kkday-2247",
+    "partner": "kkday",
+    "title": "유니버설 스튜디오 재팬 입장권",
+    "source": "https://www.kkday.com/ko/product/2247-universal-studios-japan-ticket-osaka",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_35992/20260731094936_6R8OP/png"
+   },
+   {
+    "slug": "kkday-131268",
+    "partner": "kkday",
+    "title": "간사이 조이 패스 Have Fun in Kansai 1 Week Free Pass",
+    "source": "https://www.kkday.com/ko/product/131268-kansai-1-week-free-pass",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_131268/20240422085858_z9O8T/jpg"
+   },
+   {
+    "slug": "kkday-18940",
+    "partner": "kkday",
+    "title": "JR 하루카 간사이 공항 특급열차 티켓",
+    "source": "https://www.kkday.com/ko/product/18940-kansai-airport-haruka-ticket-japan",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_18940/20230207094435_3PPrV/jpg"
+   },
+   {
+    "slug": "kkday-18618",
+    "partner": "kkday",
+    "title": "오사카 유니버셜 스튜디오 재팬(USJ) 익스프레스 패스",
+    "source": "https://www.kkday.com/ko/product/18618-universal-studios-japan-express-pass-osaka",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_19987/20260731095837_roJgm/png"
+   },
+   {
+    "slug": "kkday-145963",
+    "partner": "kkday",
+    "title": "오사카/교토 · 에어포터 당일 수하물 배송 서비스 (호텔 ↔ 간사이 공항)",
+    "source": "https://www.kkday.com/ko/product/145963-same-day-luggage-delivery-service-hotels-osaka-kansai-international-airport",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_145963/20260624011725_KSJAC/png"
+   },
+   {
+    "slug": "trip-2803775",
+    "partner": "tripcom",
+    "title": "더 파크 프론트 호텔 앳 유니버셜 스튜디오 재팬 호텔",
+    "source": "https://kr.trip.com/hotels/osaka-hotel-detail-2803775/the-park-front-hotel-at-universal-studios-japan",
+    "image": ""
+   },
+   {
+    "slug": "trip-37082416",
+    "partner": "tripcom",
+    "title": "호텔 한큐 레스파이어 오사카",
+    "source": "https://kr.trip.com/hotels/osaka-hotel-detail-37082416/hotel-hankyu-respire-osaka",
+    "image": ""
+   },
+   {
+    "slug": "trip-688216",
+    "partner": "tripcom",
+    "title": "호텔 몬토레 그라스미아 오사카",
+    "source": "https://kr.trip.com/hotels/osaka-hotel-detail-688216/hotel-monterey-grasmere-osaka",
+    "image": ""
+   },
+   {
+    "slug": "agoda-684243",
+    "partner": "agoda",
+    "title": "더 파크 프런트 호텔 앳 유니버설 스튜디오 재팬",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684243&pcs=1&hid=1155344",
+    "image": ""
+   },
+   {
+    "slug": "agoda-684242",
+    "partner": "agoda",
+    "title": "호텔 한큐 레스파이어 오사카",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684242&pcs=1&hid=10568063",
+    "image": ""
+   },
+   {
+    "slug": "agoda-684241",
+    "partner": "agoda",
+    "title": "호텔 몬토레 그라스미아 오사카",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684241&pcs=1&hid=161798",
+    "image": ""
+   }
+  ]
+ },
+ "kyoto": {
+  "name": "교토",
+  "slug": "kyoto",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-kyoto",
+   "hotelAgoda": "hotel-agoda-kyoto",
+   "tourKkday": "tour-kkday-kyoto",
+   "tourKlook": "tour-klook-kyoto"
+  },
+  "products": [
+   {
+    "slug": "klook-74947",
+    "partner": "klook",
+    "title": "교토 호즈가와 보트 체험",
+    "source": "https://www.klook.com/ko/activity/74947-kyoto-arashiyama-hozugawa-river-boat-ride/",
+    "image": ""
+   },
+   {
+    "slug": "klook-208397",
+    "partner": "klook",
+    "title": "[한국어 가이드][💓사슴공원/니시키 시장💓] 오사카 출발 1일 나라 & 교토 청수사 아라시야마 버스투어 (아이트립)",
+    "source": "https://www.klook.com/ko/activity/208397-nara-day-tour-from-osaka-korean-guide/",
+    "image": ""
+   },
+   {
+    "slug": "klook-18400",
+    "partner": "klook",
+    "title": "JR 하루카 간사이 공항 특급열차 티켓",
+    "source": "https://www.klook.com/ko/activity/18400-jr-haruka-airport-express-train-tickets-osaka/",
+    "image": ""
+   },
+   {
+    "slug": "klook-17066",
+    "partner": "klook",
+    "title": "사가노 토롯코 열차 티켓",
+    "source": "https://www.klook.com/ko/activity/17066-sagano-romantic-train-ticket-kyoto/",
+    "image": ""
+   },
+   {
+    "slug": "klook-3277",
+    "partner": "klook",
+    "title": "JR 서일본 간사이 와이드 패스",
+    "source": "https://www.klook.com/ko/activity/3277-5-day-kansai-wide-area-jr-pass/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-134226",
+    "partner": "kkday",
+    "title": "오사카 교토 버스투어 (오사카 출발 / 한국인가이드)",
+    "source": "https://www.kkday.com/ko/product/134226-kyoto-bus-day-tour-from-osaka-korean-guide-arashiyama-kinkakuji-cheongsusa-fox-shrine-japan",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_134226/20241126091913_JCNs4/jpg"
+   },
+   {
+    "slug": "kkday-133456",
+    "partner": "kkday",
+    "title": "NAKED, 니조성 2026 입장권 (교토)",
+    "source": "https://www.kkday.com/ko/product/133456-naked-meets-nijojo-castle-moon-viewing",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_133456/20260907105455_rAQnq/jpg"
+   }
+  ]
+ },
+ "fukuoka": {
+  "name": "후쿠오카",
+  "slug": "fukuoka",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-fukuoka",
+   "hotelAgoda": "hotel-agoda-fukuoka",
+   "flightTrip": "flight-trip-fukuoka",
+   "tourKkday": "tour-kkday-fukuoka",
+   "tourKlook": "tour-klook-fukuoka"
+  },
+  "products": [
+   {
+    "slug": "klook-95611",
+    "partner": "klook",
+    "title": "큐슈 당일치기 여행: 유후인노모리 열차 & 유후인 마을 & 뇨이린지 절 & 다자이후 & 지옥 온천 (후쿠오카 출발)",
+    "source": "https://www.klook.com/ko/activity/95611-beppu-onsen-yufuin-one-day-tour-fukuoka/",
+    "image": ""
+   },
+   {
+    "slug": "klook-28959",
+    "partner": "klook",
+    "title": "후쿠오카 우미노나카미치 마린월드 입장권",
+    "source": "https://www.klook.com/ko/activity/28959-uminonakamichi-marine-world-ticket-fukuoka/",
+    "image": ""
+   },
+   {
+    "slug": "klook-141664",
+    "partner": "klook",
+    "title": "큐슈: 아소산 & 구사센리 & 다카치호 협곡 일일 투어 (다카치호 보트 체험 선택 가능)",
+    "source": "https://www.klook.com/ko/activity/141664-mt-aso-kusasenrigahama-takachiho-gorge-takachiho-river-boat-ride-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-214760",
+    "partner": "klook",
+    "title": "[한국어 가이드] 후쿠오카 아프리칸 사파리 유후인 벳부 감성 1일 버스 투어 입장료 포함 유투어버스",
+    "source": "https://www.klook.com/ko/activity/214760-fukuoka-african-safari-yufuin-beppu-scenic-day-bus-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-97199",
+    "partner": "klook",
+    "title": "아소산 분화구・구사센리・가미시키미 구마노자 신사・구로카와 온천 (후쿠오카/구마모토 출발)",
+    "source": "https://www.klook.com/ko/activity/97199-mount-aso-kamishikimi-kumanoimasu-shrine-kurokawa-onsen-join-one-day-car-tour-small-group-fukuoka/",
+    "image": ""
+   },
+   {
+    "slug": "klook-232801",
+    "partner": "klook",
+    "title": "후쿠오카 진격의 거인 종일 순례 투어 (리바이 동상 포함)",
+    "source": "https://www.klook.com/ko/activity/232801-fukuoka-attack-on-titan-kamado-shrine-full-day-tour-with-anime-pilgrimage/",
+    "image": ""
+   },
+   {
+    "slug": "klook-101691",
+    "partner": "klook",
+    "title": "규슈 다카치호 당일치기 여행 · 다카치호 협곡 보트 투어・가미시키미쿠마노자 신사/다카치호 미니열차・아소산・구사센리 (구마모토 ",
+    "source": "https://www.klook.com/ko/activity/101691-amenoyasu-kawara-takachiho-kumamoto-castle-day-tour-from-fukuoka/",
+    "image": ""
+   },
+   {
+    "slug": "klook-218558",
+    "partner": "klook",
+    "title": "[한국어 가이드] 후쿠오카 진격의 거인 히타 성지순례 일일 투어",
+    "source": "https://www.klook.com/ko/activity/218558-fukuoka-attack-on-titan-hita-full-day-adventure/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-575327",
+    "partner": "kkday",
+    "title": "일본 후쿠오카 공항에서 웰컴 스이카 IC 카드를 수령하세요 · JR, 지하철, 버스에서 사용 가능한 교통카드",
+    "source": "https://www.kkday.com/ko/product/575327",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_575327/20260312131407_0jqkK/jpg"
+   },
+   {
+    "slug": "kkday-132755",
+    "partner": "kkday",
+    "title": "후쿠오카 고쿠라성 대나무 등불 축제 입장권",
+    "source": "https://www.kkday.com/ko/product/132755",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_132755/20220909002255_azGDH/jpg"
+   },
+   {
+    "slug": "kkday-19755",
+    "partner": "kkday",
+    "title": "후쿠오카 지하철 패스 1일권",
+    "source": "https://www.kkday.com/ko/product/19755-fukuoka-city-subway-day-pass-japan",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_19755/20240826013745_LZtkZ/png"
+   },
+   {
+    "slug": "kkday-27448",
+    "partner": "kkday",
+    "title": "후쿠오카 마린월드 우미노나카미치 수족관 입장권",
+    "source": "https://www.kkday.com/ko/product/27448-marine-world-aquarium-ticket-fukuoka",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_27448/20190627065156_iusMh/jpg"
+   },
+   {
+    "slug": "kkday-18813",
+    "partner": "kkday",
+    "title": "후쿠오카 타워 전망대 입장권",
+    "source": "https://www.kkday.com/ko/product/18813-japan-fukuoka-tower-e-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_18813/20180503050016_qzwb3/jpg"
+   },
+   {
+    "slug": "kkday-155653",
+    "partner": "kkday",
+    "title": "[유후인 온리] 후쿠오카 출발 유후인 1일 버스투어 자유여행 유투어버스",
+    "source": "https://www.kkday.com/ko/product/155653",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_12411/20260902064505_UClJX/jpg"
+   },
+   {
+    "slug": "agoda-804710",
+    "partner": "agoda",
+    "title": "니시테츠 호텔 텐진",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_804710&pcs=1&hid=230581",
+    "image": ""
+   },
+   {
+    "slug": "agoda-804709",
+    "partner": "agoda",
+    "title": "니시테츠 호텔 크룸 하카타",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_804709&pcs=1&hid=236962",
+    "image": ""
+   },
+   {
+    "slug": "trip-705448",
+    "partner": "tripcom",
+    "title": "JR 큐슈 호텔 블러섬 후쿠오카",
+    "source": "https://kr.trip.com/hotels/fukuoka-hotel-detail-705448/jr-kyushu-hotel-blossom-fukuoka",
+    "image": ""
+   },
+   {
+    "slug": "trip-49507812",
+    "partner": "tripcom",
+    "title": "호텔 몬토레 후쿠오카",
+    "source": "https://kr.trip.com/hotels/fukuoka-hotel-detail-49507812/hotel-monterey-fukuoka",
+    "image": ""
+   },
+   {
+    "slug": "trip-38934428",
+    "partner": "tripcom",
+    "title": "더 블라썸 하카타 프리미어",
+    "source": "https://kr.trip.com/hotels/fukuoka-hotel-detail-38934428/the-blossom-hakata-premier",
+    "image": ""
+   },
+   {
+    "slug": "klook-19854",
+    "partner": "klook",
+    "title": "후쿠오카 타워 입장권",
+    "source": "https://www.klook.com/ko/activity/19854/",
+    "image": ""
+   },
+   {
+    "slug": "klook-94833",
+    "partner": "klook",
+    "title": "후쿠오카 투어리스트 시티 패스",
+    "source": "https://www.klook.com/ko/activity/94833/",
+    "image": ""
+   },
+   {
+    "slug": "agoda-684245",
+    "partner": "agoda",
+    "title": "호텔 몬트레이 라 수르 후쿠오카",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684245&pcs=1&hid=9078677",
+    "image": ""
+   },
+   {
+    "slug": "agoda-684244",
+    "partner": "agoda",
+    "title": "더 블라섬 하카타 프리미어",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684244&pcs=1&hid=11279364",
+    "image": ""
+   },
+   {
+    "slug": "agoda-684234",
+    "partner": "agoda",
+    "title": "JR 큐슈 호텔 블로섬 하카타 센트럴",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684234&pcs=1&hid=3008386",
+    "image": ""
+   }
+  ]
+ },
+ "sapporo": {
+  "name": "삿포로",
+  "slug": "sapporo",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-sapporo",
+   "hotelAgoda": "hotel-agoda-sapporo",
+   "flightTrip": "flight-trip-sapporo",
+   "tourKkday": "tour-kkday-sapporo",
+   "tourKlook": "tour-klook-sapporo"
+  },
+  "products": [
+   {
+    "slug": "klook-83668",
+    "partner": "klook",
+    "title": "[한국어 가이드] 비에이 후라노 삿포로역 출발 홋카이도 1일 버스투어 북해도 자유여행 유투어버스",
+    "source": "https://www.klook.com/ko/activity/83668-hokkaido-biei-tour-from-sapporo/",
+    "image": ""
+   },
+   {
+    "slug": "klook-189462",
+    "partner": "klook",
+    "title": "한국어 가이드 & 1명도 출발・늦잠 OK! 삿포로 비에이 핵심 코스 일일투어: 크리스마스트리・청의 호수・흰수염 폭포・마일드세븐",
+    "source": "https://www.klook.com/ko/activity/189462-late-departure-biei-6-spots-christmas-tree-more-from-sapporo/",
+    "image": ""
+   },
+   {
+    "slug": "klook-111119",
+    "partner": "klook",
+    "title": "홋카이도 겨울 한정: 아사히야마 동물원 &시키사이노오카 눈놀이 & 닝글 테라스 & 블루폰드 & 핫한 크리스마스 트리 (삿포로 ",
+    "source": "https://www.klook.com/ko/activity/111119-shikisai-hill-shirogane-blue-pond-farm-tomita-tour-from-sapporo/",
+    "image": ""
+   },
+   {
+    "slug": "klook-192257",
+    "partner": "klook",
+    "title": "【11시 출발】아오이이케 라이트업 & 닝구르 테라스 & 크리스마스 트리 & 시라히게 폭포 & 시키사이노오카 1일 투어 · 삿포",
+    "source": "https://www.klook.com/ko/activity/192257-hokkaido-illumination-tour-day-trip-departing-from-odori/",
+    "image": ""
+   },
+   {
+    "slug": "klook-203872",
+    "partner": "klook",
+    "title": "[한국어 가이드 & 1명도 출발] 삿포로·오타루 완벽 코스｜오타루 운하·부처의 언덕·시로이 코이비토 파크·홋카이도 신궁",
+    "source": "https://www.klook.com/ko/activity/203872-sapporo-hill-of-the-buddha-shrine-otaru-one-day-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-103480",
+    "partner": "klook",
+    "title": "홋카이도 아사히야마 동물원 & 시키사이노오카 & 비에이 크리스마스트리 & 닝구르 테라스 1일 투어: 삿포로 출발 (겨울에는 스",
+    "source": "https://www.klook.com/ko/activity/103480-asahiyama-zoo-biei-shikisai-hill-one-day-tour-sapporo-hokkaido/",
+    "image": ""
+   },
+   {
+    "slug": "klook-110247",
+    "partner": "klook",
+    "title": "홋카이도 겨울 인기 명소 탐방: 아사히야마 동물원·시라히게 폭포·숲의 요정 테라스·인기 크리스마스 트리 일일 투어 (삿포로 출",
+    "source": "https://www.klook.com/ko/activity/110247-asahiyama-zoo-shikisai-hill-ningle-terrace-day-tour-from-sapporo/",
+    "image": ""
+   },
+   {
+    "slug": "klook-135122",
+    "partner": "klook",
+    "title": "노보리베츠 & 도야호 & 곰 목장 또는 우스산 당일치기 여행",
+    "source": "https://www.klook.com/ko/activity/135122-hokkaido-tobe-toya-lake-one-day-tour-of-toya-lake-tobe-hell-vall/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-200343",
+    "partner": "kkday",
+    "title": "삿포로 · 에어포터 당일 수하물 배송 서비스 (호텔 ↔ 신치토세 공항)",
+    "source": "https://www.kkday.com/ko/product/200343",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_200343/20260624012240_VQMyF/png"
+   },
+   {
+    "slug": "kkday-122531",
+    "partner": "kkday",
+    "title": "홋카이도 JR 패스",
+    "source": "https://www.kkday.com/ko/product/122531-jr-pass-hokkaido-rail-pass-sapporo-noboribetsu-sapporo-furano-area-pass-e-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_122531/20210824084522_rscrZ/jpg"
+   },
+   {
+    "slug": "kkday-155253",
+    "partner": "kkday",
+    "title": "[준페이예약/사계채입장료포함]북해도 삿포로 비에이 후라노 버스투어",
+    "source": "https://www.kkday.com/ko/product/155253-hokkaido-sapporo-biei-furano-bus-tour",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_15019/20260930103338_PP0OA/png"
+   },
+   {
+    "slug": "kkday-570969",
+    "partner": "kkday",
+    "title": "삿포로 마루야마 동물원 입장권 (홋카이도)",
+    "source": "https://www.kkday.com/ko/product/570969",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_570969/20260122091427_DoIXH/jpg"
+   },
+   {
+    "slug": "kkday-285394",
+    "partner": "kkday",
+    "title": "[준페이 예약] 삿포로 출발 1일 비에이 버스투어 (한국어 가이드)",
+    "source": "https://www.kkday.com/ko/product/285394",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_15370/20260928065528_0o737/jpg"
+   },
+   {
+    "slug": "kkday-134249",
+    "partner": "kkday",
+    "title": "북해도 삿포로 비에이 버스투어 (삿포로 출발/ 한국인가이드)",
+    "source": "https://www.kkday.com/ko/product/134249",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_15380/20261026021344_RZF9z/jpg"
+   }
+  ]
+ },
+ "okinawa": {
+  "name": "오키나와",
+  "slug": "okinawa",
+  "klookOnly": false,
+  "links": {
+   "hotelAgoda": "hotel-agoda-okinawa",
+   "flightTrip": "flight-trip-okinawa",
+   "tourKkday": "tour-kkday-okinawa",
+   "tourKlook": "tour-klook-okinawa"
+  },
+  "products": [
+   {
+    "slug": "klook-218469",
+    "partner": "klook",
+    "title": "나하 도카시키섬 일일 투어 (점심 포함)",
+    "source": "https://www.klook.com/ko/activity/218469-naha-tokashiki-island-full-day-tour-with-lunch/",
+    "image": ""
+   },
+   {
+    "slug": "klook-142932",
+    "partner": "klook",
+    "title": "오키나와 관광버스 남북 노선 1일 투어: 옥센도, DMM 수족관, 세나가지마 & 만자모, 츄라우미 수족관, 아메리칸 빌리지",
+    "source": "https://www.klook.com/ko/activity/142932-okinawa-south-north-1-day-bus-tour-churaumi-dmm-autoguiding/",
+    "image": ""
+   },
+   {
+    "slug": "klook-132053",
+    "partner": "klook",
+    "title": "오키나와 고래 관찰: 나하/차탄/모토부 세 출발지 중 선택",
+    "source": "https://www.klook.com/ko/activity/132053-okinawa-whale-watching-tour-from-naha/",
+    "image": ""
+   },
+   {
+    "slug": "klook-196186",
+    "partner": "klook",
+    "title": "오키나와 츄라상 6 (Churasun 6) 오키나와 대형 쇼 클럽",
+    "source": "https://www.klook.com/ko/activity/196186-churasun-6/",
+    "image": ""
+   },
+   {
+    "slug": "klook-1555",
+    "partner": "klook",
+    "title": "오키나와 투명 바닥 보트 투어",
+    "source": "https://www.klook.com/ko/activity/1555-glass-bottom-boat-tour-okinawa/",
+    "image": ""
+   },
+   {
+    "slug": "klook-134350",
+    "partner": "klook",
+    "title": "오키나와 북부: 츄라우미 수족관 & 코우리섬 & 만좌모 & 아메리칸 빌리지 일일 투어 (나하 & 차탄 출발)",
+    "source": "https://www.klook.com/ko/activity/134350-churaumi-aquarium-kouri-island-american-village-one-day-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-149209",
+    "partner": "klook",
+    "title": "오키나와: 게라마 제도 반나절 스노클링 체험 (나하 출발/지정 장소 무료 픽업)",
+    "source": "https://www.klook.com/ko/activity/149209-okinawa-kerama-islands-snorkeling-from-naha-with-free-transfer/",
+    "image": ""
+   },
+   {
+    "slug": "klook-138372",
+    "partner": "klook",
+    "title": "오키나와 당일치기 여행: 북부 비경 / 남부 풍경 / 중부 쇼핑 (다양한 노선 선택 가능)",
+    "source": "https://www.klook.com/ko/activity/138372-asahikawa-departure-hokkaido-shiba-sakura-tulip-tour-with-lunch/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-115283",
+    "partner": "kkday",
+    "title": "오키나와·Airporter 당일 수하물 배송 서비스(호텔↔나하 공항)",
+    "source": "https://www.kkday.com/ko/product/115283",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_115283/20260624013625_V6ldY/png"
+   },
+   {
+    "slug": "kkday-18680",
+    "partner": "kkday",
+    "title": "오키나와 츄라우미 수족관 입장권 · 가족 여행 필수 명소",
+    "source": "https://www.kkday.com/ko/product/18680-okinawa-churaumi-aquarium-admission-ticket-japan",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_18680/20251125052644_pPl8M/jpg"
+   },
+   {
+    "slug": "kkday-8970",
+    "partner": "kkday",
+    "title": "오키나와 남부 일일 투어·오키나와 세계문화왕국 옥천동굴&세나가 섬&치넨미사키 (오키나와 시내 출발)",
+    "source": "https://www.kkday.com/ko/product/8970",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_8970/20171229025306_JJ51d/jpg"
+   },
+   {
+    "slug": "kkday-34515",
+    "partner": "kkday",
+    "title": "일본 오키나와 나고 자연 동식물원 네오파크 입장권",
+    "source": "https://www.kkday.com/ko/product/34515-neo-park-okinawa-admission-ticket-japan",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_34515/20191129055720_TqJV7/jpg"
+   },
+   {
+    "slug": "kkday-144973",
+    "partner": "kkday",
+    "title": "레아레아 셔틀버스 · 푸른동굴 스노클링 + 점심 · 오키나와",
+    "source": "https://www.kkday.com/ko/product/144973-lealea-shuttle-bus-blue-cave-snorkeling-okinawa",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_144973/20260220083957_QYhjL/png"
+   },
+   {
+    "slug": "kkday-145722",
+    "partner": "kkday",
+    "title": "오키나와 온나손 · 푸른 동굴 스노클링 [전속 가이드 완전 전세 / 안전 대책 우량점] 사진 및 동영상 무료 · 보트 개최",
+    "source": "https://www.kkday.com/ko/product/145722-blue-cave-snorkeling-private-tour-with-photo-video-shooting-service-okinawa",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_6130/20251225114616_1AqnV/jpg"
+   }
+  ]
+ },
+ "danang": {
+  "name": "다낭",
+  "slug": "danang",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-danang",
+   "hotelAgoda": "hotel-agoda-danang",
+   "flightTrip": "flight-trip-danang",
+   "tourKkday": "tour-kkday-danang",
+   "tourKlook": "tour-klook-danang"
+  },
+  "products": [
+   {
+    "slug": "klook-13283",
+    "partner": "klook",
+    "title": "썬월드 바나힐 티켓",
+    "source": "https://www.klook.com/ko/activity/13283-ba-na-hills-ticket-da-nang/",
+    "image": ""
+   },
+   {
+    "slug": "klook-4809",
+    "partner": "klook",
+    "title": "바나힐 & 골든 브리지 일일 투어 (07:30/09:30 출발)",
+    "source": "https://www.klook.com/ko/activity/4809-ba-na-hills-day-trip-da-nang/",
+    "image": ""
+   },
+   {
+    "slug": "klook-140403",
+    "partner": "klook",
+    "title": "다낭 바나힐 호이안 퍼펙트 투어 (한국어 가이드)",
+    "source": "https://www.klook.com/ko/activity/140403-da-nang-ba-na-hills-hoi-an-one-day-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-13187",
+    "partner": "klook",
+    "title": "바나힐 & 골든 브리지 일일 투어 (늦은 출발 옵션)",
+    "source": "https://www.klook.com/ko/activity/13187-ba-na-hills-day-tour-wax-statue-museum-admission-ticket-da-nang/",
+    "image": ""
+   },
+   {
+    "slug": "klook-217703",
+    "partner": "klook",
+    "title": "[한국인 가이드]다낭 호이안 야경 오후출발 반나절 버스투어 - 영흥사,바구니배,전동카 포함 공항 드랍 가능",
+    "source": "https://www.klook.com/ko/activity/217703-hoian-bus-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-185976",
+    "partner": "klook",
+    "title": "다낭 바구니배 코코넛 숲 & 호이안 올드타운 반나절 투어",
+    "source": "https://www.klook.com/ko/activity/185976-da-nang-bay-mau-coconut-forest-hoi-an-old-town-half-day-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-10276",
+    "partner": "klook",
+    "title": "다낭 차밍쇼 티켓",
+    "source": "https://www.klook.com/ko/activity/10276-charming-danang-show-ticket-da-nang/",
+    "image": ""
+   },
+   {
+    "slug": "klook-140297",
+    "partner": "klook",
+    "title": "다낭 호이안 스페셜 에코투어 (한국어 가이드)",
+    "source": "https://www.klook.com/ko/activity/140297-da-nang-hoi-an-day-tour-korean-guide/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-26212",
+    "partner": "kkday",
+    "title": "썬월드 바나힐 입장권 · 다낭",
+    "source": "https://www.kkday.com/ko/product/26212-ba-na-hills-da-nang-cable-car-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_37521/20240622115355_YBsYx/jpg"
+   },
+   {
+    "slug": "kkday-547922",
+    "partner": "kkday",
+    "title": "헤리티지 쇼 티켓 · 다낭",
+    "source": "https://www.kkday.com/ko/product/547922",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_547922/20260309081322_Ne6QK/jpg"
+   },
+   {
+    "slug": "kkday-164512",
+    "partner": "kkday",
+    "title": "[한국인가이드] 다낭+호이안 오후 야경 투어 (바구니 배+소원초/전동카 포함)",
+    "source": "https://www.kkday.com/ko/product/164512-danang-hoi-an-night-tour-basket-boat-thu-bon-river",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_15742/20260628230535_lz7xc/png"
+   },
+   {
+    "slug": "kkday-39763",
+    "partner": "kkday",
+    "title": "다낭 한강 미쑤엉 나이트 크루즈",
+    "source": "https://www.kkday.com/ko/product/39763-han-river-my-xuan-night-cruise-tour-da-nang",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_39763/20230801063219_ajaSD/jpg"
+   },
+   {
+    "slug": "kkday-268583",
+    "partner": "kkday",
+    "title": "다낭 국제공항 입국 및 출국 VIP 패스트트랙",
+    "source": "https://www.kkday.com/ko/product/268583",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_268583/20251216092750_EDLXn/jpg"
+   },
+   {
+    "slug": "kkday-128283",
+    "partner": "kkday",
+    "title": "미카즈키 워터파크 365 · 다낭 · 베트남",
+    "source": "https://www.kkday.com/ko/product/128283-mikazuki-water-park365-danang-vietnam",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_128283/20250722155355_DTDxc/png"
+   },
+   {
+    "slug": "agoda-803186",
+    "partner": "agoda",
+    "title": "루비 스타 다낭 센트럴 미케 비치",
+    "source": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_803186&pcs=1&hid=38703429",
+    "image": ""
+   }
+  ]
+ },
+ "nhatrang": {
+  "name": "나트랑",
+  "slug": "nhatrang",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-nhatrang",
+   "hotelAgoda": "hotel-agoda-nhatrang",
+   "flightTrip": "flight-trip-nhatrang",
+   "tourKkday": "tour-kkday-nhatrang",
+   "tourKlook": "tour-klook-nhatrang"
+  },
+  "products": [
+   {
+    "slug": "klook-11988",
+    "partner": "klook",
+    "title": "나트랑 빈원더스 입장권",
+    "source": "https://www.klook.com/ko/activity/11988-vinwonders-nha-trang-ticket/",
+    "image": ""
+   },
+   {
+    "slug": "klook-139626",
+    "partner": "klook",
+    "title": "[한국어 가이드] 나트랑 판랑 사막 해돋이 & 모닝 & 일일 투어",
+    "source": "https://www.klook.com/ko/activity/139626-nha-trang-vinaza-phan-rang-desert-sunrise-day-tour-korean-guide/",
+    "image": ""
+   },
+   {
+    "slug": "klook-139956",
+    "partner": "klook",
+    "title": "한국어 가이드 - 달랏 일일 투어",
+    "source": "https://www.klook.com/ko/activity/139956-nha-trang-departure-dalat-full-day-tour-korean-guide/",
+    "image": ""
+   },
+   {
+    "slug": "klook-22826",
+    "partner": "klook",
+    "title": "나트랑 아이리조트 스파 패키지",
+    "source": "https://www.klook.com/ko/activity/22826-i-resort-spa-packages-nha-trang/",
+    "image": ""
+   },
+   {
+    "slug": "klook-88298",
+    "partner": "klook",
+    "title": "나트랑 플로팅 바 보트 파티 & 아일랜드 호핑 투어",
+    "source": "https://www.klook.com/ko/activity/88298-floating-bar-island-hopping-tour-nha-trang/",
+    "image": ""
+   },
+   {
+    "slug": "klook-139567",
+    "partner": "klook",
+    "title": "[한국인 가이드] 해적 호핑 투어",
+    "source": "https://www.klook.com/ko/activity/139567-nha-trang-pirate-island-hopping-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-40426",
+    "partner": "klook",
+    "title": "문섬 반나절 스노클링 어드벤처 (BBQ 점심 포함)",
+    "source": "https://www.klook.com/ko/activity/40426-tour-lan-snorkeling-nha-trang/",
+    "image": ""
+   },
+   {
+    "slug": "klook-139728",
+    "partner": "klook",
+    "title": "나트랑 시내 오전/오후 반나절 투어 (한국어 가이드)",
+    "source": "https://www.klook.com/ko/activity/139728-nha-trang-vinaza-city-half-day-tour-morning-afternoon/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-100864",
+    "partner": "kkday",
+    "title": "빈원더스 나트랑 테마파크 입장권",
+    "source": "https://www.kkday.com/ko/product/100864-vinwonders-nha-trang-theme-park-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_100864/20220120085828_qrNwi/png"
+   },
+   {
+    "slug": "kkday-100920",
+    "partner": "kkday",
+    "title": "나트랑 아이리조트 머드 스파 & 미네랄 온천",
+    "source": "https://www.kkday.com/ko/product/100920-nha-trang-i-resort-mineral-hot-spring-experience",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_100920/20260302045426_YaxsX/png"
+   },
+   {
+    "slug": "kkday-134042",
+    "partner": "kkday",
+    "title": "나트랑-달랏 양방향 교통편 :리무진, VIP, 럭셔리 D카, 그린 7인승, 프라이빗 옵션",
+    "source": "https://www.kkday.com/ko/product/134042-shared-limousine-transfer-nha-trang-da-lat-route-vietnam",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_134042/20240319032854_W3CqL/jpg"
+   },
+   {
+    "slug": "kkday-143051",
+    "partner": "kkday",
+    "title": "[한국어가이드] 나트랑 판랑 사막투어(선라이즈/데이/선셋선택, 호텔&공항 픽업/드랍)",
+    "source": "https://www.kkday.com/ko/product/143051",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_15914/20260430070006_oNzVE/jpg"
+   },
+   {
+    "slug": "kkday-33227",
+    "partner": "kkday",
+    "title": "나트랑 섬 호핑 투어",
+    "source": "https://www.kkday.com/ko/product/33227",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_33227/20250611170419_GDQeL/png"
+   },
+   {
+    "slug": "kkday-268584",
+    "partner": "kkday",
+    "title": "나트랑 국제공항 입국/출국 VIP 패스트트랙",
+    "source": "https://www.kkday.com/ko/product/268584",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_16306/20260408064341_g8Taa/jpg"
+   }
+  ]
+ },
+ "phuquoc": {
+  "name": "푸꾸옥",
+  "slug": "phuquoc",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-phuquoc",
+   "hotelAgoda": "hotel-agoda-phuquoc",
+   "flightTrip": "flight-trip-phuquoc",
+   "tourKkday": "tour-kkday-phuquoc",
+   "tourKlook": "tour-klook-phuquoc"
+  },
+  "products": [
+   {
+    "slug": "klook-20750",
+    "partner": "klook",
+    "title": "썬월드 혼똠 티켓",
+    "source": "https://www.klook.com/ko/activity/20750-sun-world-hon-thom-cable-car-ticket/",
+    "image": ""
+   },
+   {
+    "slug": "klook-11990",
+    "partner": "klook",
+    "title": "푸꾸옥 빈펄 사파리 입장권",
+    "source": "https://www.klook.com/ko/activity/11990-vinpearl-safari-phu-quoc-ticket/",
+    "image": ""
+   },
+   {
+    "slug": "klook-11989",
+    "partner": "klook",
+    "title": "빈원더스 푸꾸옥 티켓",
+    "source": "https://www.klook.com/ko/activity/11989-vinwonders-phu-quoc-ticket/",
+    "image": ""
+   },
+   {
+    "slug": "klook-81479",
+    "partner": "klook",
+    "title": "푸꾸옥 키스 오브 더 씨 티켓",
+    "source": "https://www.klook.com/ko/activity/81479-kiss-the-star-show-ticket/",
+    "image": ""
+   },
+   {
+    "slug": "klook-10834",
+    "partner": "klook",
+    "title": "부옴섬 & 감기섬 & 마이럿섬 일일 보트 투어 (3개 섬 호핑 투어)",
+    "source": "https://www.klook.com/ko/activity/10834-fingernail-island-dam-ngang-may-rut-island-day-tour-phu-quoc/",
+    "image": ""
+   },
+   {
+    "slug": "klook-69602",
+    "partner": "klook",
+    "title": "클룩 푸꾸옥 패스",
+    "source": "https://www.klook.com/ko/activity/69602-phu-quoc-play-and-stay-travel-pass/",
+    "image": ""
+   },
+   {
+    "slug": "klook-155428",
+    "partner": "klook",
+    "title": "선 바바리아 Gastropub에서 즐기는 특별한 다이닝 경험 - 선셋 타운 푸꾸옥",
+    "source": "https://www.klook.com/ko/activity/155428-dining-experience-at-sun-bavaria-magic-in-sunset-town-phu-quoc/",
+    "image": ""
+   },
+   {
+    "slug": "klook-56528",
+    "partner": "klook",
+    "title": "푸꾸옥 코랄 마운틴 & 하프문 리프 스노클링 투어 (스피드보트)",
+    "source": "https://www.klook.com/ko/activity/56528-phu-quoc-snorkeling-day-tour-by-speedboat/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-100556",
+    "partner": "kkday",
+    "title": "푸꾸옥 혼똔섬 케이블카 티켓",
+    "source": "https://www.kkday.com/ko/product/100556-sunworld-hon-thom-nature-park-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_100556/20250208085132_gk2EE/png"
+   },
+   {
+    "slug": "kkday-100869",
+    "partner": "kkday",
+    "title": "빈원더스 푸꾸옥 빈펄 사파리 입장권",
+    "source": "https://www.kkday.com/ko/product/100869-vinwonders-phu-quoc-theme-park-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_100869/20230718033019_0lpjB/jpg"
+   },
+   {
+    "slug": "kkday-137219",
+    "partner": "kkday",
+    "title": "푸꾸옥 키스 오브 더 씨 입장권",
+    "source": "https://www.kkday.com/ko/product/137219-kiss-the-stars-show-ticket-from-phu-quoc-vietnam",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_137219/20250725102457_2BS9m/png"
+   },
+   {
+    "slug": "kkday-262170",
+    "partner": "kkday",
+    "title": "심포니 오브 더 씨 · 푸꾸옥",
+    "source": "https://www.kkday.com/ko/product/262170",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_262170/20250218035156_5PjLn/png"
+   },
+   {
+    "slug": "kkday-119144",
+    "partner": "kkday",
+    "title": "푸꾸옥 그랜드월드 QR 티켓 (테디베어 박물관 & 베니스 대운하)",
+    "source": "https://www.kkday.com/ko/product/119144-grand-world-phu-quoc-attraction-admission-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_119144/20250805052806_9tFb9/png"
+   },
+   {
+    "slug": "kkday-36413",
+    "partner": "kkday",
+    "title": "푸꾸옥 섬 호핑 당일 투어: 쑤엉 섬(또는 부옴 섬), 감기 섬, 마이룻 섬 - TRIP3",
+    "source": "https://www.kkday.com/ko/product/36413-fingernail-gam-ghi-may-rut-island-hopping-tour-phu-quoc",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_36413/20200120073141_LIOoG/jpg"
+   }
+  ]
+ },
+ "hanoi": {
+  "name": "하노이",
+  "slug": "hanoi",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-hanoi",
+   "hotelAgoda": "hotel-agoda-hanoi",
+   "flightTrip": "flight-trip-hanoi",
+   "tourKkday": "tour-kkday-hanoi",
+   "tourKlook": "tour-klook-hanoi"
+  },
+  "products": [
+   {
+    "slug": "klook-35653",
+    "partner": "klook",
+    "title": "하노이 탕롱 수상 인형극 관람권",
+    "source": "https://www.klook.com/ko/activity/35653-thang-long-water-puppet-show-ticket-hanoi/",
+    "image": ""
+   },
+   {
+    "slug": "klook-145586",
+    "partner": "klook",
+    "title": "닌빈 베스트 일일 투어 (호아루, 짱안, 땀꼭, 항무아)",
+    "source": "https://www.klook.com/ko/activity/145586-ninhbinh-day-tour-hanoi/",
+    "image": ""
+   },
+   {
+    "slug": "klook-843",
+    "partner": "klook",
+    "title": "닌빈 일일 투어 (하노이 출발)",
+    "source": "https://www.klook.com/ko/activity/843-ha-noi-ninh-binh-day-tour-luxury-d-car/",
+    "image": ""
+   },
+   {
+    "slug": "klook-115074",
+    "partner": "klook",
+    "title": "하노이 로터스 수상 인형극 티켓",
+    "source": "https://www.klook.com/ko/activity/115074-lotus-water-puppet-show-ticket-in-hanoi/",
+    "image": ""
+   },
+   {
+    "slug": "klook-145733",
+    "partner": "klook",
+    "title": "하롱베이 데이크루즈 투어 (한국어 가이드)",
+    "source": "https://www.klook.com/ko/activity/145733-halong-bay-day-cruise-tour-with-korean-guide/",
+    "image": ""
+   },
+   {
+    "slug": "klook-221960",
+    "partner": "klook",
+    "title": "하노이 호아루, 짱안 & 항무아 동굴 일일 투어",
+    "source": "https://www.klook.com/ko/activity/221960-ninh-binh-day-tour-from-hanoi-hoa-lu-trang-an-mua-cave/",
+    "image": ""
+   },
+   {
+    "slug": "klook-87164",
+    "partner": "klook",
+    "title": "하노이 시티투어 버스 티켓 by City Sightseeing",
+    "source": "https://www.klook.com/ko/activity/87164-hanoi-hop-on-off-sightseeing-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-39381",
+    "partner": "klook",
+    "title": "닌빈 일일 투어 (하노이 출발 / 한국어 가이드 선택가능)",
+    "source": "https://www.klook.com/ko/activity/39381-tam-coc-hoa-lu-sightseeing-day-tour-diverse-experiences-hanoi/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-129681",
+    "partner": "kkday",
+    "title": "하노이 · SH 프리미엄 공항 라운지 (하노이 1&2) · 국내선& 국제선 출국 · 노이바이 국제공항",
+    "source": "https://www.kkday.com/ko/product/129681-noi-bai-airport-song-hong-lounge-domestic-international",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_6462/20251201040844_zEL7m/jpg"
+   },
+   {
+    "slug": "kkday-152771",
+    "partner": "kkday",
+    "title": "침대 열차 티켓: 하노이 - 사파 - 하노이",
+    "source": "https://www.kkday.com/ko/product/152771-premiere-sleeper-train-ticket-hanoi-sapa",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_152771/20250721063750_AM7cm/png"
+   },
+   {
+    "slug": "kkday-28299",
+    "partner": "kkday",
+    "title": "하노이 시티투어 2층 버스 티켓",
+    "source": "https://www.kkday.com/ko/product/28299-hanoi-hop-on-hop-off-bus-ticket-vietnam",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_28299/20250722161816_SNRBr/png"
+   },
+   {
+    "slug": "kkday-535576",
+    "partner": "kkday",
+    "title": "[그랜드 오프닝] 돌핀 럭셔리 데이 크루즈 · 숭솟, 티탑 & DJ 선셋 풀 파티, 라이브 음악 공연과 함께 하롱베이를 경험하",
+    "source": "https://www.kkday.com/ko/product/535576",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_535576/20260904044946_2LQw6/jpg"
+   },
+   {
+    "slug": "kkday-143360",
+    "partner": "kkday",
+    "title": "베트남 하노이 일일 투어 · 한국인 투어 가이드와 함께 하롱베이를 발견하세요 · 왕복 교통편 및 점심 식사",
+    "source": "https://www.kkday.com/ko/product/143360-vietnam-hanoi-day-tour-discover-ha-long-bay-with-korean-guide-round-trip-transportation-lunch",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_143360/20230505065731_7WlWq/jpg"
+   },
+   {
+    "slug": "kkday-137410",
+    "partner": "kkday",
+    "title": "하이퐁 Sun World Cat Ba 케이블카 티켓 · 베트남",
+    "source": "https://www.kkday.com/ko/product/137410-sunworld-catba-cable-car-ticket-haiphong",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_137410/20250801074800_MMsFM/jpg"
+   }
+  ]
+ },
+ "hochiminh": {
+  "name": "호치민",
+  "slug": "hochiminh",
+  "klookOnly": false,
+  "links": {
+   "hotelAgoda": "hotel-agoda-hochiminh",
+   "flightTrip": "flight-trip-hochiminh",
+   "tourKkday": "tour-kkday-hochiminh",
+   "tourKlook": "tour-klook-hochiminh"
+  },
+  "products": [
+   {
+    "slug": "klook-87162",
+    "partner": "klook",
+    "title": "호치민 2층 시티투어 버스 티켓 by City Sightseeing",
+    "source": "https://www.klook.com/ko/activity/87162-ho-chi-minh-city-sightseeing-bus-ticket/",
+    "image": ""
+   },
+   {
+    "slug": "klook-158197",
+    "partner": "klook",
+    "title": "럭셔리 아이콘 사이공 크루즈에서 사이공강의 황홀한 일몰을 감상하세요",
+    "source": "https://www.klook.com/ko/activity/158197-experience-saigon-river-sunset-on-luxury-icon-saigon-cruise/",
+    "image": ""
+   },
+   {
+    "slug": "klook-7980",
+    "partner": "klook",
+    "title": "사이공 오페라 하우스 아오쇼 공연 티켓",
+    "source": "https://www.klook.com/ko/activity/7980-a-o-show-ticket-at-saigon-opera-house-ho-chi-minh-city/",
+    "image": ""
+   },
+   {
+    "slug": "klook-203621",
+    "partner": "klook",
+    "title": "호치민 LOALOA 문화 & 다이닝 쇼",
+    "source": "https://www.klook.com/ko/activity/203621-vietcharm-cultural-dining-show-ticket-in-ho-chi-minh-city/",
+    "image": ""
+   },
+   {
+    "slug": "klook-26225",
+    "partner": "klook",
+    "title": "호치민 사이공 프린세스 디너 크루즈 (교통편 포함)",
+    "source": "https://www.klook.com/ko/activity/26225-saigon-princess-cruise-ho-chi-minh-city/",
+    "image": ""
+   },
+   {
+    "slug": "klook-197655",
+    "partner": "klook",
+    "title": "호치민 구찌 터널 반나절 역사 투어",
+    "source": "https://www.klook.com/ko/activity/197655-ho-chi-minh-city-cu-chi-tunnels-half-day-tour-with-local-cuisine/",
+    "image": ""
+   },
+   {
+    "slug": "klook-158176",
+    "partner": "klook",
+    "title": "사이공강 엘리트 럭셔리 크루즈 (다이닝 액티비티 & 체험)",
+    "source": "https://www.klook.com/ko/activity/158176-luxury-dining-experience-on-elite-of-saigon-cruise/",
+    "image": ""
+   },
+   {
+    "slug": "klook-858",
+    "partner": "klook",
+    "title": "구찌 터널 & 메콩 델타 일일 투어 (디럭스 이동 서비스 옵션)",
+    "source": "https://www.klook.com/ko/activity/858-cu-chi-tunnesl-mekong-river-day-tour-hochiminh/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-582211",
+    "partner": "kkday",
+    "title": "호치민시 출발 메콩델타 탐방 – 미토 & 벤째 종일 투어 (중국어/한국어 가이드 이용 가능)",
+    "source": "https://www.kkday.com/ko/product/582211",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_20111/20260512091130_zO7rn/jpg"
+   },
+   {
+    "slug": "kkday-9594",
+    "partner": "kkday",
+    "title": "베트남 호치민 아오쇼",
+    "source": "https://www.kkday.com/ko/product/9594-a-o-show-ho-chi-minh-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_20132/20251119180051_9TXIN/png"
+   },
+   {
+    "slug": "kkday-37708",
+    "partner": "kkday",
+    "title": "호치민 사이공 프린세스 디너 크루즈",
+    "source": "https://www.kkday.com/ko/product/37708-sai-gon-princess-cruise-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_37708/20200703044040_akRZz/jpg"
+   },
+   {
+    "slug": "kkday-267867",
+    "partner": "kkday",
+    "title": "호치민시 - 베트남 탄손누트 국제공항 VIP 입국 심사 서비스",
+    "source": "https://www.kkday.com/ko/product/267867-vip-fast-track-immigration-tan-son-nhat-airport",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_267867/20251105101829_23Z3Y/png"
+   },
+   {
+    "slug": "kkday-125843",
+    "partner": "kkday",
+    "title": "호치민 사이공 2층 시티투어 버스 티켓",
+    "source": "https://www.kkday.com/ko/product/125843-ho-chi-minh-city-hop-on-hop-off-bus-pass-night-tour-vietnam",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_125843/20250722161637_D46k8/png"
+   },
+   {
+    "slug": "kkday-772103",
+    "partner": "kkday",
+    "title": "베트남 호치민 공항 입국 패스트트랙 서비스 - 즉시 확정",
+    "source": "https://www.kkday.com/ko/product/772103",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_549592/20251128081257_tUCfT/jpg"
+   }
+  ]
+ },
+ "bangkok": {
+  "name": "방콕",
+  "slug": "bangkok",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-bangkok",
+   "hotelAgoda": "hotel-agoda-bangkok",
+   "flightTrip": "flight-trip-bangkok",
+   "tourKkday": "tour-kkday-bangkok",
+   "tourKlook": "tour-klook-bangkok"
+  },
+  "products": [
+   {
+    "slug": "klook-10538",
+    "partner": "klook",
+    "title": "방콕 차오프라야강 화이트 오키드 디너 크루즈",
+    "source": "https://www.klook.com/ko/activity/10538-chao-phraya-white-orchid-river-cruise-bangkok/",
+    "image": ""
+   },
+   {
+    "slug": "klook-3021",
+    "partner": "klook",
+    "title": "방콕 사원 투어 (왓 프라깨우 & 왓포 & 왓아룬 & 방콕 왕궁)",
+    "source": "https://www.klook.com/ko/activity/3021-bangkok-must-visit-landmarks-day-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-75892",
+    "partner": "klook",
+    "title": "[아속 출발] 담넌사두억 수상시장+위험한 기찻길 시장 반일투어",
+    "source": "https://www.klook.com/ko/activity/75892-floating-market-meklong-market-halfday-krtour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-92826",
+    "partner": "klook",
+    "title": "라자담넌 스타디움 무에타이 경기 티켓",
+    "source": "https://www.klook.com/ko/activity/92826-muay-thai-rajadamnern-stadium-bangkok/",
+    "image": ""
+   },
+   {
+    "slug": "klook-81157",
+    "partner": "klook",
+    "title": "방콕 사파리월드 공용/프라이빗 차량투어",
+    "source": "https://www.klook.com/ko/activity/81157-safari-world-bangkok-shared-and-private-transfer/",
+    "image": ""
+   },
+   {
+    "slug": "klook-75899",
+    "partner": "klook",
+    "title": "[아속출발] 아유타야 선셋 리버크루즈 오후 반일 투어",
+    "source": "https://www.klook.com/ko/activity/75899-ayutthaya-sunset-halfday-krtour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-214213",
+    "partner": "klook",
+    "title": "방콕 슈퍼 갤럭시 디너 크루즈",
+    "source": "https://www.klook.com/ko/activity/214213-super-galaxy-dinner-cruise-bangkok/",
+    "image": ""
+   },
+   {
+    "slug": "klook-74104",
+    "partner": "klook",
+    "title": "방콕 바와 스파 온 에이트 앳 스쿰빗 스파 & 마사지",
+    "source": "https://www.klook.com/ko/activity/74104-bhawa-spa-bangkok/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-10417",
+    "partner": "kkday",
+    "title": "방콕 Bellugg 캐리어 배송 서비스",
+    "source": "https://www.kkday.com/ko/product/10417-bellugg-luggage-delivery-service-bangkok-airports-and-hotels-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_17955/20260428030133_hbB3n/jpg"
+   },
+   {
+    "slug": "kkday-2567",
+    "partner": "kkday",
+    "title": "방콕 차오프라야 프린세스 리버크루즈 + 디너 뷔페",
+    "source": "https://www.kkday.com/ko/product/2567-chao-phraya-princess-river-cruise-with-dinner-buffet-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_2567/20170909004648_dFH2Q/jpg"
+   },
+   {
+    "slug": "kkday-11875",
+    "partner": "kkday",
+    "title": "무앙보란 + 에라완 박물관 입장권 (단일입장권 구매 가능, 디너/런치 뷔페)",
+    "source": "https://www.kkday.com/ko/product/11875-erawan-museum-and-ancient-city-tickets-in-bangkok-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_11875/20250821023658_ZuSRc/png"
+   },
+   {
+    "slug": "kkday-138428",
+    "partner": "kkday",
+    "title": "담넌사두억 수상 시장 & 위험한 기찻길 시장 반일 투어 (시암 / 아속 출발)",
+    "source": "https://www.kkday.com/ko/product/138428-bangkok-damnoen-saduak-maeklong-half-day-tour",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_138428/20230125043709_J4Meq/jpg"
+   },
+   {
+    "slug": "kkday-264846",
+    "partner": "kkday",
+    "title": "방콕 BTS 스카이트레인 래빗 카드 · 태국",
+    "source": "https://www.kkday.com/ko/product/264846",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_264846/20250820055819_aADK0/png"
+   },
+   {
+    "slug": "kkday-10419",
+    "partner": "kkday",
+    "title": "방콕 실롬 타이 쿠킹 클래스",
+    "source": "https://www.kkday.com/ko/product/10419-cooking-class-at-silom-thai-cooking-school-bangkok-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_10419/20161129040248_cEK3Y/jpg"
+   }
+  ]
+ },
+ "phuket": {
+  "name": "푸켓",
+  "slug": "phuket",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-phuket",
+   "hotelAgoda": "hotel-agoda-phuket",
+   "flightTrip": "flight-trip-phuket",
+   "tourKkday": "tour-kkday-phuket",
+   "tourKlook": "tour-klook-phuket"
+  },
+  "products": [
+   {
+    "slug": "klook-3250",
+    "partner": "klook",
+    "title": "푸켓 피피섬, 마야베이, 카이섬 스피드보트 투어 (점심 포함)",
+    "source": "https://www.klook.com/ko/activity/3250-khai-islands-phi-phi-james-bond-phuket-speedboat/",
+    "image": ""
+   },
+   {
+    "slug": "klook-6556",
+    "partner": "klook",
+    "title": "피피섬, 마야섬, 밤부섬 스피드보트 일일 투어",
+    "source": "https://www.klook.com/ko/activity/6556-phi-phi-island-snorkeling-day-trip-phuket/",
+    "image": ""
+   },
+   {
+    "slug": "klook-99532",
+    "partner": "klook",
+    "title": "시밀란 제도 일일 투어 (카타마란 또는 쾌속정)",
+    "source": "https://www.klook.com/ko/activity/99532-similan-phuket-1-day-hop-on-off-boat-tour-speedboat-khao-lak/",
+    "image": ""
+   },
+   {
+    "slug": "klook-14913",
+    "partner": "klook",
+    "title": "푸켓: 프리미엄 스피드 카타마란을 타고 떠나는 피피섬, 마야 & 카이 섬 투어",
+    "source": "https://www.klook.com/ko/activity/14913-phi-phi-islands-day-tour-phuket/",
+    "image": ""
+   },
+   {
+    "slug": "klook-3227",
+    "partner": "klook",
+    "title": "푸켓 출발 제임스 본드, 팡응아만 & 홍섬 투어",
+    "source": "https://www.klook.com/ko/activity/3227-james-bond-day-tour-big-boat-longtail-speedboat/",
+    "image": ""
+   },
+   {
+    "slug": "klook-85999",
+    "partner": "klook",
+    "title": "요나 비치 클럽 푸켓 경험",
+    "source": "https://www.klook.com/ko/activity/85999-yona-beach-club-phuket-thailand/",
+    "image": ""
+   },
+   {
+    "slug": "klook-3595",
+    "partner": "klook",
+    "title": "푸켓 엘리펀트 정글 생추어리(코끼리 보호구역) 체험",
+    "source": "https://www.klook.com/ko/activity/3595-half-day-visit-elephant-jungle-sanctuary-phuket/",
+    "image": ""
+   },
+   {
+    "slug": "klook-3427",
+    "partner": "klook",
+    "title": "시밀란 군도 일일 투어 by Love Andaman",
+    "source": "https://www.klook.com/ko/activity/3427-similan-islands-day-tour/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-138349",
+    "partner": "kkday",
+    "title": "푸켓 - 피피섬 스피드보트 이동 서비스",
+    "source": "https://www.kkday.com/ko/product/138349-speedboat-transfer-service-phuket-to-from-the-phi-phi-islands-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_138349/20250822091656_4QCI4/png"
+   },
+   {
+    "slug": "kkday-269052",
+    "partner": "kkday",
+    "title": "푸껫 서커스 티켓 · 태국",
+    "source": "https://www.kkday.com/ko/product/269052",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_269052/20260519033213_DBwJU/jpg"
+   },
+   {
+    "slug": "kkday-137941",
+    "partner": "kkday",
+    "title": "페리 티켓: 푸켓 - 피피섬 · 태국",
+    "source": "https://www.kkday.com/ko/product/137941-phuket-to-and-from-phi-phi-islands-ferry-ticket-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_137941/20230111033901_Q0SGg/jpg"
+   },
+   {
+    "slug": "kkday-3878",
+    "partner": "kkday",
+    "title": "푸켓 산호섬 및 라차섬 스노클링 체험 · 태국",
+    "source": "https://www.kkday.com/ko/product/3878-phuket-coral-island-racha-island-snorkeling-experience-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_19410/20220927072838_9U1Il/jpg"
+   },
+   {
+    "slug": "kkday-126494",
+    "partner": "kkday",
+    "title": "러브 안다만에서 푸켓 출발 시밀란 제도 종일 스피드보트 또는 스피드 카타마란 투어",
+    "source": "https://www.kkday.com/ko/product/126494-similan-islands-full-day-speedboat-trip-from-phuket-by-love-andaman-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_126494/20221217113226_eGPT0/jpg"
+   },
+   {
+    "slug": "kkday-156142",
+    "partner": "kkday",
+    "title": "전세 차량 서비스: 푸켓 지역 및 인근 도시 · 태국",
+    "source": "https://www.kkday.com/ko/product/156142-phuket-city-private-charter-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_156142/20240815095112_OIB9N/jpg"
+   }
+  ]
+ },
+ "chiangmai": {
+  "name": "치앙마이",
+  "slug": "chiangmai",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-chiangmai",
+   "hotelAgoda": "hotel-agoda-chiangmai",
+   "flightTrip": "flight-trip-chiangmai",
+   "tourKkday": "tour-kkday-chiangmai",
+   "tourKlook": "tour-klook-chiangmai"
+  },
+  "products": [
+   {
+    "slug": "klook-134719",
+    "partner": "klook",
+    "title": "치앙마이의 뉴 엘리펀트 홈 코끼리 보호 센터",
+    "source": "https://www.klook.com/ko/activity/134719-elephant-care-activity-at-new-elephant-home-sanctuary-in-chiang-mai/",
+    "image": ""
+   },
+   {
+    "slug": "klook-147181",
+    "partner": "klook",
+    "title": "치앙마이 반나절 자이언트 레인 트리 & 끈끈이 폭포 투어",
+    "source": "https://www.klook.com/ko/activity/147181-chiang-mai-half-day-giant-rain-tree-sticky-waterfall-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-1112",
+    "partner": "klook",
+    "title": "치앙마이 나이트 사파리 입장권",
+    "source": "https://www.klook.com/ko/activity/1112-night-safari-park-chiang-mai/",
+    "image": ""
+   },
+   {
+    "slug": "klook-6936",
+    "partner": "klook",
+    "title": "치앙마이 그랜마즈 홈 쿠킹 스쿨 타이 쿠킹 클래스",
+    "source": "https://www.klook.com/ko/activity/6936-grandmas-home-cooking-school-chiang-mai/",
+    "image": ""
+   },
+   {
+    "slug": "klook-146921",
+    "partner": "klook",
+    "title": "치앙마이 출발 치앙라이 1일 투어",
+    "source": "https://www.klook.com/ko/activity/146921-chiang-rai-one-day-trip-from-chiang-mai/",
+    "image": ""
+   },
+   {
+    "slug": "klook-189210",
+    "partner": "klook",
+    "title": "치앙마이-람푼 이펭 란나 축제 2026",
+    "source": "https://www.klook.com/ko/activity/189210-yeepeng-lanna-festival-2026-chiang-mai-lamphun/",
+    "image": ""
+   },
+   {
+    "slug": "klook-131503",
+    "partner": "klook",
+    "title": "치앙마이 호라이즌 빌리지 러이끄라통 & 등불 축제 2026",
+    "source": "https://www.klook.com/ko/activity/131503-lantern-festival-2025-at-horizon-village-chiang-mai/",
+    "image": ""
+   },
+   {
+    "slug": "klook-150672",
+    "partner": "klook",
+    "title": "치앙마이 몬쨈 온천",
+    "source": "https://www.klook.com/ko/activity/150672-the-onsen-at-moncham-experience-in-chiang-mai/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-20563",
+    "partner": "kkday",
+    "title": "치앙마이 나이트 사파리 · 입장권 · 트램 · 셔틀",
+    "source": "https://www.kkday.com/ko/product/20563-chiang-mai-night-safari-ticket-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_20563/20250818103504_YR2WW/png"
+   },
+   {
+    "slug": "kkday-133582",
+    "partner": "kkday",
+    "title": "치앙라이 일일 투어: 온천 & 화이트 템플, 레드&블루 템플 & 블랙 하우스 등",
+    "source": "https://www.kkday.com/ko/product/133582-chiang-rai-day-tour-from-chiang-mai-hot-spring-white-temple-blue-temple-black-house-long-neck-village",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_133582/20220924172449_8RmBh/jpg"
+   },
+   {
+    "slug": "kkday-143852",
+    "partner": "kkday",
+    "title": "공유 도시 이동 · 치앙마이 및 몬잼, 매캄퐁, 도이인타논 및 산캄팽 온천",
+    "source": "https://www.kkday.com/ko/product/143852",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_143852/20230512095055_UYghb/jpg"
+   },
+   {
+    "slug": "kkday-159316",
+    "partner": "kkday",
+    "title": "치앙마이 반일투어 · 엘리핀팜+ 싸이프레스 레인스 + 반캉왓",
+    "source": "https://www.kkday.com/ko/product/159316-chiang-mai-elefin-farm-and-cafe-tour-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_159316/20231227101036_1lqJT/jpg"
+   },
+   {
+    "slug": "kkday-125147",
+    "partner": "kkday",
+    "title": "치앙마이 타이거 킹덤 · 태국",
+    "source": "https://www.kkday.com/ko/product/125147-tiger-kingdom-admission-ticket-in-chiang-mai-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_125147/20250821024310_UQErz/png"
+   },
+   {
+    "slug": "kkday-125950",
+    "partner": "kkday",
+    "title": "치앙마이 · 도이인타논 국립공원 당일 투어 (아름다운 2시간 트레킹 포함) · 치앙마이 출발",
+    "source": "https://www.kkday.com/ko/product/125950-doi-inthanon-national-park-hiking-tour-in-chiang-mai-thailand",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_7634/20251230145621_JJ4Gg/jpg"
+   }
+  ]
+ },
+ "cebu": {
+  "name": "세부",
+  "slug": "cebu",
+  "klookOnly": false,
+  "links": {
+   "hotelAgoda": "hotel-agoda-cebu",
+   "flightTrip": "flight-trip-cebu",
+   "tourKkday": "tour-kkday-cebu"
+  },
+  "products": [
+   {
+    "slug": "kkday-5038",
+    "partner": "kkday",
+    "title": "막탄 섬 호핑 투어 · 세부, 필리핀",
+    "source": "https://www.kkday.com/ko/product/5038-cebu-island-hopping-tour-caohagan-nalusuan-island",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_5038/20170503032500_Meok5/jpg"
+   },
+   {
+    "slug": "kkday-131767",
+    "partner": "kkday",
+    "title": "세부 오션파크 입장권 · 필리핀 제도",
+    "source": "https://www.kkday.com/ko/product/131767-cebu-ocean-park-ticket-with-transfer-service-philippines",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_131767/20220801033550_2qSwV/jpg"
+   },
+   {
+    "slug": "kkday-9735",
+    "partner": "kkday",
+    "title": "필리핀 오션젯 페리 티켓 (세부↔보홀)",
+    "source": "https://www.kkday.com/ko/product/9735-cebu-bohol-ferry-ticket-oceanjet",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_9735/20260520080613_CHFw2/png"
+   },
+   {
+    "slug": "kkday-143460",
+    "partner": "kkday",
+    "title": "세부 오션 파크 아쿠아 다이닝: 바다 속에서의 마법 같은 식사 · 필리핀",
+    "source": "https://www.kkday.com/ko/product/143460-aqua-dining-at-cebu-ocean-park-philippines",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_143460/20230508075113_EWnTg/jpg"
+   },
+   {
+    "slug": "kkday-7997",
+    "partner": "kkday",
+    "title": "막탄 세부 공항 프라이빗 왕복 픽업 서비스 (SIM 카드 추가 가능)",
+    "source": "https://www.kkday.com/ko/product/7997-mactan-cebu-to-downtown-cebu-airport-private-transfer-philippines",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_19251/20230810080323_xR8Gm/png"
+   },
+   {
+    "slug": "kkday-144811",
+    "partner": "kkday",
+    "title": "[1인 출발보장] 필리핀 세부 고래상어 스노클링 & 투말록 폭포 & 모알보알 호핑 일일 투어",
+    "source": "https://www.kkday.com/ko/product/144811-oslob-whale-shark-snorkeling-tumalog-falls-and-moalboal-pescador-island-hopping-guaranteed-departure",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_144811/20250523072533_OhxQV/jpg"
+   }
+  ]
+ },
+ "taipei": {
+  "name": "타이베이",
+  "slug": "taipei",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-taipei",
+   "hotelAgoda": "hotel-agoda-taipei",
+   "flightTrip": "flight-trip-taipei",
+   "tourKkday": "tour-kkday-taipei",
+   "tourKlook": "tour-klook-taipei"
+  },
+  "products": [
+   {
+    "slug": "klook-138221",
+    "partner": "klook",
+    "title": "[예스폭지+야경] 대만 버스투어 한국어 가이드 시먼역 / 메인역 탑승 가능",
+    "source": "https://www.klook.com/ko/activity/138221-yehliu-geopark-shifen-golden-waterfall-jiufen-night-view-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-185578",
+    "partner": "klook",
+    "title": "[한국어 가이드] 대만 예스폭진지 예스진지 예스폭지 예스지 야경 100% 확정 일일 버스투어 (자유로운 코스 선택)",
+    "source": "https://www.klook.com/ko/activity/185578-korean-speaking-guide-yehliu-shifen-jiufen-night-view-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-1659",
+    "partner": "klook",
+    "title": "타이베이 101 전망대 티켓",
+    "source": "https://www.klook.com/ko/activity/1659-taipei-101-taipei/",
+    "image": ""
+   },
+   {
+    "slug": "klook-76306",
+    "partner": "klook",
+    "title": "예류 지질공원 & 지우펀 & 스펀 & 황금 폭포 일일 투어",
+    "source": "https://www.klook.com/ko/activity/76306-yehliu-jiufen-shifen-golden-waterfall-day-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-158016",
+    "partner": "klook",
+    "title": "[대만] 국립고궁박물관 한국어 도슨트 가이드 고궁박물원 데이투어 오전/오후 선택 진행",
+    "source": "https://www.klook.com/ko/activity/158016-taiwan-national-palace-museum-korean-docent-day-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-165268",
+    "partner": "klook",
+    "title": "[100%출발 확정] 대만 버스투어 예스지/예스폭지 - 지우펀 야경 일일투어 한국어 가이드",
+    "source": "https://www.klook.com/ko/activity/165268-day-tour-from-taipei-yehliu-shifen-night-jiufen/",
+    "image": ""
+   },
+   {
+    "slug": "klook-216247",
+    "partner": "klook",
+    "title": "[한국어 가이드] (예류 제외하고 투어하실 분) 15시30분 스지 버스투어-한국어가이드 대만N차 여행자 모집",
+    "source": "https://www.klook.com/ko/activity/216247-taipei-bus-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-3521",
+    "partner": "klook",
+    "title": "지우펀 & 스펀 & 예류 일일 투어 (한국어 가이드 / 예류지질공원 입장권 포함)",
+    "source": "https://www.klook.com/ko/activity/3521-jiufen-full-day-tour-taipei/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-10066",
+    "partner": "kkday",
+    "title": "타이베이 키키 레스토랑 예약·예약 후 대기없이 입장·대만식 사천요리",
+    "source": "https://www.kkday.com/ko/product/10066-taipei-kiki-restaurant-taiwanese-style-sichuan-fusion-cuisine",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_10066/20161019043708_Dc80q/jpg"
+   },
+   {
+    "slug": "kkday-100299",
+    "partner": "kkday",
+    "title": "대만 고속철도 편도 전자 티켓 · 외국인 여행객 전용 (거류증 소지자 제외)",
+    "source": "https://www.kkday.com/ko/product/100299-foreigners-only-taiwan-high-speed-rail-ticket-taiwan",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_100299/20260827084451_cNowH/jpg"
+   },
+   {
+    "slug": "kkday-32467",
+    "partner": "kkday",
+    "title": "대만 예스진지 홍등 일일 버스투어 (오전 10시 출발/한국어 가이드/시먼역&타이베이메인역 자유미팅/야시장 하차)",
+    "source": "https://www.kkday.com/ko/product/32467-taiwan-yesjinji-red-lantern-day-bus-tour-taipei-main-station-ximen-station-1000-am-departure-korean-speaking-guide-taiwan",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_32467/20250804070132_Sx12U/jpg"
+   },
+   {
+    "slug": "kkday-8332",
+    "partner": "kkday",
+    "title": "타이베이101 전망대 입장권",
+    "source": "https://www.kkday.com/ko/product/8332-taipei-101-observatory-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_8332/20200709022847_jhITx/jpg"
+   },
+   {
+    "slug": "kkday-18094",
+    "partner": "kkday",
+    "title": "대만 국립고궁박물원 입장권 (타이베이/자이)",
+    "source": "https://www.kkday.com/ko/product/18094-national-palace-museum-ticket-northern-branch-southern-branch-taiwan",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_18094/20260120023319_jGA7s/jpg"
+   },
+   {
+    "slug": "kkday-19029",
+    "partner": "kkday",
+    "title": "타이베이 베이터우 온천 · 스프링 시티 리조트 백유황온천·노천탕",
+    "source": "https://www.kkday.com/ko/product/19029-taipei-hot-spring-spa-spring-city-resort-beitou-taiwan",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_19029/20201030005349_FwhOA/jpg"
+   }
+  ]
+ },
+ "hongkong": {
+  "name": "홍콩",
+  "slug": "hongkong",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-hongkong",
+   "hotelAgoda": "hotel-agoda-hongkong",
+   "flightTrip": "flight-trip-hongkong",
+   "tourKkday": "tour-kkday-hongkong",
+   "tourKlook": "tour-klook-hongkong"
+  },
+  "products": [
+   {
+    "slug": "klook-765",
+    "partner": "klook",
+    "title": "홍콩 피크트램 티켓",
+    "source": "https://www.klook.com/ko/activity/765-peak-tram-sky-terrace-hongkong/",
+    "image": ""
+   },
+   {
+    "slug": "klook-21287",
+    "partner": "klook",
+    "title": "홍콩 빅버스 시티투어",
+    "source": "https://www.klook.com/ko/activity/21287-big-bus-tours-hong-kong/",
+    "image": ""
+   },
+   {
+    "slug": "klook-122582",
+    "partner": "klook",
+    "title": "홍콩 2층 오픈탑 버스 투어 · 템플 스트리트",
+    "source": "https://www.klook.com/ko/activity/122582-open-top-bus-hong-kong/",
+    "image": ""
+   },
+   {
+    "slug": "klook-45",
+    "partner": "klook",
+    "title": "홍콩 옹핑 360 케이블카 티켓",
+    "source": "https://www.klook.com/ko/activity/45-ngong-ping-360-hong-kong/",
+    "image": ""
+   },
+   {
+    "slug": "klook-10690",
+    "partner": "klook",
+    "title": "빅토리아 하버 야간 크루즈 (무제한 스낵 & 음료 + 전문 사진 촬영 + 라이브 투어 앰배서더)",
+    "source": "https://www.klook.com/ko/activity/10690-victoria-harbour-cruise-luxury-yacht-hong-kong/",
+    "image": ""
+   },
+   {
+    "slug": "klook-18856",
+    "partner": "klook",
+    "title": "홍콩 관람차 티켓",
+    "source": "https://www.klook.com/ko/activity/18856-observation-wheel-ticket-hong-kong/",
+    "image": ""
+   },
+   {
+    "slug": "klook-214624",
+    "partner": "klook",
+    "title": "딩딩 미식단 · 홍콩 트램",
+    "source": "https://www.klook.com/ko/activity/214624-hong-kong-tramways-ding-ding-foodie-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-95468",
+    "partner": "klook",
+    "title": "홍콩 어둠의 이면 반나절 가이드 워킹 투어",
+    "source": "https://www.klook.com/ko/activity/95468-dark-side-hk/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-19071",
+    "partner": "kkday",
+    "title": "마카오 페리 티켓 · 셩완 ↔ 외항/타이파 터보젯 티켓 (AIRSIM/eSIM 단독 증정)",
+    "source": "https://www.kkday.com/ko/product/19071-turbojet-ferry-tickets-hong-kong-sheung-wan-macau",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_19071/20240223024208_6b3AX/jpg"
+   },
+   {
+    "slug": "kkday-10445",
+    "partner": "kkday",
+    "title": "마카오 페리 티켓 · 셩완 ↔ 타이파 코타이젯 티켓 (단독 AIRSIM/eSIM 증정)",
+    "source": "https://www.kkday.com/ko/product/10445-hong-kong-macau-cotai-ferry-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_10445/20250903085618_GyjKm/jpg"
+   },
+   {
+    "slug": "kkday-100640",
+    "partner": "kkday",
+    "title": "홍콩 빅토리아 피크 트램 & 스카이테라스 428 티켓",
+    "source": "https://www.kkday.com/ko/product/100640-peak-tram-sky-terrace-ticket-hong-kong",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_100640/20230727082514_A1OBc/png"
+   },
+   {
+    "slug": "kkday-8962",
+    "partner": "kkday",
+    "title": "홍콩 여행자용 옥토퍼스 카드(업그레이드 버전) - 50 HKD 잔액 포함·홍콩·마카오 및 대만구 여행",
+    "source": "https://www.kkday.com/ko/product/8962-hong-kong-tourist-octopus-card-50hkd-preloaded-airport-pickup",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_18608/20250512023415_N3Kcm/jpg"
+   },
+   {
+    "slug": "kkday-2425",
+    "partner": "kkday",
+    "title": "홍콩 AEL 공항철도 티켓",
+    "source": "https://www.kkday.com/ko/product/2425-hong-kong-airport-express-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_18073/20171102023410_itjCo/jpeg"
+   },
+   {
+    "slug": "kkday-183827",
+    "partner": "kkday",
+    "title": "홍콩 리젠트 호텔 하버사이드 뷔페 식사권",
+    "source": "https://www.kkday.com/ko/product/183827-regent-hong-kong-harbourside-buffet",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_183827/20240709044227_VfKjZ/jpg"
+   }
+  ]
+ },
+ "singapore": {
+  "name": "싱가포르",
+  "slug": "singapore",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-singapore",
+   "hotelAgoda": "hotel-agoda-singapore",
+   "flightTrip": "flight-trip-singapore",
+   "tourKkday": "tour-kkday-singapore",
+   "tourKlook": "tour-klook-singapore"
+  },
+  "products": [
+   {
+    "slug": "klook-117",
+    "partner": "klook",
+    "title": "유니버설 스튜디오 싱가포르 티켓",
+    "source": "https://www.klook.com/ko/activity/117-universal-studios-singapore/",
+    "image": ""
+   },
+   {
+    "slug": "klook-127",
+    "partner": "klook",
+    "title": "가든스 바이 더 베이 티켓",
+    "source": "https://www.klook.com/ko/activity/127-gardens-by-the-bay-singapore/",
+    "image": ""
+   },
+   {
+    "slug": "klook-69622",
+    "partner": "klook",
+    "title": "클룩 싱가포르 패스",
+    "source": "https://www.klook.com/ko/activity/69622-singapore-attractions-pass/",
+    "image": ""
+   },
+   {
+    "slug": "klook-3846",
+    "partner": "klook",
+    "title": "싱가포르 리버 크루즈",
+    "source": "https://www.klook.com/ko/activity/3846-river-cruise-singapore/",
+    "image": ""
+   },
+   {
+    "slug": "klook-3928",
+    "partner": "klook",
+    "title": "나이트 사파리 티켓 (싱가포르 만다이 야생동물 보호구역)",
+    "source": "https://www.klook.com/ko/activity/3928-singapore-night-safari-singapore/",
+    "image": ""
+   },
+   {
+    "slug": "klook-133319",
+    "partner": "klook",
+    "title": "싱가포르 해리포터 비전 오브 매직 티켓",
+    "source": "https://www.klook.com/ko/activity/133319-harry-potter-visions-of-magic-in-resorts-world-sentosa-singapore/",
+    "image": ""
+   },
+   {
+    "slug": "klook-10552",
+    "partner": "klook",
+    "title": "마리나 베이 샌즈 스카이파크 전망대 입장권",
+    "source": "https://www.klook.com/ko/activity/10552-marina-bay-sands-skypark-observation-deck-admission-ticket-singapore/",
+    "image": ""
+   },
+   {
+    "slug": "klook-25872",
+    "partner": "klook",
+    "title": "싱가포르 쥬얼 창이공항 어트랙션 티켓",
+    "source": "https://www.klook.com/ko/activity/25872-jewel-changi-airport-attractions-ticket-singapore/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-2312",
+    "partner": "kkday",
+    "title": "리조트 월드 센토사: 싱가포르 유니버설 스튜디오 입장권",
+    "source": "https://www.kkday.com/ko/product/2312-universal-studios-singapore-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_23270/20260902094237_3UhqD/jpg"
+   },
+   {
+    "slug": "kkday-100158",
+    "partner": "kkday",
+    "title": "싱가포르 나이트 사파리 티켓",
+    "source": "https://www.kkday.com/ko/product/100158-mandai-night-safari-ticket-singapore",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_100158/20240904055720_X3bGp/jpg"
+   },
+   {
+    "slug": "kkday-3158",
+    "partner": "kkday",
+    "title": "싱가포르 가든스 바이 더 베이 입장권",
+    "source": "https://www.kkday.com/ko/product/3158-gardens-by-the-bay-singapore-ticket",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_37100/20261006084703_GSYXv/jpg"
+   },
+   {
+    "slug": "kkday-39249",
+    "partner": "kkday",
+    "title": "싱가포르 만다이 멀티 파크 패스 · 나이트 사파리 포함",
+    "source": "https://www.kkday.com/ko/product/39249-mandai-wildlife-bundle-singapore",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_39249/20260702083118_76mOB/jpg"
+   },
+   {
+    "slug": "kkday-100148",
+    "partner": "kkday",
+    "title": "싱가포르 동물원 · 만다이 야생동물 공원 티켓",
+    "source": "https://www.kkday.com/ko/product/100148-singapore-zoo-ticket-breakfast-in-the-wild-experience",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_100148/20230519040935_KNya0/jpg"
+   },
+   {
+    "slug": "kkday-135595",
+    "partner": "kkday",
+    "title": "펀비 무제한 승하차 투어 & 관광 버스 투어 · 싱가포르",
+    "source": "https://www.kkday.com/ko/product/135595-funvee-unlimited-hop-on-hop-off-bus-tour-or-sightseeing-bus-tour-with-optional-traditionalt-toast-box-breakfast-set-singapore",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_135595/20261021025642_v0x6U/png"
+   }
+  ]
+ },
+ "guam": {
+  "name": "괌",
+  "slug": "guam",
+  "klookOnly": false,
+  "links": {
+   "hotelAgoda": "hotel-agoda-guam",
+   "flightTrip": "flight-trip-guam",
+   "tourKkday": "tour-kkday-guam"
+  },
+  "products": [
+   {
+    "slug": "kkday-136343",
+    "partner": "kkday",
+    "title": "괌 비키니 아일랜드 클럽 수상 스포츠 패키지 (호텔 셔틀 포함)",
+    "source": "https://www.kkday.com/ko/product/136343-guam-bikini-island-club-marine-pack-with-hotel-pick-up-service",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_136343/20240516055345_6rYaX/jpg"
+   },
+   {
+    "slug": "kkday-162495",
+    "partner": "kkday",
+    "title": "괌 럭셔리 돌핀 와칭&스노클링 투어(린든 45호/한국어 가이드+최신형 크루즈)",
+    "source": "https://www.kkday.com/ko/product/162495",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_162495/20250520024032_kFnqi/jpg"
+   },
+   {
+    "slug": "kkday-138223",
+    "partner": "kkday",
+    "title": "괌 파란 돌핀 크루즈 투어 (참치회, 맥주, 음료 제공)",
+    "source": "https://www.kkday.com/ko/product/138223-guam-blue-dolphin-cruise-tour",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_138223/20230117092555_H3Oik/png"
+   },
+   {
+    "slug": "kkday-128169",
+    "partner": "kkday",
+    "title": "괌 탕기슨 별빛투어 (한국인 가이드 에스코트)",
+    "source": "https://www.kkday.com/ko/product/128169-guam-starlight-tour-ritidian-beach-santa-agueda-observatory",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_128169/20220330083112_0xCs5/png"
+   },
+   {
+    "slug": "kkday-166186",
+    "partner": "kkday",
+    "title": "[KKday 오픈특가] 괌 돌핀 드림 크루즈 투어 (3만원 상당 괌 슈퍼카드 선착순 증정)",
+    "source": "https://www.kkday.com/ko/product/166186",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_166186/20240403022841_MJDy4/jpg"
+   },
+   {
+    "slug": "kkday-128141",
+    "partner": "kkday",
+    "title": "괌 돌핀 크루즈 & 스노쿨링 투어 (한국인 가이드)",
+    "source": "https://www.kkday.com/ko/product/128141",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_128141/20220329172432_SgGm0/jpg"
+   }
+  ]
+ },
+ "bali": {
+  "name": "발리",
+  "slug": "bali",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-bali",
+   "hotelAgoda": "hotel-agoda-bali",
+   "flightTrip": "flight-trip-bali",
+   "tourKkday": "tour-kkday-bali",
+   "tourKlook": "tour-klook-bali"
+  },
+  "products": [
+   {
+    "slug": "klook-96022",
+    "partner": "klook",
+    "title": "바투르산 일출 지프 투어 & 트레킹 (사진작가 선택 가능)",
+    "source": "https://www.klook.com/ko/activity/96022-mount-batur-jeep-trekking-sunrise-kintamani-bali/",
+    "image": ""
+   },
+   {
+    "slug": "klook-122675",
+    "partner": "klook",
+    "title": "누사 페니다 스노클링 체험 (스노클링 포인트 3-4곳)",
+    "source": "https://www.klook.com/ko/activity/122675-snorkeling-experience-in-nusa-penida-4-snorkeling-spots/",
+    "image": ""
+   },
+   {
+    "slug": "klook-15758",
+    "partner": "klook",
+    "title": "발리 누사 페니다 1일 투어",
+    "source": "https://www.klook.com/ko/activity/15758-nusa-penida-full-day-trip-bali/",
+    "image": ""
+   },
+   {
+    "slug": "klook-175",
+    "partner": "klook",
+    "title": "발리 워터봄 티켓",
+    "source": "https://www.klook.com/ko/activity/175-waterbom-bali/",
+    "image": ""
+   },
+   {
+    "slug": "klook-18269",
+    "partner": "klook",
+    "title": "ATV 체험 & 아융강 래프팅 콤보 패키지 (점심 식사 포함)",
+    "source": "https://www.klook.com/ko/activity/18269-atv-ride-ayung-rafting-bali/",
+    "image": ""
+   },
+   {
+    "slug": "klook-20722",
+    "partner": "klook",
+    "title": "발리 인스타그램 명소 투어",
+    "source": "https://www.klook.com/ko/activity/20722-instagram-tour-bali/",
+    "image": ""
+   },
+   {
+    "slug": "klook-73775",
+    "partner": "klook",
+    "title": "바투르산 일출 지프 일일 투어 (사진 작가 동행)",
+    "source": "https://www.klook.com/ko/activity/73775-mount-batur-4wd-jeep-sunrise-tour-photographer-trip-bali/",
+    "image": ""
+   },
+   {
+    "slug": "klook-44132",
+    "partner": "klook",
+    "title": "발리 남부 해변 일일 투어",
+    "source": "https://www.klook.com/ko/activity/44132-bali-top-southern-beaches-uluwatu-kecak-dance-day-seafood-dinner/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-142235",
+    "partner": "kkday",
+    "title": "발리 호텔 픽업/샌딩 서비스",
+    "source": "https://www.kkday.com/ko/product/142235-bali-hotel-transfer-indonesia",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_142235/20230424023423_MADNt/png"
+   },
+   {
+    "slug": "kkday-574957",
+    "partner": "kkday",
+    "title": "발리: ATV Bukit Sari에서 즐기는 울루와투 최고의 ATV 모험",
+    "source": "https://www.kkday.com/ko/product/574957",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_12624/20260306154044_AtrPp/jpg"
+   },
+   {
+    "slug": "kkday-129108",
+    "partner": "kkday",
+    "title": "발리 울루와투 케착 & 파이어 댄스 쇼 · 인도네시아 공화국",
+    "source": "https://www.kkday.com/ko/product/129108-uluwatu-kecak-fire-dance-ticket-bali-indonesia",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_129108/20220823073151_Q4Vxr/jpg"
+   },
+   {
+    "slug": "kkday-137705",
+    "partner": "kkday",
+    "title": "발리 차량대절 투어 · 한국어 가이드 선택가능",
+    "source": "https://www.kkday.com/ko/product/137705-bali-private-car-charter-with-customizable-itinerary-and-optional-guide-indonesia",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_137705/20240802085407_SUTaQ/png"
+   },
+   {
+    "slug": "kkday-538379",
+    "partner": "kkday",
+    "title": "발리 응우라 라이 공항 이동 I 공항 왕복 개인 차량 + 호텔 이동",
+    "source": "https://www.kkday.com/ko/product/538379",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_scm_6949/20251029053851_baeui/jpg"
+   },
+   {
+    "slug": "kkday-9632",
+    "partner": "kkday",
+    "title": "발리 응우라라이 공항 프라이빗 이동 서비스",
+    "source": "https://www.kkday.com/ko/product/9632-ngurah-rai-international-airport-dps-private-airport-transfer-bali",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_20075/20240830091824_XqGyg/png"
+   }
+  ]
+ },
+ "shanghai": {
+  "name": "상하이",
+  "slug": "shanghai",
+  "klookOnly": false,
+  "links": {
+   "hotelTrip": "hotel-trip-shanghai",
+   "hotelAgoda": "hotel-agoda-shanghai",
+   "flightTrip": "flight-trip-shanghai",
+   "tourKkday": "tour-kkday-shanghai",
+   "tourKlook": "tour-klook-shanghai"
+  },
+  "products": [
+   {
+    "slug": "klook-152786",
+    "partner": "klook",
+    "title": "한국어가이드 동행탑승및설명-선택사항) 상하이 황포강유람선야경-시간선택가능",
+    "source": "https://www.klook.com/ko/activity/152786-huangpu-river-night-cruise-with-korean-narration/",
+    "image": ""
+   },
+   {
+    "slug": "klook-217971",
+    "partner": "klook",
+    "title": "[한국어가이드현장안내가이드설명-옵션-시간선택]상하이 황포강 야경유람선",
+    "source": "https://www.klook.com/ko/activity/217971-shanghai-huangpu-river-night-cruise-with-history/",
+    "image": ""
+   },
+   {
+    "slug": "klook-147546",
+    "partner": "klook",
+    "title": "[한국어가이드-매일출발] 우전야간투어",
+    "source": "https://www.klook.com/ko/activity/147546-night-tour-from-shanghai-to-uzhensu-hyang-village/",
+    "image": ""
+   },
+   {
+    "slug": "klook-16738",
+    "partner": "klook",
+    "title": "상하이 예원 입장권",
+    "source": "https://www.klook.com/ko/activity/16738-yu-garden-admission-ticket-shanghai/",
+    "image": ""
+   },
+   {
+    "slug": "klook-191095",
+    "partner": "klook",
+    "title": "매일출발+한국어가이드+VIP리무진버스+선물삼종세트·상하이우전수향마을",
+    "source": "https://www.klook.com/ko/activity/191095-wuzhen-water-town-night-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-167558",
+    "partner": "klook",
+    "title": "상하이 황푸강 야간 유람",
+    "source": "https://www.klook.com/ko/activity/167558-shanghai-huangpu-river-cruise-english-tour-guide/",
+    "image": ""
+   },
+   {
+    "slug": "klook-198787",
+    "partner": "klook",
+    "title": "[한국어 가이드] [버스투어]상해 주가각 수향마을+황푸강유람선 포함/예원 옛거리, 와이탄 야경",
+    "source": "https://www.klook.com/ko/activity/198787-shanghai-zhujiajiao-water-town-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-231156",
+    "partner": "klook",
+    "title": "[한국어 가이드] [2인출발확정/간식제공/최신차량/토요일최저가]상하이 우전(오진)수향마을 뱃놀이 & 야경투어",
+    "source": "https://www.klook.com/ko/activity/231156-korean-guide-shanghai-wuzhen-water-town-boat-night-tour/",
+    "image": ""
+   },
+   {
+    "slug": "kkday-526578",
+    "partner": "kkday",
+    "title": "리바이셰 게알 국수(리버뷰 레스토랑, 더 번드 위위안 지점)",
+    "source": "https://www.kkday.com/ko/product/526578",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_526578/20250711085649_VJDCW/jpg"
+   },
+   {
+    "slug": "kkday-287381",
+    "partner": "kkday",
+    "title": "상하이 우전 수향마을 동책&서책 투어+동책 유람선 포함 (한국어 가이드)",
+    "source": "https://www.kkday.com/ko/product/287381",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_15748/20260810061755_NvDib/png"
+   },
+   {
+    "slug": "kkday-579292",
+    "partner": "kkday",
+    "title": "상하이 캉다오마사지(康道天地 Kangdao massage) 에서 하루의 지친몸을 풀어보세요",
+    "source": "https://www.kkday.com/ko/product/579292",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_16778/20260411075016_B2xZH/jpg"
+   },
+   {
+    "slug": "kkday-152676",
+    "partner": "kkday",
+    "title": "[LuggAgent 상하이 수하물 대리점] 상하이 푸둥 국제공항 PVG/상하이 홍차오 국제공항 SHA - 상하이 도시 호텔 수",
+    "source": "https://www.kkday.com/ko/product/152676",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_153%2Cq_55%2Ct_webp%2Cw_272/s1.kkday.com/product_152676/20230922022933_sYgEC/jpg"
+   },
+   {
+    "slug": "kkday-705029",
+    "partner": "kkday",
+    "title": "[한국어 가이드] 상해 주가각 수향마을+황푸강유람선 포함/예원 옛거리, 와이탄 야경",
+    "source": "https://www.kkday.com/ko/product/705029",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_scm_28133/20260810075748_ExFtW/png"
+   },
+   {
+    "slug": "kkday-153611",
+    "partner": "kkday",
+    "title": "상하이 마시청서커스 A석 할인티켓 ERA2 시공의여행",
+    "source": "https://www.kkday.com/ko/product/153611-shanghai-circus-world-ticket-china",
+    "image": "https://image.kkday.com/image/get/c_fill%2Ch_306%2Cq_55%2Ct_webp%2Cw_544/s1.kkday.com/product_153611/20231013033613_Q48Rq/jpg"
+   }
+  ]
+ },
+ "paris": {
+  "name": "파리",
+  "slug": "paris",
+  "klookOnly": true,
+  "links": {
+   "tourKlook": "tour-klook-paris"
+  },
+  "products": [
+   {
+    "slug": "klook-7467",
+    "partner": "klook",
+    "title": "루브르 박물관 티켓",
+    "source": "https://www.klook.com/ko/activity/7467-louvre-museum-skip-the-line-ticket-paris/",
+    "image": ""
+   },
+   {
+    "slug": "klook-3310",
+    "partner": "klook",
+    "title": "파리 뮤지엄 패스",
+    "source": "https://www.klook.com/ko/activity/3310-museum-pass-paris/",
+    "image": ""
+   },
+   {
+    "slug": "klook-64719",
+    "partner": "klook",
+    "title": "[한국어가이드][인디고트래블] 몽생미셸 핵심/플러스 투어",
+    "source": "https://www.klook.com/ko/activity/64719-mont-saint-michel-france-day-tour-korean-guide/",
+    "image": ""
+   },
+   {
+    "slug": "klook-18008",
+    "partner": "klook",
+    "title": "파리 세느강 1시간 시티 하이라이트 크루즈",
+    "source": "https://www.klook.com/ko/activity/18008-seine-river-sightseeing-combo-experience-paris/",
+    "image": ""
+   },
+   {
+    "slug": "klook-209793",
+    "partner": "klook",
+    "title": "한국어 가이드 - 파리 오전출발 베르사유 궁전 오픈런/거울의방+정원/반일자유/12시종료",
+    "source": "https://www.klook.com/ko/activity/209793-korean-guide-versailles-palace-morning-tour-from-paris/",
+    "image": ""
+   },
+   {
+    "slug": "klook-89720",
+    "partner": "klook",
+    "title": "몽생미셸 교통편 포함 당일 투어",
+    "source": "https://www.klook.com/ko/activity/89720-mont-saint-michel-ticket-tour-paris-multiple-locations/",
+    "image": ""
+   },
+   {
+    "slug": "klook-72864",
+    "partner": "klook",
+    "title": "클룩 파리 패스",
+    "source": "https://www.klook.com/ko/activity/72864-klook-pass-paris/",
+    "image": ""
+   },
+   {
+    "slug": "klook-97666",
+    "partner": "klook",
+    "title": "파리 가이드 투어 (15개 명소 포함)",
+    "source": "https://www.klook.com/ko/activity/97666-best-paris-guided-tour/",
+    "image": ""
+   }
+  ]
+ },
+ "rome": {
+  "name": "로마",
+  "slug": "rome",
+  "klookOnly": true,
+  "links": {
+   "tourKlook": "tour-klook-rome"
+  },
+  "products": [
+   {
+    "slug": "klook-15699",
+    "partner": "klook",
+    "title": "로마 콜로세움 & 포로 로마노 & 팔라티노 언덕 입장권 (콜로세움 통합권)",
+    "source": "https://www.klook.com/ko/activity/15699-colosseum-skip-line-ticket-rome/",
+    "image": ""
+   },
+   {
+    "slug": "klook-182616",
+    "partner": "klook",
+    "title": "[한국어 가이드] [당일] ♥포지타노 자유시간 보장, 인생샷♥ 이탈리아 남부투어 (로마 출발)",
+    "source": "https://www.klook.com/ko/activity/182616-korean-guide-italy-southern-coast-tour-rome-departure/",
+    "image": ""
+   },
+   {
+    "slug": "klook-192282",
+    "partner": "klook",
+    "title": "[한국어 가이드]🌲[도슨트 투어/토스카나] 투어와 이동을 동시에🌲로마 출도착 ⇄ 피렌체 중앙역 하차",
+    "source": "https://www.klook.com/ko/activity/192282-korean-guide-tuscany-day-tour-with-transfer-rome-florence/",
+    "image": ""
+   },
+   {
+    "slug": "klook-19636",
+    "partner": "klook",
+    "title": "로마 바티칸 박물관 & 시스티나 대성당 입장권",
+    "source": "https://www.klook.com/ko/activity/19636-vatican-museums-sistine-chapel-ticket-rome/",
+    "image": ""
+   },
+   {
+    "slug": "klook-204126",
+    "partner": "klook",
+    "title": "[한국어 가이드] 🇮🇹 오전을 알차게! 로마 바티칸 투어(베드로 성당까지 함께) 여행일기 도슨트 투어",
+    "source": "https://www.klook.com/ko/activity/204126-korean-guide-vatican-tour-in-rome/",
+    "image": ""
+   },
+   {
+    "slug": "klook-103375",
+    "partner": "klook",
+    "title": "[한국어 가이드][우노트래블] 이탈리아 남부-포지타노-아말피 코스트 일일 투어 페리탑승! (로마출발)",
+    "source": "https://www.klook.com/ko/activity/103375-amalfi-coast-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-182439",
+    "partner": "klook",
+    "title": "[한국어 가이드] 📚바티칸 패스트트랙⛪️베드로성당,피나코테카🖌내부입장 및 설명 [도슨트 트래블]",
+    "source": "https://www.klook.com/ko/activity/182439-korean-guide-vatican-morning-tour-fast-track-entry/",
+    "image": ""
+   },
+   {
+    "slug": "klook-182226",
+    "partner": "klook",
+    "title": "[한국어 가이드] [가이드동반내부입장][티켓최대확보] 콜로세움+포로로마노 오전,오후입장투어 / 야경투어 할인 제공 2만원",
+    "source": "https://www.klook.com/ko/activity/182226-premium-colosseum-roman-forum-tour-morning-or-afternoon/",
+    "image": ""
+   }
+  ]
+ },
+ "barcelona": {
+  "name": "바르셀로나",
+  "slug": "barcelona",
+  "klookOnly": true,
+  "links": {
+   "tourKlook": "tour-klook-barcelona"
+  },
+  "products": [
+   {
+    "slug": "klook-20380",
+    "partner": "klook",
+    "title": "바르셀로나 사그라다 파밀리아 성당 입장권",
+    "source": "https://www.klook.com/ko/activity/20380-sagrada-familia-ticket-barcelona/",
+    "image": ""
+   },
+   {
+    "slug": "klook-77199",
+    "partner": "klook",
+    "title": "[한국어 가이드] 스페인 바르셀로나 가우디 투어 반일 차량 포함 인문학",
+    "source": "https://www.klook.com/ko/activity/77199-gaudi-tour-half-day-barcelona/",
+    "image": ""
+   },
+   {
+    "slug": "klook-86549",
+    "partner": "klook",
+    "title": "바르셀로나 스포티파이 캄프 누 경기 입장권",
+    "source": "https://www.klook.com/ko/activity/86549-football-club-barcelona-match-ticket-camp-nou-stadium/",
+    "image": ""
+   },
+   {
+    "slug": "klook-230484",
+    "partner": "klook",
+    "title": "사그라다 파밀리아 입장권 (타워 입장 포함)",
+    "source": "https://www.klook.com/ko/activity/230484-sagrada-familia-entry-ticket-with-tower-access/",
+    "image": ""
+   },
+   {
+    "slug": "klook-82227",
+    "partner": "klook",
+    "title": "클룩 바르셀로나 패스",
+    "source": "https://www.klook.com/ko/activity/82227-klook-pass-barcelona-pass/",
+    "image": ""
+   },
+   {
+    "slug": "klook-87346",
+    "partner": "klook",
+    "title": "안도라 및 프랑스 가이드 일일 투어",
+    "source": "https://www.klook.com/ko/activity/87346-andorra-and-france-from-barcelona-one-day-tour/",
+    "image": ""
+   },
+   {
+    "slug": "klook-228388",
+    "partner": "klook",
+    "title": "사그라다 파밀리아 가이드 투어",
+    "source": "https://www.klook.com/ko/activity/228388-sagrada-familia-guided-tour-available-in-multiple-languages/",
+    "image": ""
+   },
+   {
+    "slug": "klook-21613",
+    "partner": "klook",
+    "title": "[한국어 가이드][인디고트래블] 스페인 몬세라트 & 시체스 일일 버스투어 - 바르셀로나 출발",
+    "source": "https://www.klook.com/ko/activity/21613-montserrat-sitges-day-tour-barcelona/",
+    "image": ""
+   }
+  ]
+ }
+}

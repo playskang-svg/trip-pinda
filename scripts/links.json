@@ -1,0 +1,553 @@
+{
+ "klook-coupon": {
+  "url": "https://3ha.in/r/848714",
+  "title": "클룩 세시간전 전용 할인쿠폰",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/tetris/promo/threehoursahead/"
+ },
+ "trip-coupon-activity": {
+  "url": "https://3ha.in/r/848945",
+  "title": "트립닷컴 액티비티",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/things-to-do/"
+ },
+ "trip-home": {
+  "url": "https://3ha.in/r/848947",
+  "title": "트립닷컴",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/"
+ },
+ "trip-hotels": {
+  "url": "https://3ha.in/r/848948",
+  "title": "트립닷컴 호텔",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/"
+ },
+ "traveloka-china": {
+  "url": "https://3ha.in/r/848904",
+  "title": "트래블로카 떠나요 중국",
+  "program": "partnerize_traveloka",
+  "landing": "https://www.traveloka.com/ko-kr/promotion/travel-to-china"
+ },
+ "traveloka-parata": {
+  "url": "https://3ha.in/r/848906",
+  "title": "트래블로카 파라타항공",
+  "program": "partnerize_traveloka",
+  "landing": "https://www.traveloka.com/ko-kr/flight/airline/parata-air.we"
+ },
+ "traveloka-home": {
+  "url": "https://3ha.in/r/848949",
+  "title": "트래블로카",
+  "program": "partnerize_traveloka",
+  "landing": "https://www.traveloka.com/ko-kr"
+ },
+ "kkday-yokabus": {
+  "url": "https://3ha.in/r/848910",
+  "title": "KKday 후쿠오카 요카버스",
+  "program": "kkday",
+  "landing": "https://www.kkday.com/ko/promo/fukuoka_yokabus_kr"
+ },
+ "klook-china": {
+  "url": "https://3ha.in/r/848950",
+  "title": "클룩 중국 여행 기획전",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/tetris/promo/affiliatefollowmechina/"
+ },
+ "klook-car": {
+  "url": "https://3ha.in/r/848951",
+  "title": "클룩 렌터카",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/car-rentals/"
+ },
+ "agoda-home": {
+  "url": "https://3ha.in/r/848953",
+  "title": "아고다",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/ko-kr/"
+ },
+ "nol-home": {
+  "url": "https://3ha.in/r/848958",
+  "title": "NOL 야놀자",
+  "program": "linkprice_yanolja",
+  "landing": "https://nol.yanolja.com/"
+ },
+ "tripstore-home": {
+  "url": "https://3ha.in/r/848961",
+  "title": "트립스토어",
+  "program": "tripstore",
+  "landing": "https://www.tripstore.kr/"
+ },
+ "tiqets-home": {
+  "url": "https://3ha.in/r/848963",
+  "title": "Tiqets",
+  "program": "tiqets",
+  "landing": "https://www.tiqets.com/ko/"
+ },
+ "hanatour-home": {
+  "url": "https://3ha.in/r/848964",
+  "title": "하나투어",
+  "program": "hanatour",
+  "landing": "https://3hoursahead.hanatour.com/"
+ },
+ "ttang-home": {
+  "url": "https://3ha.in/r/848965",
+  "title": "땡처리닷컴",
+  "program": "linkprice_ttang",
+  "landing": "https://ttang.com/index.do"
+ },
+ "holafly-home": {
+  "url": "https://3ha.in/r/848967",
+  "title": "Holafly eSIM",
+  "program": "impactcom_holafly",
+  "landing": "https://esim.holafly.com/ko/"
+ },
+ "lounge-home": {
+  "url": "https://3ha.in/r/848968",
+  "title": "더라운지 공항 라운지",
+  "program": "ebridge",
+  "landing": "https://3hoursahead.theloungemembers.com/sale/"
+ },
+ "yeogi-double": {
+  "url": "https://3ha.in/r/848974",
+  "title": "더블쿠폰 핫세일",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/event/3628/%25EB%258D%2594%25EB%25B8%2594%25EC%25BF%25A0%25ED%258F%25B0%2520%25ED%2595%25AB%25EC%2584%25B8%25EC%259D%25BC/https%3A%2F%2Fapi3.goodchoice.kr%2Fevent3%2Fweb%2FadEventView%3Faevno%3D3628"
+ },
+ "yeogi-domestic": {
+  "url": "https://3ha.in/r/848976",
+  "title": "국내여행 오픈런",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/event/4457/%25EA%25B5%25AD%25EB%2582%25B4%25EC%2597%25AC%25ED%2596%2589%25EC%2598%25A4%25ED%2594%2588%25EB%259F%25B0%2520/https%3A%2F%2Fapi3.goodchoice.kr%2Fevent3%2Fweb%2FadEventView%3Faevno%3D4457"
+ },
+ "yeogi-overseas": {
+  "url": "https://3ha.in/r/848977",
+  "title": "해외여행 오픈런",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/event/4458/%25ED%2595%25B4%25EC%2599%25B8%25EC%2597%25AC%25ED%2596%2589%2520%25EC%2598%25A4%25ED%2594%2588%25EB%259F%25B0/https%3A%2F%2Fapi3.goodchoice.kr%2Fevent3%2Fweb%2FadEventView%3Faevno%3D4458"
+ },
+ "yeogi-lowest": {
+  "url": "https://3ha.in/r/848979",
+  "title": "해외 숙소 최저가 보상제",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/event/3749/%25ED%2595%25B4%25EC%2599%25B8%2520%25EC%2588%2599%25EC%2586%258C%2520%25EC%25B5%259C%25EC%25A0%2580%25EA%25B0%2580%2520%25EB%25B3%25B4%25EC%2583%2581%25EC%25A0%259C/https%3A%2F%2Fapi3.goodchoice.kr%2Fevent3%2Fweb%2FadEventView%3Faevno%3D3749"
+ },
+ "yeogi-home": {
+  "url": "https://3ha.in/r/848981",
+  "title": "국내외 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/"
+ },
+ "hotel-trip-tokyo": {
+  "url": "https://3ha.in/r/848983",
+  "title": "도쿄 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=228"
+ },
+ "tour-klook-tokyo": {
+  "url": "https://3ha.in/r/848990",
+  "title": "도쿄 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c28-tokyo/"
+ },
+ "hotel-trip-osaka": {
+  "url": "https://3ha.in/r/848992",
+  "title": "오사카 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=219"
+ },
+ "tour-klook-osaka": {
+  "url": "https://3ha.in/r/848999",
+  "title": "오사카 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c29-osaka/"
+ },
+ "hotel-trip-kyoto": {
+  "url": "https://3ha.in/r/849000",
+  "title": "교토 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=734"
+ },
+ "tour-klook-kyoto": {
+  "url": "https://3ha.in/r/849004",
+  "title": "교토 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c30-kyoto/"
+ },
+ "hotel-trip-fukuoka": {
+  "url": "https://3ha.in/r/849005",
+  "title": "후쿠오카 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=248"
+ },
+ "tour-klook-fukuoka": {
+  "url": "https://3ha.in/r/849008",
+  "title": "후쿠오카 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c5209-fukuoka/"
+ },
+ "hotel-trip-sapporo": {
+  "url": "https://3ha.in/r/849010",
+  "title": "삿포로 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=641"
+ },
+ "tour-klook-sapporo": {
+  "url": "https://3ha.in/r/849012",
+  "title": "삿포로 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c133938-sapporo/"
+ },
+ "tour-klook-okinawa": {
+  "url": "https://3ha.in/r/849019",
+  "title": "오키나와 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c13641-naha/"
+ },
+ "hotel-trip-danang": {
+  "url": "https://3ha.in/r/849022",
+  "title": "다낭 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=1356"
+ },
+ "tour-klook-danang": {
+  "url": "https://3ha.in/r/849028",
+  "title": "다낭 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c74-da-nang/"
+ },
+ "hotel-trip-nhatrang": {
+  "url": "https://3ha.in/r/849030",
+  "title": "나트랑 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=1777"
+ },
+ "tour-klook-nhatrang": {
+  "url": "https://3ha.in/r/849034",
+  "title": "나트랑 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c208-nha-trang/"
+ },
+ "hotel-trip-phuquoc": {
+  "url": "https://3ha.in/r/849035",
+  "title": "푸꾸옥 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=5649"
+ },
+ "tour-klook-phuquoc": {
+  "url": "https://3ha.in/r/849040",
+  "title": "푸꾸옥 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c130-phu-quoc/"
+ },
+ "hotel-trip-hanoi": {
+  "url": "https://3ha.in/r/849041",
+  "title": "하노이 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=286"
+ },
+ "tour-klook-hanoi": {
+  "url": "https://3ha.in/r/849043",
+  "title": "하노이 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c34-hanoi/"
+ },
+ "tour-klook-hochiminh": {
+  "url": "https://3ha.in/r/849047",
+  "title": "호치민 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c33-ho-chi-minh-city/"
+ },
+ "hotel-trip-bangkok": {
+  "url": "https://3ha.in/r/849048",
+  "title": "방콕 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=359"
+ },
+ "tour-klook-bangkok": {
+  "url": "https://3ha.in/r/849057",
+  "title": "방콕 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c4-bangkok/"
+ },
+ "hotel-trip-phuket": {
+  "url": "https://3ha.in/r/849058",
+  "title": "푸켓 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=725"
+ },
+ "tour-klook-phuket": {
+  "url": "https://3ha.in/r/849064",
+  "title": "푸켓 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c7-phuket/"
+ },
+ "hotel-trip-chiangmai": {
+  "url": "https://3ha.in/r/849065",
+  "title": "치앙마이 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=623"
+ },
+ "tour-klook-chiangmai": {
+  "url": "https://3ha.in/r/849073",
+  "title": "치앙마이 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c5-chiang-mai/"
+ },
+ "hotel-trip-taipei": {
+  "url": "https://3ha.in/r/849079",
+  "title": "타이베이 호텔 (트립닷컴)",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/list?city=617"
+ },
+ "tour-klook-taipei": {
+  "url": "https://3ha.in/r/849083",
+  "title": "타이베이 투어 (클룩)",
+  "program": "klook",
+  "landing": "https://www.klook.com/ko/destination/c19-taipei/"
+ },
+ "trip-carhire": {
+  "url": "https://3ha.in/r/805761",
+  "title": "국내외 렌트카 가격비교 및 최저가 예약 | 트립닷컴",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/carhire",
+  "reused": true
+ },
+ "usimsa-home": {
+  "url": "https://3ha.in/r/802301",
+  "title": "유심사 프로모션",
+  "program": "usimsa",
+  "landing": "https://www.usimsa.com/partners/136206",
+  "reused": true
+ },
+ "flight-trip-general": {
+  "url": "https://3ha.in/r/805757",
+  "title": "서울 도쿄 항공권",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/flights/flightfirst",
+  "reused": true
+ },
+ "trip-airport": {
+  "url": "https://3ha.in/r/848947",
+  "title": "트립닷컴",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/",
+  "fallback": true
+ },
+ "agoda-804710": {
+  "url": "https://3ha.in/r/804710",
+  "title": "니시테츠 호텔 텐진, 후쿠오카, 일본",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_804710&pcs=1&hid=230581",
+  "reused": true
+ },
+ "agoda-804709": {
+  "url": "https://3ha.in/r/804709",
+  "title": "니시테츠 호텔 크룸 하카타, 후쿠오카, 일본",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_804709&pcs=1&hid=236962",
+  "reused": true
+ },
+ "kkday-18618": {
+  "url": "https://3ha.in/r/803205",
+  "title": "USJ 익스프레스 패스",
+  "program": "kkday",
+  "landing": "https://www.kkday.com/product/18618?cid=14710&ud1=136206_803205",
+  "reused": true
+ },
+ "kkday-2247": {
+  "url": "https://3ha.in/r/803203",
+  "title": "유니버설 스튜디오 재팬 입장권",
+  "program": "kkday",
+  "landing": "https://www.kkday.com/product/2247?cid=14710&ud1=136206_803203",
+  "reused": true
+ },
+ "agoda-803186": {
+  "url": "https://3ha.in/r/803186",
+  "title": "루비 스타 다낭 센트럴 미케 비치, 다낭, 베트남",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_803186&pcs=1&hid=38703429",
+  "reused": true
+ },
+ "agoda-732906": {
+  "url": "https://3ha.in/r/732906",
+  "title": "더 리츠 칼튼 도쿄, 도쿄 / 동경, 일본",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_732906&pcs=1&hid=9074254",
+  "reused": true
+ },
+ "trip-705448": {
+  "url": "https://3ha.in/r/684453",
+  "title": "JR 큐슈 호텔 블러섬 후쿠오카",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/fukuoka-hotel-detail-705448/jr-kyushu-hotel-blossom-fukuoka?Allianceid=4869586&SID=79540042&trip_sub1=136206_684453",
+  "reused": true
+ },
+ "trip-49507812": {
+  "url": "https://3ha.in/r/684451",
+  "title": "호텔 몬토레 후쿠오카",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/fukuoka-hotel-detail-49507812/hotel-monterey-fukuoka?Allianceid=4869586&SID=79540042&trip_sub1=136206_684451",
+  "reused": true
+ },
+ "trip-38934428": {
+  "url": "https://3ha.in/r/684450",
+  "title": "더 블라썸 하카타 프리미어 호텔 - 후쿠오카 호텔 가격, 후기 | 트립닷컴",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/fukuoka-hotel-detail-38934428/the-blossom-hakata-premier?Allianceid=4869586&SID=79540042&trip_sub1=136206_684450",
+  "reused": true
+ },
+ "trip-2803775": {
+  "url": "https://3ha.in/r/684448",
+  "title": "더 파크 프론트 호텔 앳 유니버셜 스튜디오 재팬 호텔 후기, 예약 오사카 호텔 추천 | 트립닷컴",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/osaka-hotel-detail-2803775/the-park-front-hotel-at-universal-studios-japan?Allianceid=4869586&SID=79540042&trip_sub1=136206_684448",
+  "reused": true
+ },
+ "trip-37082416": {
+  "url": "https://3ha.in/r/684447",
+  "title": "호텔 한큐 레스파이어 오사카 호텔 - 오사카 호텔 가격, 후기 | 트립닷컴",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/osaka-hotel-detail-37082416/hotel-hankyu-respire-osaka?Allianceid=4869586&SID=79540042&trip_sub1=136206_684447",
+  "reused": true
+ },
+ "trip-688216": {
+  "url": "https://3ha.in/r/684446",
+  "title": "호텔 몬토레 그라스미아 오사카 후기 및 특가 예약, 오사카 2026 | 트립닷컴",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/osaka-hotel-detail-688216/hotel-monterey-grasmere-osaka?Allianceid=4869586&SID=79540042&trip_sub1=136206_684446",
+  "reused": true
+ },
+ "trip-994472": {
+  "url": "https://3ha.in/r/684444",
+  "title": "시부야 엑셀 호텔 도큐 호텔 후기, 예약 도쿄 호텔 추천 | 트립닷컴",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/tokyo-hotel-detail-994472/shibuya-excel-hotel-tokyu?Allianceid=4869586&SID=79540042&trip_sub1=136206_684444",
+  "reused": true
+ },
+ "trip-1841600": {
+  "url": "https://3ha.in/r/684441",
+  "title": "호텔 그레이스리 신주쿠 후기, 가격 도쿄 호텔 추천 | 트립닷컴",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/hotels/tokyo-hotel-detail-1841600/hotel-gracery-shinjuku?Allianceid=4869586&SID=79540042&trip_sub1=136206_684441",
+  "reused": true
+ },
+ "klook-28959": {
+  "url": "https://3ha.in/r/684278",
+  "title": "후쿠오카 우미노나카미치 마린월드 입장권 - 클룩 Klook 한국",
+  "program": "klook",
+  "landing": "https://affiliate.klook.com/redirect?aid=15500&aff_pid=136206_684278&aff_label1=136206_684278&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F28959-uminonakamichi-marine-world-ticket-fukuoka",
+  "reused": true
+ },
+ "klook-19854": {
+  "url": "https://3ha.in/r/684277",
+  "title": "후쿠오카 타워 입장권 - 클룩 Klook 한국",
+  "program": "klook",
+  "landing": "https://affiliate.klook.com/redirect?aid=15500&aff_pid=136206_684277&aff_label1=136206_684277&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F19854-tower-entrance-ticket-fukuoka",
+  "reused": true
+ },
+ "klook-94833": {
+  "url": "https://3ha.in/r/684275",
+  "title": "후쿠오카 투어리스트 시티 패스",
+  "program": "klook",
+  "landing": "https://affiliate.klook.com/redirect?aid=15500&aff_pid=136206_684275&aff_label1=136206_684275&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F94833-fukuoka-tourist-city-pass",
+  "reused": true
+ },
+ "klook-82312": {
+  "url": "https://3ha.in/r/684274",
+  "title": "오사카 주유패스/오사카 E-패스 - 클룩 Klook 한국",
+  "program": "klook",
+  "landing": "https://affiliate.klook.com/redirect?aid=15500&aff_pid=136206_684274&aff_label1=136206_684274&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F82312-amazing-pass-osaka",
+  "reused": true
+ },
+ "klook-3407": {
+  "url": "https://3ha.in/r/684272",
+  "title": "오사카 유니버셜 스튜디오 재팬 익스프레스 패스 - 클룩 Klook 한국",
+  "program": "klook",
+  "landing": "https://affiliate.klook.com/redirect?aid=15500&aff_pid=136206_684272&aff_label1=136206_684272&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F3407-universal-studios-japan-express-pass-osaka",
+  "reused": true
+ },
+ "klook-46604": {
+  "url": "https://3ha.in/r/684270",
+  "title": "오사카 유니버셜 스튜디오 재팬 입장권 - 클룩 Klook 한국",
+  "program": "klook",
+  "landing": "https://affiliate.klook.com/redirect?aid=15500&aff_pid=136206_684270&aff_label1=136206_684270&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F46604",
+  "reused": true
+ },
+ "klook-25300": {
+  "url": "https://3ha.in/r/684268",
+  "title": "도쿄 팀랩 플래닛 입장권 - 클룩 Klook 한국",
+  "program": "klook",
+  "landing": "https://affiliate.klook.com/redirect?aid=15500&aff_pid=136206_684268&aff_label1=136206_684268&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F25300-teamlab-planets-toyosu-tokyo-ticket",
+  "reused": true
+ },
+ "klook-41352": {
+  "url": "https://3ha.in/r/684266",
+  "title": "도쿄 스카이트리® 입장권 - 클룩 Klook 한국",
+  "program": "klook",
+  "landing": "https://affiliate.klook.com/redirect?aid=15500&aff_pid=136206_684266&aff_label1=136206_684266&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F41352-tokyo-skytree",
+  "reused": true
+ },
+ "klook-70672": {
+  "url": "https://3ha.in/r/684262",
+  "title": "도쿄 시부야 스카이 전망대 입장권 - 클룩 Klook 한국",
+  "program": "klook",
+  "landing": "https://affiliate.klook.com/redirect?aid=15500&aff_pid=136206_684262&aff_label1=136206_684262&aff_adid=&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F70672-shibuya-sky-tokyo",
+  "reused": true
+ },
+ "agoda-684245": {
+  "url": "https://3ha.in/r/684245",
+  "title": "호텔 몬트레이 라 수르 후쿠오카, 후쿠오카, 일본",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684245&pcs=1&hid=9078677",
+  "reused": true
+ },
+ "agoda-684244": {
+  "url": "https://3ha.in/r/684244",
+  "title": "더 블라섬 하카타 프리미어, 후쿠오카, 일본",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684244&pcs=1&hid=11279364",
+  "reused": true
+ },
+ "agoda-684243": {
+  "url": "https://3ha.in/r/684243",
+  "title": "더 파크 프런트 호텔 앳 유니버설 스튜디오 재팬, 오사카, 일본",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684243&pcs=1&hid=1155344",
+  "reused": true
+ },
+ "agoda-684242": {
+  "url": "https://3ha.in/r/684242",
+  "title": "호텔 한큐 레스파이어 오사카, 오사카, 일본",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684242&pcs=1&hid=10568063",
+  "reused": true
+ },
+ "agoda-684241": {
+  "url": "https://3ha.in/r/684241",
+  "title": "호텔 몬토레 그라스미아 오사카, 오사카, 일본",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684241&pcs=1&hid=161798",
+  "reused": true
+ },
+ "agoda-684234": {
+  "url": "https://3ha.in/r/684234",
+  "title": "JR 큐슈 호텔 블로섬 하카타 센트럴, 후쿠오카, 일본",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684234&pcs=1&hid=3008386",
+  "reused": true
+ },
+ "agoda-684229": {
+  "url": "https://3ha.in/r/684229",
+  "title": "시부야 엑셀 호텔 도큐, 도쿄 / 동경, 일본",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684229&pcs=1&hid=7005",
+  "reused": true
+ },
+ "agoda-684222": {
+  "url": "https://3ha.in/r/684222",
+  "title": "호텔 그레이스리 신주쿠, 도쿄 / 동경, 일본",
+  "program": "agoda",
+  "landing": "https://www.agoda.com/partners/partnersearch.aspx?cid=1917980&tag=136206_684222&pcs=1&hid=706347",
+  "reused": true
+ }
+}

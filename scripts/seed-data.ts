@@ -1,0 +1,407 @@
+// Codes and conditions below were read from the 3hoursahead studio promotion pages on 2026-11-01.
+// Titles must not contain the two partner names whose programs forbid them in content titles (see README).
+export const VERIFIED = '2026-11-01T03:00:00.000Z'
+const END_2026 = '2026-12-31'
+
+type Text = string | { text: string; link: string }
+export type Block =
+  | { h2: string }
+  | { h3: string }
+  | { p: Text[] | string }
+  | { ul: string[] }
+  | { ol: string[] }
+
+export const photos: Record<string, string> = {
+  hero: '여행 가방을 끌고 공항을 걷는 한국인 여성',
+  deals: '공항 벤치에서 휴대폰으로 할인코드를 확인하는 한국인 여성',
+  posts: '카페에서 노트북으로 여행 일정을 짜는 한국인 여성',
+  hotels: '호텔 객실 창가에서 도시 풍경을 보는 한국인 여성',
+  flights: '공항 탑승구 앞에서 창밖 비행기를 보는 한국인 여성',
+  tours: '유럽 광장을 걸으며 사진을 찍는 한국인 여성',
+  transport: '공항 도착장에서 픽업 기사를 만나는 한국인 여성',
+  rentcar: '해안 도로에서 렌터카를 운전하는 한국인 여성',
+  esim: '해외 거리에서 휴대폰 데이터를 확인하는 한국인 여성',
+  package: '리조트 수영장 옆에 앉아 쉬는 한국인 가족',
+}
+
+export const categories = [
+  { slug: 'hotels', title: '호텔·숙소', order: 1, lede: '국내 펜션부터 해외 호텔까지 도시별로 바로 비교하세요.', photo: '/photos/hotels.webp', photoAlt: photos.hotels },
+  { slug: 'flights', title: '항공권', order: 2, lede: '서울 출발 노선을 도시별로 열고, 결제 전에 항공권 코드를 넣으세요.', photo: '/photos/flights.webp', photoAlt: photos.flights },
+  { slug: 'tours', title: '투어·입장권', order: 3, lede: '테마파크, 전망대, 일일 투어를 여행지별로 모았습니다.', photo: '/photos/tours.webp', photoAlt: photos.tours },
+  { slug: 'transport', title: '공항·교통', order: 4, lede: '공항 픽업과 교통 패스는 도착 전에 예약해 두면 편합니다.', photo: '/photos/transport.webp', photoAlt: photos.transport },
+  { slug: 'rentcar', title: '렌터카', order: 5, lede: '대여 기간에 따라 더 유리한 코드가 달라집니다.', photo: '/photos/rentcar.webp', photoAlt: photos.rentcar },
+  { slug: 'esim', title: '유심·이심·라운지', order: 6, lede: '해외 데이터와 공항 라운지를 출국 전에 준비하세요.', photo: '/photos/esim.webp', photoAlt: photos.esim },
+  { slug: 'package', title: '패키지', order: 7, lede: '항공과 숙소를 한 번에 해결하는 패키지와 땡처리 상품입니다.', photo: '/photos/package.webp', photoAlt: photos.package },
+]
+
+export const partners = [
+  { slug: 'agoda', name: '아고다', logoOf: '아고다', categories: ['hotels'], link: 'agoda-home', blurb: '전 세계 호텔과 리조트를 도시별로 찾습니다.' },
+  { slug: 'tripcom', name: '트립닷컴', logoOf: '트립닷컴', categories: ['hotels', 'flights', 'transport', 'rentcar'], link: 'trip-home', blurb: '항공권, 호텔, 렌터카, 공항 픽업을 한곳에서 예약합니다.' },
+  { slug: 'yeogi', name: '여기어때', logoOf: '여기어때', categories: ['hotels'], link: 'yeogi-home', blurb: '국내 숙소와 해외 호텔 특가를 찾기 좋습니다.' },
+  { slug: 'hotelscom', name: '호텔스닷컴', logoOf: '호텔스닷컴', categories: ['hotels'], link: 'hotelscom-home', blurb: '해외 호텔 예약 전문 서비스입니다.' },
+  { slug: 'expedia', name: '익스피디아', logoOf: '익스피디아', categories: ['hotels', 'package', 'rentcar'], link: 'expedia-home', blurb: '호텔, 패키지, 렌터카를 함께 찾습니다.' },
+  { slug: 'hotelscombined', name: '호텔스컴바인', logoOf: '호텔스컴바인', categories: ['hotels'], link: 'hotelscombined-home', blurb: '여러 예약 사이트의 호텔 가격을 한 번에 비교합니다.' },
+  { slug: 'booking', name: '부킹닷컴', logoOf: '부킹닷컴', categories: ['hotels'], link: 'booking-home', blurb: '전 세계 숙소를 폭넓게 찾습니다.' },
+  { slug: 'nol', name: 'NOL 야놀자', logoOf: 'NOL(야놀자)', categories: ['hotels', 'tours'], link: 'nol-home', blurb: '국내 호텔과 레저 티켓을 찾기 좋습니다.' },
+  { slug: 'staynmore', name: '스테이앤모어', logoOf: '스테이앤모어', categories: ['hotels'], link: 'staynmore-home', blurb: '휴양지 리조트와 풀빌라 전문입니다.' },
+  { slug: 'rakuten', name: '라쿠텐트래블', logoOf: '라쿠텐트래블', categories: ['hotels'], link: 'rakuten-home', blurb: '일본 호텔과 료칸을 찾기 좋습니다.' },
+  { slug: 'minda', name: '민다', logoOf: '민다', categories: ['hotels', 'tours'], link: 'minda-home', blurb: '동남아 호텔과 투어를 함께 봅니다.' },
+  { slug: 'traveloka', name: '트래블로카', logoOf: '트래블로카', categories: ['flights'], link: 'traveloka-home', blurb: '동남아와 중국 노선 항공권 쿠폰이 자주 열립니다.' },
+  { slug: 'ttang', name: '땡처리닷컴', logoOf: '땡처리닷컴', categories: ['flights', 'package'], link: 'ttang-home', blurb: '출발이 가까운 항공권과 패키지 특가를 모읍니다.' },
+  { slug: 'kayak', name: '카약', logoOf: '카약', categories: ['flights', 'rentcar'], link: 'kayak-home', blurb: '항공권과 렌터카 가격을 비교합니다.' },
+  { slug: 'klook', name: '클룩', logoOf: '클룩', categories: ['tours', 'transport', 'rentcar'], link: 'klook-coupon', blurb: '입장권, 일일 투어, 교통 패스가 많습니다.' },
+  { slug: 'kkday', name: 'KKday', logoOf: '케이케이데이', categories: ['tours', 'transport'], link: 'kkday-yokabus', blurb: '아시아 여행 투어와 교통 상품이 많습니다.' },
+  { slug: 'waug', name: '와그', logoOf: '와그', categories: ['tours'], link: 'waug-home', blurb: '해외 투어와 액티비티를 찾습니다.' },
+  { slug: 'tiqets', name: 'Tiqets', logoOf: 'Tiqets', categories: ['tours'], link: 'tiqets-home', blurb: '박물관과 명소 입장권 전문입니다.' },
+  { slug: 'zoomzoom', name: '줌줌투어', logoOf: '줌줌투어', categories: ['tours'], link: 'zoomzoom-home', blurb: '유럽과 일본 현지 투어를 모았습니다.' },
+  { slug: 'tripstore', name: '트립스토어', logoOf: '트립스토어', categories: ['tours'], link: 'tripstore-home', blurb: '국내외 숙소와 투어 특가를 봅니다.' },
+  { slug: 'zzimcar', name: '찜카', logoOf: '찜카', categories: ['rentcar'], link: 'zzimcar-home', blurb: '국내외 렌터카 가격을 비교합니다.' },
+  { slug: 'usimsa', name: '유심사', logoOf: '유심사', categories: ['esim'], link: 'usimsa-home', blurb: '해외 이심과 유심을 판매합니다.' },
+  { slug: 'holafly', name: 'Holafly', logoOf: '올라플라이', categories: ['esim'], link: 'holafly-home', blurb: '해외 데이터 무제한 이심을 판매합니다.' },
+  { slug: 'lounge', name: '더라운지', logoOf: '더라운지', categories: ['esim'], link: 'lounge-home', blurb: '국내 공항 라운지 이용권과 이심을 판매합니다.' },
+  { slug: 'hanatour', name: '하나투어', logoOf: '하나투어', categories: ['package'], link: 'hanatour-home', blurb: '해외 패키지여행을 찾습니다.' },
+]
+
+export const deals = [
+  { title: '5만 원 이상 전 상품 쿠폰', partner: 'klook', category: 'tours', type: 'code', benefit: '2,000원 할인', code: '세시간전2600001', conditions: '5만 원 이상 구매 시. 일부 상품 제외, 계정당 1회, 예산 소진 시 종료될 수 있습니다.', endsAt: END_2026, link: 'klook-coupon', featured: true, order: 1, image: 'klook-coupon-1' },
+  { title: '10만 원 이상 전 상품 쿠폰', partner: 'klook', category: 'tours', type: 'code', benefit: '3,000원 할인', code: '세시간전2600002', conditions: '10만 원 이상 구매 시. 일부 상품 제외, 계정당 1회, 예산 소진 시 종료될 수 있습니다.', endsAt: END_2026, link: 'klook-coupon', featured: false, order: 2, image: 'klook-coupon-2' },
+  { title: '20만 원 이상 전 상품 쿠폰', partner: 'klook', category: 'tours', type: 'code', benefit: '7,000원 할인', code: '세시간전2600003', conditions: '20만 원 이상 구매 시. 일부 상품 제외, 계정당 1회, 예산 소진 시 종료될 수 있습니다.', endsAt: END_2026, link: 'klook-coupon', featured: true, order: 3, image: 'klook-coupon-3' },
+  { title: '액티비티 할인코드', partner: 'tripcom', category: 'tours', type: 'code', benefit: '7% 할인, 최대 1만 원', code: 'trippa07', conditions: '사용 횟수와 최소 결제 금액 제한 없음. 원화 결제만 적용됩니다.', endsAt: END_2026, link: 'trip-coupon-activity', featured: false, order: 4 },
+  { title: '렌터카 10% 할인코드', partner: 'tripcom', category: 'rentcar', type: 'code', benefit: '10% 할인, 최대 4만 원', code: 'TRIPCAR26KR', conditions: '계정당 최대 2회, 최소 결제 금액 없음. 다른 쿠폰과 중복할 수 없고 원화 결제만 적용됩니다.', endsAt: END_2026, link: 'trip-carhire', featured: true, order: 5 },
+  { title: '렌터카 3일 이상 12% 할인코드', partner: 'tripcom', category: 'rentcar', type: 'code', benefit: '12% 할인, 한도 없음', code: 'TRIPCAR12', conditions: '3일(72시간) 이상 예약 시, 계정당 1회. 원화 결제만 적용됩니다.', endsAt: END_2026, link: 'trip-carhire', featured: true, order: 6 },
+  { title: '공항 픽업·샌딩 할인코드', partner: 'tripcom', category: 'transport', type: 'code', benefit: '10% 할인, 최대 1만 3천 원', code: 'TRIPAIRPORT', conditions: '기본 픽업 요금에 적용되며 어린이 좌석, 보험 등 부가 서비스는 제외됩니다. 계정당 1회, 원화 결제만 적용됩니다.', endsAt: END_2026, link: 'trip-airport', featured: false, order: 7 },
+  { title: '항공권 앱 전용 할인코드', partner: 'traveloka', category: 'flights', type: 'code', benefit: '최대 5만 원 할인', code: '3HRSN', conditions: '앱 전용. 10만 원 이상 2,500원, 30만 원 이상 1만 원, 50만 원 이상 2만 원, 120만 원 이상 5만 원 할인. 원화 결제만, 수량 한정입니다.', endsAt: END_2026, link: 'traveloka-parata', featured: true, order: 8, image: 'traveloka-parata' },
+  { title: '항공권 PC 전용 할인코드', partner: 'traveloka', category: 'flights', type: 'code', benefit: '2,500원 할인', code: '3HRSNWEB', conditions: 'PC 전용. 10만 원 이상 결제 시. 원화 결제만, 수량 한정입니다.', endsAt: END_2026, link: 'traveloka-parata', featured: false, order: 9, image: 'traveloka-parata' },
+  { title: '중국 노선 월요일 선착순 쿠폰', partner: 'traveloka', category: 'flights', type: 'code', benefit: '50% 할인, 최대 5만 원', code: 'KRCN50', conditions: '매주 월요일 선착순으로 열립니다. 로그인 후 사용, 원화 결제만, 다른 쿠폰과 중복할 수 없습니다.', endsAt: END_2026, link: 'traveloka-china', featured: true, order: 10, image: 'traveloka-china' },
+  { title: '중국 노선 항공권 쿠폰', partner: 'traveloka', category: 'flights', type: 'code', benefit: '1만 원 할인', code: 'KRCNFL', conditions: '50만 원 이상 결제 시. 로그인 후 사용, 원화 결제만, 다른 쿠폰과 중복할 수 없습니다.', endsAt: END_2026, link: 'traveloka-china', featured: false, order: 11, image: 'traveloka-china' },
+  { title: '후쿠오카 요카버스 투어 쿠폰', partner: 'kkday', category: 'tours', type: 'code', benefit: '최대 50% 할인', code: 'GOFUKUOKA', conditions: '요카버스 프로모션 페이지 상품에만 적용됩니다. 다른 쿠폰과 중복할 수 없고 한국 회원 대상입니다.', endsAt: '2027-02-28', link: 'kkday-yokabus', featured: true, order: 12, image: 'kkday-yokabus' },
+  { title: '이심·유심 자동 할인', partner: 'usimsa', category: 'esim', type: 'auto', benefit: '20% 할인', code: null, conditions: '이 경로로 들어가 구매하면 코드 없이 20%가 할인됩니다.', endsAt: null, link: 'usimsa-home', featured: true, order: 20 },
+  { title: '무제한 이심 자동 할인', partner: 'holafly', category: 'esim', type: 'auto', benefit: '5% 할인', code: null, conditions: '이 경로로 들어가 구매하면 코드 없이 5%가 할인됩니다.', endsAt: null, link: 'holafly-home', featured: false, order: 21 },
+  { title: '매월 1~10일 더블쿠폰 핫세일', partner: 'yeogi', category: 'hotels', type: 'event', benefit: '할인 쿠폰 + 추가 쿠폰', code: null, conditions: '매월 1일부터 10일까지 열리는 국내 호텔·펜션 쿠폰 이벤트입니다.', endsAt: null, link: 'yeogi-double', featured: true, order: 30 },
+  { title: '국내여행 오픈런', partner: 'yeogi', category: 'hotels', type: 'event', benefit: '주간 특가', code: null, conditions: '매주 국내 호텔과 레저·티켓 특가가 바뀝니다.', endsAt: null, link: 'yeogi-domestic', featured: false, order: 31 },
+  { title: '해외여행 오픈런', partner: 'yeogi', category: 'hotels', type: 'event', benefit: '금요일 특가', code: null, conditions: '매주 금요일 해외 호텔 특가가 올라옵니다.', endsAt: null, link: 'yeogi-overseas', featured: false, order: 32 },
+  { title: '해외 숙소 최저가 보상제', partner: 'yeogi', category: 'hotels', type: 'event', benefit: '차액 2배 포인트', code: null, conditions: '최저가 보장 뱃지 숙소를 예약한 뒤 더 싼 가격을 찾으면 차액의 2배를 포인트로 돌려줍니다.', endsAt: null, link: 'yeogi-lowest', featured: false, order: 33 },
+  { title: '중국 여행 888 특가전', partner: 'klook', category: 'tours', type: 'event', benefit: '8% 할인 특가', code: null, conditions: '중국 투어와 호텔, 상하이 디즈니랜드 8% 할인 기획전입니다.', endsAt: END_2026, link: 'klook-china', featured: false, order: 34, image: 'klook-china' },
+]
+
+export const destinations: Record<string, { country: string; lede: string; alt: string }> = {
+  tokyo: { country: '일본', lede: '시부야 전망대, 후지산 당일 투어, 스카이라이너까지 도쿄 예약을 한곳에서 시작하세요.', alt: '밤의 도쿄 시부야 교차로' },
+  osaka: { country: '일본', lede: '유니버설 스튜디오 재팬과 주유패스, 간사이 공항 열차를 미리 챙기세요.', alt: '오사카 도톤보리 강변' },
+  kyoto: { country: '일본', lede: '아라시야마 토롯코 열차와 호즈가와 보트, 오사카 출발 교토 투어를 모았습니다.', alt: '교토 거리 풍경' },
+  fukuoka: { country: '일본', lede: '유후인 당일치기와 마린월드, 후쿠오카 타워, 요카버스 할인까지 확인하세요.', alt: '후쿠오카 나카강 야경' },
+  sapporo: { country: '일본', lede: '비에이·후라노 버스 투어와 아사히야마 동물원, 겨울 라이트업 투어를 찾는 분께 맞습니다.', alt: '삿포로 설경' },
+  okinawa: { country: '일본', lede: '츄라우미 수족관과 북부 버스 투어, 게라마 스노클링을 예약하세요.', alt: '오키나와 해변' },
+  danang: { country: '베트남', lede: '바나힐과 호이안 야경 투어, 한강 크루즈를 함께 봅니다.', alt: '다낭 바나힐 골든 브리지' },
+  nhatrang: { country: '베트남', lede: '빈원더스와 머드 스파, 호핑 투어로 나트랑 일정을 채워 보세요.', alt: '나트랑 해변 전경' },
+  phuquoc: { country: '베트남', lede: '혼똠 케이블카, 빈펄 사파리, 키스 오브 더 씨까지 푸꾸옥 대표 코스입니다.', alt: '푸꾸옥 바다' },
+  hanoi: { country: '베트남', lede: '하롱베이 크루즈, 닌빈 일일 투어, 수상 인형극을 한눈에 봅니다.', alt: '하노이 거리' },
+  hochiminh: { country: '베트남', lede: '구찌 터널과 메콩 델타 투어, 사이공강 크루즈를 찾아보세요.', alt: '호치민 도심' },
+  bangkok: { country: '태국', lede: '왕궁과 수상시장, 디너 크루즈로 방콕 일정을 짜 보세요.', alt: '방콕 왓 아룬 사원' },
+  phuket: { country: '태국', lede: '피피섬 스피드보트와 시밀란 일일 투어를 많이 찾습니다.', alt: '푸켓 바다' },
+  chiangmai: { country: '태국', lede: '코끼리 보호구역과 나이트 사파리, 쿠킹 클래스를 모았습니다.', alt: '치앙마이 사원' },
+  cebu: { country: '필리핀', lede: '막탄 호핑 투어와 오션파크, 고래상어 투어를 찾아보세요.', alt: '세부 바다' },
+  taipei: { country: '대만', lede: '예스진지 버스 투어와 타이베이 101, 고궁박물원을 예약하세요.', alt: '타이베이 101과 도심' },
+  hongkong: { country: '홍콩', lede: '피크트램과 옹핑 케이블카, 빅토리아 하버 크루즈를 함께 보세요.', alt: '홍콩 야경' },
+  singapore: { country: '싱가포르', lede: '유니버설 스튜디오와 가든스 바이 더 베이, 나이트 사파리를 찾아보세요.', alt: '싱가포르 마리나 베이' },
+  guam: { country: '미국령 괌', lede: '돌핀 크루즈와 별빛 투어, 비키니 아일랜드 물놀이를 모았습니다.', alt: '괌 해변' },
+  bali: { country: '인도네시아', lede: '바투르산 일출과 누사 페니다, 울루와투 공연을 찾아보세요.', alt: '발리 풍경' },
+  shanghai: { country: '중국', lede: '황푸강 유람선과 우전·주가각 수향마을 투어를 모았습니다.', alt: '상하이 와이탄 야경' },
+  paris: { country: '프랑스', lede: '루브르와 베르사유, 몽생미셸 투어를 클룩에서 바로 찾아보세요.', alt: '파리 시내' },
+  rome: { country: '이탈리아', lede: '콜로세움과 바티칸, 포지타노 당일 투어를 클룩에서 바로 찾아보세요.', alt: '로마 콜로세움' },
+  barcelona: { country: '스페인', lede: '사그라다 파밀리아와 가우디 투어, 몬세라트 일일 투어를 클룩에서 바로 찾아보세요.', alt: '바르셀로나 사그라다 파밀리아' },
+}
+
+// Written once the catalog titles were reviewed by hand; these products lead the home and tours pages.
+export const featuredProducts = ['klook-70672', 'klook-46604', 'klook-82312', 'klook-13283', 'klook-11988', 'klook-1659', 'klook-127', 'klook-765', 'klook-7467', 'klook-15699', 'klook-20380', 'kkday-18680', 'klook-3250', 'klook-96022', 'kkday-5038', 'klook-20750', 'klook-1112', 'klook-145733', 'klook-197655', 'klook-3021', 'kkday-162495', 'kkday-27448', 'klook-117', 'klook-10276']
+
+export const pages = [
+  {
+    slug: 'about',
+    title: '소개',
+    description: '여행할인 정보센터가 할인 정보를 고르고 확인하는 방식입니다.',
+    body: [
+      { p: '여행할인 정보센터는 호텔, 항공권, 투어, 렌터카, 이심의 할인코드와 프로모션을 조건과 기간까지 정리하는 개인 운영 사이트입니다.' },
+      { h2: '정보를 확인하는 방식' },
+      { p: '제휴 플랫폼의 프로모션 안내를 직접 읽고 코드, 최소 금액, 사용 횟수, 종료일을 옮깁니다. 카드마다 확인 기준일을 관리하고, 종료일이 지나면 화면에서 자동으로 빠집니다.' },
+      { p: '혜택은 각 플랫폼의 사정으로 바뀌거나 일찍 끝날 수 있습니다. 결제 화면에서 적용 금액을 꼭 확인해 주세요.' },
+      { h2: '광고 표시' },
+      { p: '이 사이트의 예약 링크는 제휴마케팅 링크입니다. 링크를 통해 예약하면 운영자가 일정 수수료를 받을 수 있고, 구매자가 내는 금액은 달라지지 않습니다.' },
+      { h2: '사진' },
+      { p: '인물과 분야 사진은 AI로 만든 연출 이미지이며, 여행지 사진은 Unsplash와 각 판매처 공개 이미지를 사용합니다. 상품 사진의 권리는 각 판매처와 공급사에 있습니다.' },
+    ],
+  },
+  {
+    slug: 'privacy',
+    title: '개인정보처리방침',
+    description: '여행할인 정보센터의 개인정보 처리 안내입니다.',
+    body: [
+      { p: '이 사이트는 회원가입과 문의 양식이 없어 방문자의 이름, 연락처 같은 개인정보를 직접 받지 않습니다.' },
+      { h2: '외부 서비스' },
+      { p: '예약 링크를 누르면 각 플랫폼으로 이동하며, 이후의 개인정보 처리는 해당 플랫폼의 방침을 따릅니다. 제휴 추적을 위해 해당 플랫폼이 쿠키를 사용할 수 있습니다.' },
+    ],
+  },
+  {
+    slug: 'terms',
+    title: '이용 안내',
+    description: '여행할인 정보센터 이용 안내입니다.',
+    body: [
+      { p: '이 사이트는 여행 할인 정보를 제공할 뿐 예약과 결제의 당사자가 아닙니다. 예약, 변경, 환불은 예약한 플랫폼의 규정을 따릅니다.' },
+      { p: '게시된 가격과 혜택은 확인 시점 기준이며 달라질 수 있습니다. 결제 전에 최종 금액과 조건을 확인해 주세요.' },
+    ],
+  },
+]
+
+export const navigation = {
+  header: [
+    { label: '할인 모음', url: '/deals' },
+    { label: '여행지', url: '/destinations' },
+    { label: '호텔', url: '/hotels' },
+    { label: '항공권', url: '/flights' },
+    { label: '투어', url: '/tours' },
+    { label: '렌터카', url: '/rentcar' },
+    { label: '이심', url: '/esim' },
+    { label: '글', url: '/posts' },
+  ],
+  footer: [
+    { label: '소개', url: '/about' },
+    { label: '개인정보처리방침', url: '/privacy' },
+    { label: '이용 안내', url: '/terms' },
+    { label: '문의 안내', url: '/contact' },
+  ],
+}
+
+const klookDeals = ['세시간전2600001', '세시간전2600002', '세시간전2600003']
+
+export const posts: {
+  slug: string
+  title: string
+  hook: string
+  summary: string
+  category: string
+  hero: string
+  deals: string[]
+  related: string[]
+  body: Block[]
+}[] = [
+  {
+    slug: 'klook-coupon-guide',
+    title: '클룩 쿠폰 3종, 결제 금액별로 고르는 법',
+    hook: '20만 원 결제에 2천 원 쿠폰을 쓰면 5천 원을 놓칩니다.',
+    summary: '5만 원 이상은 2천 원, 10만 원 이상은 3천 원, 20만 원 이상은 7천 원 코드를 쓰면 됩니다. 2026년 12월 31일까지입니다.',
+    category: 'tours',
+    hero: 'tours',
+    deals: klookDeals,
+    related: ['coupon-not-working', 'europe-klook-tickets'],
+    body: [
+      { h2: '결제 금액으로 코드를 고릅니다' },
+      { ul: ['5만 원 이상: 세시간전2600001, 2,000원 할인', '10만 원 이상: 세시간전2600002, 3,000원 할인', '20만 원 이상: 세시간전2600003, 7,000원 할인'] },
+      { p: '세 코드 모두 일부 상품을 뺀 전 상품에 쓸 수 있습니다. 계정당 1회만 쓸 수 있으니 금액이 큰 결제에 아껴 두세요.' },
+      { h2: '쓰는 순서' },
+      { ol: ['코드를 복사합니다.', '아래 카드를 눌러 쿠폰 페이지로 들어갑니다.', '상품을 고르고 결제 화면의 쿠폰 칸에 붙여 넣습니다.', '적용된 금액을 확인하고 결제합니다.'] },
+      { h2: '주의할 점' },
+      { p: '예산이 떨어지면 기간 안에도 쿠폰이 끝날 수 있습니다. 취소하거나 환불해도 쓴 쿠폰은 돌아오지 않습니다.' },
+      { p: '여러 명 입장권을 합쳐 20만 원을 넘기면 7,000원 코드를 쓸 수 있습니다. 나눠서 결제하면 그만큼 손해입니다.' },
+    ],
+  },
+  {
+    slug: 'rentcar-coupon-10-vs-12',
+    title: '트립닷컴 렌터카 10% 코드와 12% 코드, 뭐가 더 이득일까',
+    hook: '50만 원 렌터카면 어떤 코드를 넣느냐에 따라 2만 원이 달라집니다.',
+    summary: '3일 이상 빌리면 한도 없는 TRIPCAR12가 유리하고, 3일 미만이면 TRIPCAR26KR을 쓰면 됩니다. 둘 다 2026년 12월 31일까지입니다.',
+    category: 'rentcar',
+    hero: 'rentcar',
+    deals: ['TRIPCAR12', 'TRIPCAR26KR'],
+    related: ['airport-pickup-coupon', 'coupon-not-working'],
+    body: [
+      { h2: '두 코드의 차이' },
+      { ul: ['TRIPCAR26KR: 10% 할인, 최대 4만 원, 계정당 2회, 대여 기간 제한 없음', 'TRIPCAR12: 12% 할인, 한도 없음, 계정당 1회, 3일(72시간) 이상 예약만'] },
+      { h2: '금액별로 계산해 봤습니다' },
+      { ul: ['20만 원: 10% 코드 2만 원, 12% 코드 2만 4천 원', '40만 원: 10% 코드 4만 원, 12% 코드 4만 8천 원', '50만 원: 10% 코드 4만 원, 12% 코드 6만 원', '100만 원: 10% 코드 4만 원, 12% 코드 12만 원'] },
+      { p: '10% 코드는 40만 원에서 한도에 걸립니다. 그 위로는 금액이 커질수록 12% 코드와 차이가 벌어집니다.' },
+      { h2: '이렇게 고르면 됩니다' },
+      { p: '3일 이상 빌린다면 먼저 TRIPCAR12를 넣으세요. 한 번 쓴 뒤의 다음 여행이나 3일 미만 대여에는 TRIPCAR26KR을 쓰면 됩니다.' },
+      { h2: '적용 조건' },
+      { p: '세시간전 경로로 들어간 화면에서 원화로 결제해야 합니다. 다른 쿠폰과는 함께 쓸 수 없습니다.' },
+    ],
+  },
+  {
+    slug: 'airport-pickup-coupon',
+    title: '해외 공항 픽업 10% 할인코드 쓰는 법',
+    hook: '픽업 요금 13만 원까지는 10%가 그대로 빠집니다.',
+    summary: 'TRIPAIRPORT를 넣으면 공항 픽업·샌딩 기본 요금이 10% 내려가고 최대 13,000원까지 할인됩니다.',
+    category: 'transport',
+    hero: 'transport',
+    deals: ['TRIPAIRPORT'],
+    related: ['rentcar-coupon-10-vs-12', 'coupon-not-working'],
+    body: [
+      { h2: '할인 내용' },
+      { p: '기본 픽업 요금에서 10%가 할인되고 최대 금액은 13,000원입니다. 계정당 1회 쓸 수 있고 2026년 12월 31일까지입니다.' },
+      { h2: '할인에서 빠지는 것' },
+      { p: '어린이 좌석과 보험 같은 부가 서비스 요금은 할인 대상이 아닙니다. 가족 여행이라면 결제 화면의 최종 금액을 확인하세요.' },
+      { h2: '이럴 때 유용합니다' },
+      { ul: ['늦은 밤에 도착하는 항공편', '짐이 많은 가족 여행', '공항에서 시내까지 환승이 번거로운 도시'] },
+      { h2: '쓰는 순서' },
+      { ol: ['코드를 복사합니다.', '아래 카드를 눌러 공항 픽업 화면으로 들어갑니다.', '공항, 날짜, 인원을 넣고 차량을 고릅니다.', '결제 화면에서 코드를 넣고 원화로 결제합니다.'] },
+    ],
+  },
+  {
+    slug: 'activity-7-percent-code',
+    title: '트립닷컴 액티비티 7% 코드, 한도와 쓰는 법',
+    hook: '이 코드는 횟수 제한이 없어 입장권마다 쓸 수 있습니다.',
+    summary: 'trippa07은 액티비티 7% 할인, 최대 1만 원입니다. 사용 횟수와 최소 금액 제한이 없고 2026년 12월 31일까지입니다.',
+    category: 'tours',
+    hero: 'posts',
+    deals: ['trippa07'],
+    related: ['klook-coupon-guide', 'coupon-not-working'],
+    body: [
+      { h2: '할인 내용' },
+      { p: '액티비티 상품에서 7%가 할인되고 최대 금액은 1만 원입니다. 사용 횟수와 최소 결제 금액 제한이 없다고 안내되어 있습니다.' },
+      { h2: '언제 한도에 걸리나' },
+      { p: '결제 금액이 약 14만 3천 원이면 7%가 1만 원에 닿습니다. 금액이 큰 상품은 나눠 예약할 수 있는지 먼저 보세요.' },
+      { h2: '쓰는 순서' },
+      { ol: ['코드를 복사합니다.', '아래 카드를 눌러 액티비티 화면으로 들어갑니다.', '상품을 고르고 결제 화면에 코드를 넣습니다.', '원화 결제인지 확인하고 결제합니다.'] },
+      { p: '달러나 현지 통화로 결제하면 할인이 적용되지 않습니다.' },
+    ],
+  },
+  {
+    slug: 'danang-flight-coupon',
+    title: '다낭 항공권 쿠폰 3HRSN, 금액별 할인 정리',
+    hook: '50만 원 항공권이면 앱에서 코드 하나로 2만 원이 내려갑니다.',
+    summary: '트래블로카 앱에서 3HRSN을 쓰면 금액에 따라 최대 5만 원, PC에서는 3HRSNWEB으로 2,500원이 할인됩니다.',
+    category: 'flights',
+    hero: 'flights',
+    deals: ['3HRSN', '3HRSNWEB'],
+    related: ['china-flight-monday-coupon', 'coupon-not-working'],
+    body: [
+      { h2: '금액별 할인' },
+      { ul: ['10만 원 이상: 2,500원', '30만 원 이상: 1만 원', '50만 원 이상: 2만 원', '120만 원 이상: 5만 원'] },
+      { p: '위 금액은 앱 전용 3HRSN 기준입니다. PC 전용 3HRSNWEB은 10만 원 이상 2,500원 할인만 있습니다.' },
+      { h2: '앱으로 결제하는 편이 낫습니다' },
+      { p: '같은 50만 원 항공권도 PC에서는 2,500원, 앱에서는 2만 원이 할인됩니다. 큰 금액이라면 앱 결제를 먼저 확인하세요.' },
+      { h2: '파라타항공 다낭 노선' },
+      { p: '파라타항공은 다낭 노선에 2-4-2 배열 광동체 항공기를 운항합니다. 통로가 2개이고 컴포트 좌석 간격은 약 33인치로 안내되어 있습니다.' },
+      { h2: '적용 조건' },
+      { p: '2026년 12월 31일까지이며 여행 기간 제한은 없습니다. 원화 결제만 적용되고 수량이 끝나면 일찍 종료될 수 있습니다.' },
+    ],
+  },
+  {
+    slug: 'china-flight-monday-coupon',
+    title: '중국 항공권 50% 쿠폰, 월요일에 받는 법',
+    hook: '최대 5만 원 쿠폰이 매주 월요일 선착순으로 열립니다.',
+    summary: 'KRCN50은 중국 노선 50% 할인, 최대 5만 원입니다. 매주 월요일 선착순이고, 50만 원 이상이면 KRCNFL로 1만 원 할인도 가능합니다.',
+    category: 'flights',
+    hero: 'flights',
+    deals: ['KRCN50', 'KRCNFL'],
+    related: ['danang-flight-coupon', 'coupon-not-working'],
+    body: [
+      { h2: '두 쿠폰의 차이' },
+      { ul: ['KRCN50: 중국 노선 50% 할인, 최대 5만 원, 매주 월요일 선착순', 'KRCNFL: 중국 노선 1만 원 할인, 50만 원 이상 결제 시'] },
+      { p: '10만 원 항공권이면 KRCN50으로 5만 원이 내려갑니다. 두 쿠폰은 함께 쓸 수 없습니다.' },
+      { h2: '받는 요령' },
+      { ol: ['트래블로카에 미리 로그인해 둡니다.', '월요일에 아래 카드를 눌러 프로모션 페이지로 들어갑니다.', '노선을 고르고 결제 화면에 코드를 넣습니다.', '원화 결제인지 확인합니다.'] },
+      { h2: '알아 둘 점' },
+      { p: '쿠폰은 한 번 쓰면 복원되지 않습니다. 취소 후 다시 예약하면 수량이 끝나 쓰지 못할 수 있으니 일정을 정한 뒤 결제하세요.' },
+    ],
+  },
+  {
+    slug: 'fukuoka-yokabus-coupon',
+    title: '후쿠오카 요카버스 투어 최대 50% 할인 코드',
+    hook: '2027년 2월까지 쓸 수 있는 장기 프로모션입니다.',
+    summary: 'KKday 요카버스 페이지에서 GOFUKUOKA를 쓰면 최대 50%까지 할인됩니다. 2027년 2월 28일까지입니다.',
+    category: 'tours',
+    hero: 'tours',
+    deals: ['GOFUKUOKA'],
+    related: ['klook-coupon-guide', 'coupon-not-working'],
+    body: [
+      { h2: '어떤 상품인가요' },
+      { p: '요카버스는 후쿠오카 근교 명소를 도는 투어입니다. 차와 사케 시음, 과일 따기, 다자이후 텐만구 방문 코스가 안내되어 있습니다.' },
+      { h2: '할인 조건' },
+      { ul: ['쿠폰 코드: GOFUKUOKA', '예약·이용 기간: 2027년 2월 28일까지', '요카버스 프로모션 페이지 상품만 적용', '다른 쿠폰과 중복 불가, 한국 회원 대상'] },
+      { h2: '쓰는 순서' },
+      { ol: ['코드를 복사합니다.', '아래 카드를 눌러 요카버스 페이지로 들어갑니다.', '날짜와 코스를 고르고 결제 화면에 코드를 넣습니다.'] },
+    ],
+  },
+  {
+    slug: 'esim-auto-discount',
+    title: '해외 이심 20%와 5% 자동 할인, 어디서 살까',
+    hook: '코드를 넣지 않아도 들어가는 경로만으로 할인이 붙습니다.',
+    summary: '유심사는 이 경로로 들어가면 20%, Holafly는 5%가 자동 할인됩니다. 코드 입력이 필요 없습니다.',
+    category: 'esim',
+    hero: 'esim',
+    deals: ['유심사', 'Holafly'],
+    related: ['coupon-not-working', 'airport-pickup-coupon'],
+    body: [
+      { h2: '할인이 들어오는 방식' },
+      { p: '두 곳 모두 코드가 없습니다. 아래 카드를 눌러 들어가 그대로 구매하면 결제 금액에서 할인됩니다.' },
+      { h2: '고르는 기준' },
+      { ul: ['할인 폭을 먼저 본다면 유심사(20%)', '무제한 데이터 상품을 찾는다면 Holafly(5%)'] },
+      { h2: '사기 전에 확인할 것' },
+      { ul: ['내 휴대폰이 이심을 지원하는지', '여행 국가와 일수가 상품과 맞는지', '출국 전에 설치할지, 현지에서 켤지'] },
+      { p: '기종에 따라 이심을 쓸 수 없으니 구매 전에 휴대폰 설정에서 확인하세요.' },
+    ],
+  },
+  {
+    slug: 'coupon-not-working',
+    title: '여행 할인코드가 안 먹힐 때 확인할 6가지',
+    hook: '코드 오류의 대부분은 결제 통화와 들어온 경로 때문입니다.',
+    summary: '들어온 경로, 결제 통화, 앱·PC 구분, 최소 금액, 중복 사용, 선착순 마감을 순서대로 확인하세요.',
+    category: 'tours',
+    hero: 'deals',
+    deals: [],
+    related: ['klook-coupon-guide', 'rentcar-coupon-10-vs-12'],
+    body: [
+      { h2: '1. 들어온 경로' },
+      { p: '전용 코드는 안내된 링크로 들어간 화면에서만 적용되는 경우가 많습니다. 앱을 바로 열었다면 카드를 눌러 다시 들어가 보세요.' },
+      { h2: '2. 결제 통화' },
+      { p: '트립닷컴과 트래블로카 코드는 원화 결제만 적용됩니다. 화면 통화가 달러로 되어 있으면 원화로 바꾸세요.' },
+      { h2: '3. 앱과 PC 구분' },
+      { p: '트래블로카 3HRSN은 앱 전용이고 3HRSNWEB은 PC 전용입니다. 기기에 맞는 코드를 넣어야 합니다.' },
+      { h2: '4. 최소 금액과 대상 상품' },
+      { p: '세금과 옵션을 뺀 금액으로 최소 금액을 따지는 경우가 있습니다. 대상에서 빠진 상품도 있으니 조건을 다시 보세요.' },
+      { h2: '5. 중복 사용' },
+      { p: '다른 쿠폰이 이미 걸려 있으면 새 코드가 들어가지 않습니다. 기존 쿠폰을 빼고 다시 넣어 보세요.' },
+      { h2: '6. 선착순 마감' },
+      { p: '수량이나 예산이 끝나면 종료일 전에도 코드가 막힙니다. 다른 코드를 찾아보는 편이 빠릅니다.' },
+    ],
+  },
+  {
+    slug: 'europe-klook-tickets',
+    title: '유럽 입장권과 일일 투어, 예약 전에 쿠폰부터',
+    hook: '20만 원 넘는 유럽 투어라면 코드 하나로 7천 원이 빠집니다.',
+    summary: '루브르, 콜로세움, 사그라다 파밀리아처럼 인기 있는 곳은 미리 예약하고, 금액에 맞는 쿠폰을 넣으세요.',
+    category: 'tours',
+    hero: 'tours',
+    deals: klookDeals,
+    related: ['klook-coupon-guide', 'coupon-not-working'],
+    body: [
+      { h2: '도시별 인기 입장권' },
+      { p: [{ text: '루브르 박물관 입장권', link: 'klook-7467' }, '과 ', { text: '파리 뮤지엄 패스', link: 'klook-3310' }, '는 파리 일정에서 많이 찾습니다.'] },
+      { p: [{ text: '콜로세움·포로 로마노 입장권', link: 'klook-15699' }, '과 ', { text: '바티칸 박물관 입장권', link: 'klook-19636' }, '은 로마에서 먼저 확인하세요.'] },
+      { p: [{ text: '사그라다 파밀리아 입장권', link: 'klook-20380' }, '은 바르셀로나 일정의 중심이 되는 곳입니다.'] },
+      { h2: '한국어 가이드 투어' },
+      { p: [{ text: '베르사유 궁전 투어', link: 'klook-209793' }, '와 ', { text: '바르셀로나 가우디 투어', link: 'klook-77199' }, '처럼 설명이 중요한 곳은 한국어 가이드 상품을 찾아보세요.'] },
+      { h2: '쿠폰 고르기' },
+      { p: '결제 금액이 20만 원을 넘으면 7,000원 코드를, 10만 원을 넘으면 3,000원 코드를 쓰면 됩니다. 일부 상품은 쿠폰에서 제외될 수 있습니다.' },
+    ],
+  },
+  {
+    slug: 'where-to-book-hotel',
+    title: '호텔 예약처 고를 때 먼저 볼 3가지',
+    hook: '표시 가격이 낮아도 세금을 더하면 순서가 바뀝니다.',
+    summary: '세금 포함 최종 금액, 취소 규정, 결제 통화를 같은 조건으로 놓고 비교하면 됩니다.',
+    category: 'hotels',
+    hero: 'hotels',
+    deals: ['매월 1~10일 더블쿠폰 핫세일', '해외 숙소 최저가 보상제'],
+    related: ['coupon-not-working', 'airport-pickup-coupon'],
+    body: [
+      { h2: '세금 포함 금액으로 비교합니다' },
+      { p: [ '목록 가격은 세금과 봉사료가 빠져 있기도 합니다. ', { text: '아고다', link: 'agoda-home' }, '와 ', { text: '트립닷컴 호텔', link: 'trip-hotels' }, '을 볼 때도 결제 직전 금액으로 비교하세요.' ] },
+      { h2: '취소 규정을 맞춥니다' },
+      { p: '무료 취소 객실과 환불 불가 객실은 가격이 다릅니다. 같은 조건끼리 놓고 봐야 정확합니다.' },
+      { h2: '결제 통화를 확인합니다' },
+      { p: '현지 통화로 결제하면 환율과 카드 수수료가 더해질 수 있습니다. 쿠폰은 원화 결제만 받는 곳도 많습니다.' },
+      { h2: '국내 숙소는 쿠폰 시기를 봅니다' },
+      { p: '매월 1일부터 10일까지 열리는 더블쿠폰 기간을 맞추면 국내 호텔과 펜션을 더 싸게 볼 수 있습니다.' },
+    ],
+  },
+]

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Allow: /api/media/
+Disallow: /api
+Disallow: /search
+
+Sitemap: https://trip.pinda.kr/sitemap.xml
