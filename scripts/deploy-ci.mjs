@@ -4,11 +4,13 @@ import { rmSync } from 'node:fs'
 
 const sh = (cmd) => execSync(cmd, { stdio: 'inherit' })
 const repo = 'playskang-svg/trip-pinda'
+// Tied to the checked-out commit: "latest successful run" lagged behind and redeployed an older build.
+const sha = execSync('git rev-parse HEAD', { encoding: 'utf8' }).trim()
 const runId = execSync(
-  `gh run list --repo ${repo} --workflow build.yml --status success --limit 1 --json databaseId --jq ".[0].databaseId"`,
+  `gh run list --repo ${repo} --workflow build.yml --commit ${sha} --status success --limit 1 --json databaseId --jq ".[0].databaseId"`,
   { encoding: 'utf8' },
 ).trim()
-if (!runId) throw new Error('no successful build run found')
+if (!runId) throw new Error(`no successful build run for ${sha}`)
 
 rmSync('.open-next', { recursive: true, force: true })
 rmSync('worker-dist', { recursive: true, force: true })
