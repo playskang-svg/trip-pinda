@@ -32,4 +32,4 @@ Seeding production directly fails with internal errors on the remote proxy.
 - `node scripts/verify-links.mjs` follows each issued link and confirms the partner and AID.
 - `pnpm test` covers deal expiry.
 
-Public pages are cached at the edge for 5 minutes in `custom-worker.ts`, so admin edits can take that long to appear.
+Public pages are cached at the edge for 6 hours in `custom-worker.ts`, so admin edits and data pushes can take that long to appear. A deploy does not clear it.
