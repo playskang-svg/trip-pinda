@@ -4,9 +4,10 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { pathToFileURL } from 'node:url'
 
 import { blogPosts } from './seed-blog.ts'
+import { trendPosts } from './seed-trends.ts'
 import { categories, posts as guidePosts } from './seed-data.ts'
 
-const posts = [...blogPosts, ...guidePosts]
+const posts = [...trendPosts, ...blogPosts, ...guidePosts]
 
 const SKILL = 'C:/Window_DEV/.claude/skills/snsogg/render.mjs'
 const { renderCard } = await import(pathToFileURL(SKILL).href)

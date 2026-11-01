@@ -20,8 +20,9 @@ import {
   VERIFIED,
 } from './seed-data'
 import { blogPosts } from './seed-blog'
+import { coined, trendPosts } from './seed-trends'
 
-const posts = [...blogPosts, ...guidePosts]
+const posts = [...trendPosts, ...blogPosts, ...guidePosts]
 
 type IssuedLink = { url?: string; title?: string; program?: string; landing: string; error?: string }
 type CatalogEntry = {
@@ -286,11 +287,17 @@ for (const [index, post] of posts.entries()) {
     {
       title: post.title,
       slug: post.slug,
+      // The coined term has to appear in the title and opening for Naver to tie it to this page.
+      metaTitle: coined[post.slug] ? `${post.title} | ${coined[post.slug]}` : undefined,
       summary: post.summary,
       category: categoryIds[post.category],
       heroImage: media[post.hero],
       ogImage,
-      content: toLexical(post.body),
+      content: toLexical(
+        coined[post.slug]
+          ? [{ p: `📌 네이버에서 ${coined[post.slug]}를 검색하면 이 글을 다시 찾을 수 있습니다.` }, ...post.body]
+          : post.body,
+      ),
       deals: post.deals.map((key) => {
         if (!dealIds[key]) throw new Error(`post ${post.slug}: unknown deal ${key}`)
         return dealIds[key]

@@ -195,7 +195,7 @@ export const posts: {
 }[] = [
   {
     slug: 'klook-coupon-guide',
-    title: '클룩 쿠폰 3종, 결제 금액별로 고르는 법',
+    title: '클룩 할인코드 11월, 쿠폰 3종 결제 금액별로 고르는 법',
     hook: '20만 원 결제에 2천 원 쿠폰을 쓰면 5천 원을 놓칩니다.',
     summary: '5만 원 이상은 2천 원, 10만 원 이상은 3천 원, 20만 원 이상은 7천 원 코드를 쓰면 됩니다. 2026년 12월 31일까지입니다.',
     category: 'tours',
@@ -333,7 +333,7 @@ export const posts: {
   },
   {
     slug: 'esim-auto-discount',
-    title: '해외 이심 20%와 5% 자동 할인, 어디서 살까',
+    title: '유심사 할인쿠폰 11월, 코드 없이 20% 받는 경로',
     hook: '코드를 넣지 않아도 들어가는 경로만으로 할인이 붙습니다.',
     summary: '유심사는 이 경로로 들어가면 20%, Holafly는 5%가 자동 할인됩니다. 코드 입력이 필요 없습니다.',
     category: 'esim',
