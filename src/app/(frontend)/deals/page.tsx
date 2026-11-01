@@ -26,7 +26,7 @@ export default async function DealsPage() {
   const payload = await getClient()
   const [deals, categories] = await Promise.all([
     getActiveDeals(),
-    payload.find({ collection: 'categories', limit: 20, depth: 0, pagination: false, sort: 'order' }),
+    payload.find({ collection: 'categories', where: { slug: { not_equals: 'blog' } }, limit: 20, depth: 0, pagination: false, sort: 'order' }),
   ])
   return (
     <>

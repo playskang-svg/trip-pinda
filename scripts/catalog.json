@@ -790,7 +790,8 @@
    "hotelAgoda": "hotel-agoda-danang",
    "flightTrip": "flight-trip-danang",
    "tourKkday": "tour-kkday-danang",
-   "tourKlook": "tour-klook-danang"
+   "tourKlook": "tour-klook-danang",
+   "flightTtang": "flight-ttang-danang"
   },
   "products": [
    {
@@ -909,7 +910,8 @@
    "hotelAgoda": "hotel-agoda-nhatrang",
    "flightTrip": "flight-trip-nhatrang",
    "tourKkday": "tour-kkday-nhatrang",
-   "tourKlook": "tour-klook-nhatrang"
+   "tourKlook": "tour-klook-nhatrang",
+   "flightTtang": "flight-ttang-nhatrang"
   },
   "products": [
    {

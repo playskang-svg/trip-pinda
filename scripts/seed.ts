@@ -16,9 +16,12 @@ import {
   pages,
   partners,
   photos,
-  posts,
+  posts as guidePosts,
   VERIFIED,
 } from './seed-data'
+import { blogPosts } from './seed-blog'
+
+const posts = [...blogPosts, ...guidePosts]
 
 type IssuedLink = { url?: string; title?: string; program?: string; landing: string; error?: string }
 type CatalogEntry = {
@@ -105,6 +108,29 @@ const toLexical = (blocks: Block[]) => ({
       if ('h3' in block) return [element('heading', [textNode(block.h3)], { tag: 'h3' })]
       if ('ul' in block) return [list(block.ul, 'ul')]
       if ('ol' in block) return [list(block.ol, 'ol')]
+      if ('cta' in block) {
+        const { link, ...fields } = block.cta
+        const url = issued[link]?.url
+        if (!url) {
+          console.log('drop cta, no link yet:', link)
+          return []
+        }
+        return [
+          {
+            type: 'block',
+            version: 2,
+            format: '',
+            fields: {
+              id: link,
+              blockName: '',
+              blockType: 'cta',
+              ...fields,
+              url,
+              image: publicFile(`/products/${link}.webp`) ?? null,
+            },
+          },
+        ]
+      }
       if (typeof block.p === 'string') return [para([textNode(block.p)])]
       return [
         para(
@@ -188,6 +214,7 @@ const KIND_LABELS: [string, 'hotel' | 'flight' | 'tour', string][] = [
   ['hotelAgoda', 'hotel', '호텔 보기'],
   ['hotelTrip', 'hotel', '트립닷컴 호텔'],
   ['flightTrip', 'flight', '항공권 보기'],
+  ['flightTtang', 'flight', '땡처리 항공권'],
   ['tourKlook', 'tour', '클룩 투어'],
   ['tourKkday', 'tour', 'KKday 투어'],
 ]

@@ -319,11 +319,18 @@
   "landing": "https://www.usimsa.com/partners/136206",
   "reused": true
  },
- "flight-trip-general": {
-  "url": "https://3ha.in/r/805757",
-  "title": "서울 도쿄 항공권",
-  "program": "tripcom",
-  "landing": "https://kr.trip.com/flights/flightfirst",
+ "flight-ttang-danang": {
+  "url": "https://3ha.in/r/330204",
+  "title": "다낭 땡처리 항공권",
+  "program": "linkprice_ttang",
+  "landing": "https://www.ttang.com/ttangair/search/ttang/list.do?arr0=DAD",
+  "reused": true
+ },
+ "flight-ttang-nhatrang": {
+  "url": "https://3ha.in/r/330205",
+  "title": "나트랑 땡처리 항공권",
+  "program": "linkprice_ttang",
+  "landing": "https://www.ttang.com/ttangair/search/ttang/list.do?arr0=CXR",
   "reused": true
  },
  "trip-airport": {

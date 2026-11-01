@@ -10,8 +10,17 @@ export type Block =
   | { p: Text[] | string }
   | { ul: string[] }
   | { ol: string[] }
+  | { cta: { hook: string; name: string; button: string; link: string } }
 
 export const photos: Record<string, string> = {
+  tokyo: '밤의 도쿄 시부야 교차로',
+  osaka: '오사카 도톤보리 강변',
+  fukuoka: '후쿠오카 나카강 야경',
+  sapporo: '삿포로의 눈 덮인 건물',
+  danang: '다낭 바나힐 골든 브리지',
+  nhatrang: '나트랑 해변 전경',
+  bangkok: '방콕 왓 아룬 사원',
+  taipei: '타이베이 도심 전경',
   hero: '여행 가방을 끌고 공항을 걷는 한국인 여성',
   deals: '공항 벤치에서 휴대폰으로 할인코드를 확인하는 한국인 여성',
   posts: '카페에서 노트북으로 여행 일정을 짜는 한국인 여성',
@@ -32,6 +41,7 @@ export const categories = [
   { slug: 'rentcar', title: '렌터카', order: 5, lede: '대여 기간에 따라 더 유리한 코드가 달라집니다.', photo: '/photos/rentcar.webp', photoAlt: photos.rentcar },
   { slug: 'esim', title: '유심·이심·라운지', order: 6, lede: '해외 데이터와 공항 라운지를 출국 전에 준비하세요.', photo: '/photos/esim.webp', photoAlt: photos.esim },
   { slug: 'package', title: '패키지', order: 7, lede: '항공과 숙소를 한 번에 해결하는 패키지와 땡처리 상품입니다.', photo: '/photos/package.webp', photoAlt: photos.package },
+  { slug: 'blog', title: '여행 블로그', order: 8, lede: '도시별 일정과 예약 순서를 정리했습니다.', photo: '/photos/posts.webp', photoAlt: photos.posts },
 ]
 
 export const partners = [
@@ -160,7 +170,7 @@ export const navigation = {
     { label: '투어', url: '/tours' },
     { label: '렌터카', url: '/rentcar' },
     { label: '이심', url: '/esim' },
-    { label: '글', url: '/posts' },
+    { label: '블로그', url: '/blog' },
   ],
   footer: [
     { label: '소개', url: '/about' },

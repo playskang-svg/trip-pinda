@@ -30,7 +30,7 @@ export default async function HomePage() {
   const payload = await getClient()
   const [deals, categories, destinations, products, posts] = await Promise.all([
     getActiveDeals({ featured: { equals: true } }),
-    payload.find({ collection: 'categories', limit: 20, depth: 0, pagination: false, sort: 'order' }),
+    payload.find({ collection: 'categories', where: { slug: { not_equals: 'blog' } }, limit: 20, depth: 0, pagination: false, sort: 'order' }),
     payload.find({ collection: 'destinations', limit: 8, depth: 0, pagination: false, sort: 'order' }),
     payload.find({ collection: 'products', where: { featured: { equals: true } }, limit: 12, depth: 1, pagination: false, sort: 'order' }),
     payload.find({ collection: 'posts', where: publishedWhere(), limit: 6, depth: 1, sort: '-publishedAt' }),
@@ -118,8 +118,11 @@ export default async function HomePage() {
 
       <section className="section">
         <div className="frame">
-          <h2>예약 전에 읽는 글</h2>
+          <h2>여행 블로그</h2>
           <PostList feature posts={posts.docs} />
+          <Link className="text-link" href="/blog">
+            여행 블로그 전체 보기
+          </Link>
         </div>
       </section>
     </>

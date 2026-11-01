@@ -5,6 +5,8 @@ import {
 } from '@payloadcms/richtext-lexical/react'
 import type React from 'react'
 
+type CtaFields = { hook: string; name: string; button: string; url: string; image?: string | null }
+
 const startsWithCaptionMark = (node: { children?: unknown[] }): boolean => {
   const first = node.children?.[0] as { text?: string } | undefined
   return Boolean(first?.text?.startsWith('▲'))
@@ -17,6 +19,24 @@ export function RichText({ data, midway }: { data: unknown; midway?: React.React
   let headings = 0
   const converters: JSXConvertersFunction = ({ defaultConverters }) => ({
     ...defaultConverters,
+    blocks: {
+      cta: ({ node }: { node: { fields: CtaFields } }) => {
+        const { hook, name, button, url, image } = node.fields
+        return (
+          <a className="post-cta" href={url} rel="sponsored nofollow noopener" target="_blank">
+            {image ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img alt={name} height={300} loading="lazy" src={image} width={400} />
+            ) : null}
+            <span className="post-cta__body">
+              <strong>{hook}</strong>
+              <small>{name}</small>
+              <span className="button button--go">{button}</span>
+            </span>
+          </a>
+        )
+      },
+    },
     paragraph: ({ node, nodesToJSX }) => {
       const children = nodesToJSX({ nodes: node.children })
       if (startsWithCaptionMark(node)) return <p className="caption">{children}</p>

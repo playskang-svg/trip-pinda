@@ -2,7 +2,7 @@ import { getClient, publishedWhere, SITE_URL } from '@/lib/payload'
 
 export const dynamic = 'force-dynamic'
 
-const STATIC_PATHS = ['', '/deals', '/destinations', '/posts', '/contact']
+const STATIC_PATHS = ['', '/deals', '/destinations', '/blog', '/posts', '/contact']
 
 export async function GET() {
   const payload = await getClient()
@@ -15,7 +15,7 @@ export async function GET() {
   const entry = (path: string, updatedAt: string) => `<url><loc>${SITE_URL}${path}</loc><lastmod>${updatedAt}</lastmod></url>`
   const urls = [
     ...STATIC_PATHS.map((path) => `<url><loc>${SITE_URL}${path}</loc></url>`),
-    ...categories.docs.map((item) => entry(`/${item.slug}`, item.updatedAt)),
+    ...categories.docs.filter((item) => item.slug !== 'blog').map((item) => entry(`/${item.slug}`, item.updatedAt)),
     ...destinations.docs.map((item) => entry(`/destinations/${item.slug}`, item.updatedAt)),
     ...pages.docs.map((item) => entry(`/${item.slug}`, item.updatedAt)),
     ...posts.docs.map((item) => entry(`/posts/${item.slug}`, item.updatedAt)),
