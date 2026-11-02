@@ -305,12 +305,605 @@
   "program": "klook",
   "landing": "https://www.klook.com/ko/destination/c19-taipei/"
  },
+ "yeogi-coupon-1130": {
+  "url": "https://3ha.in/r/854857",
+  "title": "세시간전 전용 쿠폰팩",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/event/4869/%25EC%2584%25B8%25EC%258B%259C%25EA%25B0%2584%25EC%25A0%2584%2520%25EC%25A0%2584%25EC%259A%25A9%2520%25EC%25BF%25A0%25ED%258F%25B0%25ED%258C%25A9/https%3A%2F%2Fapi3.goodchoice.kr%2Fevent3%2Fweb%2FadEventView%3Faevno%3D4869"
+ },
+ "yeogi-59067": {
+  "url": "https://3ha.in/r/854858",
+  "title": "시그니엘 서울",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/59067"
+ },
+ "yeogi-7036": {
+  "url": "https://3ha.in/r/854859",
+  "title": "그랜드 워커힐 서울",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/7036"
+ },
+ "yeogi-6674": {
+  "url": "https://3ha.in/r/854860",
+  "title": "더그랜드롯데 서울",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6674"
+ },
+ "yeogi-69906": {
+  "url": "https://3ha.in/r/854861",
+  "title": "조선 팰리스 서울 강남",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/69906"
+ },
+ "yeogi-6754": {
+  "url": "https://3ha.in/r/854862",
+  "title": "신라스테이 광화문",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6754"
+ },
+ "yeogi-80334": {
+  "url": "https://3ha.in/r/854863",
+  "title": "인스파이어 엔터테인먼트 리조트",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/80334"
+ },
+ "yeogi-45684": {
+  "url": "https://3ha.in/r/854864",
+  "title": "파라다이스시티",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/45684"
+ },
+ "yeogi-66020": {
+  "url": "https://3ha.in/r/854865",
+  "title": "시그니엘 부산",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/66020"
+ },
+ "yeogi-66692": {
+  "url": "https://3ha.in/r/854866",
+  "title": "그랜드 조선 부산",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/66692"
+ },
+ "yeogi-6910": {
+  "url": "https://3ha.in/r/854867",
+  "title": "파라다이스 호텔 부산",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6910"
+ },
+ "yeogi-46240": {
+  "url": "https://3ha.in/r/854868",
+  "title": "아난티 앳 부산 코브",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/46240"
+ },
+ "yeogi-6307": {
+  "url": "https://3ha.in/r/854869",
+  "title": "호메르스 호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6307"
+ },
+ "yeogi-66687": {
+  "url": "https://3ha.in/r/854871",
+  "title": "그랜드 조선 제주",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/66687"
+ },
+ "yeogi-71362": {
+  "url": "https://3ha.in/r/854872",
+  "title": "파르나스 호텔 제주",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/71362"
+ },
+ "yeogi-8593": {
+  "url": "https://3ha.in/r/854874",
+  "title": "제주신라호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/8593"
+ },
+ "yeogi-6815": {
+  "url": "https://3ha.in/r/854875",
+  "title": "롯데호텔 제주",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6815"
+ },
+ "yeogi-6654": {
+  "url": "https://3ha.in/r/854876",
+  "title": "해비치 호텔&리조트",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6654"
+ },
+ "yeogi-48951": {
+  "url": "https://3ha.in/r/854877",
+  "title": "세인트존스 호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/48951"
+ },
+ "yeogi-49688": {
+  "url": "https://3ha.in/r/854878",
+  "title": "스카이베이호텔 경포",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/49688"
+ },
+ "yeogi-79662": {
+  "url": "https://3ha.in/r/854879",
+  "title": "카시아 속초",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/79662"
+ },
+ "yeogi-47406": {
+  "url": "https://3ha.in/r/854881",
+  "title": "롯데리조트 속초",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/47406"
+ },
+ "yeogi-6800": {
+  "url": "https://3ha.in/r/854882",
+  "title": "쏠비치 양양 호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6800"
+ },
+ "yeogi-6900": {
+  "url": "https://3ha.in/r/854883",
+  "title": "라한셀렉트 경주",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6900"
+ },
+ "yeogi-6607": {
+  "url": "https://3ha.in/r/854884",
+  "title": "소노캄 여수",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6607"
+ },
+ "yeogi-6626": {
+  "url": "https://3ha.in/r/854885",
+  "title": "히든베이 호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6626"
+ },
+ "yeogi-64806": {
+  "url": "https://3ha.in/r/854886",
+  "title": "라한호텔 전주",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/64806"
+ },
+ "yeogi-67159": {
+  "url": "https://3ha.in/r/854887",
+  "title": "대구 메리어트 호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/67159"
+ },
+ "yeogi-68867": {
+  "url": "https://3ha.in/r/854888",
+  "title": "호텔 오노마 대전",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/68867"
+ },
+ "yeogi-6605": {
+  "url": "https://3ha.in/r/854890",
+  "title": "소노캄 거제",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6605"
+ },
+ "yeogi-78899": {
+  "url": "https://3ha.in/r/854891",
+  "title": "아난티 앳 남해",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/78899"
+ },
+ "hotel-yeogi-seoul": {
+  "url": "https://3ha.in/r/854894",
+  "title": "서울 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EC%84%9C%EC%9A%B8"
+ },
+ "hotel-yeogi-busan": {
+  "url": "https://3ha.in/r/854895",
+  "title": "부산 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EB%B6%80%EC%82%B0"
+ },
+ "hotel-yeogi-jeju": {
+  "url": "https://3ha.in/r/854896",
+  "title": "제주 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EC%A0%9C%EC%A3%BC"
+ },
+ "hotel-yeogi-gangneung": {
+  "url": "https://3ha.in/r/854897",
+  "title": "강릉 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EA%B0%95%EB%A6%89"
+ },
+ "hotel-yeogi-sokcho": {
+  "url": "https://3ha.in/r/854898",
+  "title": "속초 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EC%86%8D%EC%B4%88"
+ },
+ "hotel-yeogi-gyeongju": {
+  "url": "https://3ha.in/r/854899",
+  "title": "경주 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EA%B2%BD%EC%A3%BC"
+ },
+ "hotel-yeogi-yeosu": {
+  "url": "https://3ha.in/r/854900",
+  "title": "여수 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EC%97%AC%EC%88%98"
+ },
+ "hotel-yeogi-incheon": {
+  "url": "https://3ha.in/r/854901",
+  "title": "인천 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EC%9D%B8%EC%B2%9C"
+ },
+ "hotel-yeogi-yangyang": {
+  "url": "https://3ha.in/r/854902",
+  "title": "양양 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EC%96%91%EC%96%91"
+ },
+ "hotel-yeogi-jeonju": {
+  "url": "https://3ha.in/r/854903",
+  "title": "전주 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EC%A0%84%EC%A3%BC"
+ },
+ "hotel-yeogi-daegu": {
+  "url": "https://3ha.in/r/854906",
+  "title": "대구 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EB%8C%80%EA%B5%AC"
+ },
+ "hotel-yeogi-daejeon": {
+  "url": "https://3ha.in/r/854907",
+  "title": "대전 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EB%8C%80%EC%A0%84"
+ },
+ "hotel-yeogi-geoje": {
+  "url": "https://3ha.in/r/854909",
+  "title": "거제 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EA%B1%B0%EC%A0%9C"
+ },
+ "hotel-yeogi-namhae": {
+  "url": "https://3ha.in/r/854910",
+  "title": "남해 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EB%82%A8%ED%95%B4"
+ },
+ "hotel-yeogi-pyeongchang": {
+  "url": "https://3ha.in/r/854911",
+  "title": "평창 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%ED%8F%89%EC%B0%BD"
+ },
+ "hotel-yeogi-gapyeong": {
+  "url": "https://3ha.in/r/854912",
+  "title": "가평 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EA%B0%80%ED%8F%89"
+ },
+ "hotel-yeogi-chuncheon": {
+  "url": "https://3ha.in/r/854913",
+  "title": "춘천 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EC%B6%98%EC%B2%9C"
+ },
+ "hotel-yeogi-suwon": {
+  "url": "https://3ha.in/r/854914",
+  "title": "수원 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EC%88%98%EC%9B%90"
+ },
+ "hotel-yeogi-cheonan": {
+  "url": "https://3ha.in/r/854915",
+  "title": "천안 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EC%B2%9C%EC%95%88"
+ },
+ "hotel-yeogi-gwangju": {
+  "url": "https://3ha.in/r/854916",
+  "title": "광주 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EA%B4%91%EC%A3%BC"
+ },
+ "hotel-yeogi-ulsan": {
+  "url": "https://3ha.in/r/854919",
+  "title": "울산 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%EC%9A%B8%EC%82%B0"
+ },
+ "hotel-yeogi-pohang": {
+  "url": "https://3ha.in/r/854920",
+  "title": "포항 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%ED%8F%AC%ED%95%AD"
+ },
+ "hotel-yeogi-tongyeong": {
+  "url": "https://3ha.in/r/854921",
+  "title": "통영 숙소",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations?searchType=KEYWORD&keyword=%ED%86%B5%EC%98%81"
+ },
+ "yeogi-6534": {
+  "url": "https://3ha.in/r/854922",
+  "title": "글래드 여의도",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6534"
+ },
+ "yeogi-13022": {
+  "url": "https://3ha.in/r/854923",
+  "title": "나인트리 바이 파르나스 서울 명동 2",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/13022"
+ },
+ "yeogi-7061": {
+  "url": "https://3ha.in/r/854924",
+  "title": "네스트호텔 인천",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/7061"
+ },
+ "yeogi-6489": {
+  "url": "https://3ha.in/r/854925",
+  "title": "노보텔 앰배서더 수원",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6489"
+ },
+ "yeogi-53770": {
+  "url": "https://3ha.in/r/854927",
+  "title": "마이다스 호텔&리조트",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/53770"
+ },
+ "yeogi-75829": {
+  "url": "https://3ha.in/r/854928",
+  "title": "엘리시안 강촌 리조트",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/75829"
+ },
+ "yeogi-74511": {
+  "url": "https://3ha.in/r/854929",
+  "title": "춘천 베어스호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/74511"
+ },
+ "yeogi-45239": {
+  "url": "https://3ha.in/r/854930",
+  "title": "씨마크 호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/45239"
+ },
+ "yeogi-50405": {
+  "url": "https://3ha.in/r/854931",
+  "title": "호텔 탑스텐",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/50405"
+ },
+ "yeogi-6429": {
+  "url": "https://3ha.in/r/854932",
+  "title": "마레몬스 호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6429"
+ },
+ "yeogi-6770": {
+  "url": "https://3ha.in/r/854933",
+  "title": "인터컨티넨탈 알펜시아",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6770"
+ },
+ "yeogi-6518": {
+  "url": "https://3ha.in/r/854935",
+  "title": "켄싱턴호텔 평창",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6518"
+ },
+ "yeogi-12698": {
+  "url": "https://3ha.in/r/854936",
+  "title": "대전 ICC호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/12698"
+ },
+ "yeogi-68374": {
+  "url": "https://3ha.in/r/854937",
+  "title": "소노벨 천안 EAST동",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/68374"
+ },
+ "yeogi-7496": {
+  "url": "https://3ha.in/r/854938",
+  "title": "신라스테이 천안",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/7496"
+ },
+ "yeogi-46710": {
+  "url": "https://3ha.in/r/854939",
+  "title": "홀리데이 인 광주호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/46710"
+ },
+ "yeogi-90215": {
+  "url": "https://3ha.in/r/854940",
+  "title": "브리브 광주 바이 롯데호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/90215"
+ },
+ "yeogi-66268": {
+  "url": "https://3ha.in/r/854942",
+  "title": "베스트웨스턴 플러스 전주",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/66268"
+ },
+ "yeogi-63188": {
+  "url": "https://3ha.in/r/854947",
+  "title": "호텔 인터불고 대구",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/63188"
+ },
+ "yeogi-6519": {
+  "url": "https://3ha.in/r/854948",
+  "title": "인터불고 엑스코 호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6519"
+ },
+ "yeogi-9854": {
+  "url": "https://3ha.in/r/854949",
+  "title": "힐튼 경주",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/9854"
+ },
+ "yeogi-6822": {
+  "url": "https://3ha.in/r/854950",
+  "title": "경주 코오롱호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6822"
+ },
+ "yeogi-7375": {
+  "url": "https://3ha.in/r/854951",
+  "title": "라한호텔 포항",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/7375"
+ },
+ "yeogi-8168": {
+  "url": "https://3ha.in/r/854953",
+  "title": "호텔현대 바이 라한 울산",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/8168"
+ },
+ "yeogi-10667": {
+  "url": "https://3ha.in/r/854955",
+  "title": "파크 하얏트 부산",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/10667"
+ },
+ "yeogi-45597": {
+  "url": "https://3ha.in/r/854956",
+  "title": "신라스테이 해운대",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/45597"
+ },
+ "yeogi-49850": {
+  "url": "https://3ha.in/r/854958",
+  "title": "스탠포드 호텔앤리조트 통영",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/49850"
+ },
+ "yeogi-79005": {
+  "url": "https://3ha.in/r/854959",
+  "title": "사우스케이프 스파 앤 스위트",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/79005"
+ },
+ "yeogi-6751": {
+  "url": "https://3ha.in/r/854960",
+  "title": "메종 글래드 제주",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/6751"
+ },
+ "yeogi-8194": {
+  "url": "https://3ha.in/r/854961",
+  "title": "소노캄 제주",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/8194"
+ },
+ "yeogi-7322": {
+  "url": "https://3ha.in/r/854962",
+  "title": "신라스테이 제주",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/7322"
+ },
+ "yeogi-59268": {
+  "url": "https://3ha.in/r/854963",
+  "title": "유탑 마리나 호텔 & 리조트 여수",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/59268"
+ },
+ "yeogi-65762": {
+  "url": "https://3ha.in/r/854964",
+  "title": "여수 라마다 프라자 호텔",
+  "program": "yeogi",
+  "landing": "https://www.yeogi.com/domestic-accommodations/65762"
+ },
  "trip-carhire": {
-  "url": "https://3ha.in/r/805761",
-  "title": "국내외 렌트카 가격비교 및 최저가 예약 | 트립닷컴",
+  "url": "https://3ha.in/r/854966",
+  "title": "트립닷컴 렌터카",
   "program": "tripcom",
-  "landing": "https://kr.trip.com/carhire",
-  "reused": true
+  "landing": "https://kr.trip.com/carhire/?locale=ko-KR"
+ },
+ "hotelscom-home": {
+  "url": "https://3ha.in/r/854967",
+  "title": "호텔스닷컴",
+  "program": "partnerize_hotelscom",
+  "landing": "https://kr.hotels.com"
+ },
+ "expedia-home": {
+  "url": "https://3ha.in/r/854969",
+  "title": "익스피디아",
+  "program": "partnerize_expedia",
+  "landing": "https://www.expedia.co.kr"
+ },
+ "staynmore-home": {
+  "url": "https://3ha.in/r/854970",
+  "title": "스테이앤모어",
+  "program": "stay_and_more",
+  "landing": "https://staynmore.com/hotel/"
+ },
+ "kayak-home": {
+  "url": "https://3ha.in/r/854972",
+  "title": "카약",
+  "program": "kayak",
+  "landing": "https://www.kayak.co.kr"
+ },
+ "flight-trip-tokyo": {
+  "url": "https://3ha.in/r/854973",
+  "title": "서울 도쿄 항공권",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/flights/seoul-to-tokyo/tickets-sel-tyo/?locale=ko-KR"
+ },
+ "flight-trip-osaka": {
+  "url": "https://3ha.in/r/854974",
+  "title": "서울 오사카 항공권",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/flights/seoul-to-osaka/tickets-sel-osa/?locale=ko-KR"
+ },
+ "flight-trip-fukuoka": {
+  "url": "https://3ha.in/r/854975",
+  "title": "서울 후쿠오카 항공권",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/flights/seoul-to-fukuoka/tickets-sel-fuk/?locale=ko-KR"
+ },
+ "flight-trip-sapporo": {
+  "url": "https://3ha.in/r/854976",
+  "title": "서울 삿포로 항공권",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/flights/seoul-to-sapporo/tickets-sel-spk/?locale=ko-KR"
+ },
+ "flight-trip-okinawa": {
+  "url": "https://3ha.in/r/854979",
+  "title": "서울 오키나와 항공권",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/flights/seoul-to-okinawa/tickets-sel-oka/?locale=ko-KR"
+ },
+ "flight-trip-danang": {
+  "url": "https://3ha.in/r/854980",
+  "title": "서울 다낭 항공권",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/flights/seoul-to-da-nang/tickets-sel-dad/?locale=ko-KR"
+ },
+ "flight-trip-nhatrang": {
+  "url": "https://3ha.in/r/854981",
+  "title": "서울 나트랑 항공권",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/flights/seoul-to-nha-trang/tickets-sel-nha/?locale=ko-KR"
+ },
+ "flight-trip-phuquoc": {
+  "url": "https://3ha.in/r/854987",
+  "title": "서울 푸꾸옥 항공권",
+  "program": "tripcom",
+  "landing": "https://kr.trip.com/flights/seoul-to-phu-quoc/tickets-sel-pqc/?locale=ko-KR"
  },
  "usimsa-home": {
   "url": "https://3ha.in/r/802301",

@@ -2550,5 +2550,683 @@
     "image": ""
    }
   ]
+ },
+ "seoul": {
+  "name": "서울",
+  "slug": "seoul",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-seoul"
+  },
+  "products": [
+   {
+    "slug": "yeogi-59067",
+    "partner": "yeogi",
+    "title": "시그니엘 서울",
+    "source": "https://www.yeogi.com/domestic-accommodations/59067",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-7036",
+    "partner": "yeogi",
+    "title": "그랜드 워커힐 서울",
+    "source": "https://www.yeogi.com/domestic-accommodations/7036",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6674",
+    "partner": "yeogi",
+    "title": "더그랜드롯데 서울",
+    "source": "https://www.yeogi.com/domestic-accommodations/6674",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-69906",
+    "partner": "yeogi",
+    "title": "조선 팰리스 서울 강남",
+    "source": "https://www.yeogi.com/domestic-accommodations/69906",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6754",
+    "partner": "yeogi",
+    "title": "신라스테이 광화문",
+    "source": "https://www.yeogi.com/domestic-accommodations/6754",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6534",
+    "partner": "yeogi",
+    "title": "글래드 여의도",
+    "source": "https://www.yeogi.com/domestic-accommodations/6534",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-13022",
+    "partner": "yeogi",
+    "title": "나인트리 바이 파르나스 서울 명동 2",
+    "source": "https://www.yeogi.com/domestic-accommodations/13022",
+    "image": ""
+   }
+  ]
+ },
+ "busan": {
+  "name": "부산",
+  "slug": "busan",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-busan"
+  },
+  "products": [
+   {
+    "slug": "yeogi-66020",
+    "partner": "yeogi",
+    "title": "시그니엘 부산",
+    "source": "https://www.yeogi.com/domestic-accommodations/66020",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-66692",
+    "partner": "yeogi",
+    "title": "그랜드 조선 부산",
+    "source": "https://www.yeogi.com/domestic-accommodations/66692",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6910",
+    "partner": "yeogi",
+    "title": "파라다이스 호텔 부산",
+    "source": "https://www.yeogi.com/domestic-accommodations/6910",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-46240",
+    "partner": "yeogi",
+    "title": "아난티 앳 부산 코브",
+    "source": "https://www.yeogi.com/domestic-accommodations/46240",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6307",
+    "partner": "yeogi",
+    "title": "호메르스 호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/6307",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-10667",
+    "partner": "yeogi",
+    "title": "파크 하얏트 부산",
+    "source": "https://www.yeogi.com/domestic-accommodations/10667",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-45597",
+    "partner": "yeogi",
+    "title": "신라스테이 해운대",
+    "source": "https://www.yeogi.com/domestic-accommodations/45597",
+    "image": ""
+   }
+  ]
+ },
+ "jeju": {
+  "name": "제주",
+  "slug": "jeju",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-jeju"
+  },
+  "products": [
+   {
+    "slug": "yeogi-66687",
+    "partner": "yeogi",
+    "title": "그랜드 조선 제주",
+    "source": "https://www.yeogi.com/domestic-accommodations/66687",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-71362",
+    "partner": "yeogi",
+    "title": "파르나스 호텔 제주",
+    "source": "https://www.yeogi.com/domestic-accommodations/71362",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-8593",
+    "partner": "yeogi",
+    "title": "제주신라호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/8593",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6815",
+    "partner": "yeogi",
+    "title": "롯데호텔 제주",
+    "source": "https://www.yeogi.com/domestic-accommodations/6815",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6654",
+    "partner": "yeogi",
+    "title": "해비치 호텔&리조트",
+    "source": "https://www.yeogi.com/domestic-accommodations/6654",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6751",
+    "partner": "yeogi",
+    "title": "메종 글래드 제주",
+    "source": "https://www.yeogi.com/domestic-accommodations/6751",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-8194",
+    "partner": "yeogi",
+    "title": "소노캄 제주",
+    "source": "https://www.yeogi.com/domestic-accommodations/8194",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-7322",
+    "partner": "yeogi",
+    "title": "신라스테이 제주",
+    "source": "https://www.yeogi.com/domestic-accommodations/7322",
+    "image": ""
+   }
+  ]
+ },
+ "gangneung": {
+  "name": "강릉",
+  "slug": "gangneung",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-gangneung"
+  },
+  "products": [
+   {
+    "slug": "yeogi-48951",
+    "partner": "yeogi",
+    "title": "세인트존스 호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/48951",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-49688",
+    "partner": "yeogi",
+    "title": "스카이베이호텔 경포",
+    "source": "https://www.yeogi.com/domestic-accommodations/49688",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-45239",
+    "partner": "yeogi",
+    "title": "씨마크 호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/45239",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-50405",
+    "partner": "yeogi",
+    "title": "호텔 탑스텐",
+    "source": "https://www.yeogi.com/domestic-accommodations/50405",
+    "image": ""
+   }
+  ]
+ },
+ "sokcho": {
+  "name": "속초",
+  "slug": "sokcho",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-sokcho"
+  },
+  "products": [
+   {
+    "slug": "yeogi-79662",
+    "partner": "yeogi",
+    "title": "카시아 속초",
+    "source": "https://www.yeogi.com/domestic-accommodations/79662",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-47406",
+    "partner": "yeogi",
+    "title": "롯데리조트 속초",
+    "source": "https://www.yeogi.com/domestic-accommodations/47406",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6429",
+    "partner": "yeogi",
+    "title": "마레몬스 호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/6429",
+    "image": ""
+   }
+  ]
+ },
+ "gyeongju": {
+  "name": "경주",
+  "slug": "gyeongju",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-gyeongju"
+  },
+  "products": [
+   {
+    "slug": "yeogi-6900",
+    "partner": "yeogi",
+    "title": "라한셀렉트 경주",
+    "source": "https://www.yeogi.com/domestic-accommodations/6900",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-9854",
+    "partner": "yeogi",
+    "title": "힐튼 경주",
+    "source": "https://www.yeogi.com/domestic-accommodations/9854",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6822",
+    "partner": "yeogi",
+    "title": "경주 코오롱호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/6822",
+    "image": ""
+   }
+  ]
+ },
+ "yeosu": {
+  "name": "여수",
+  "slug": "yeosu",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-yeosu"
+  },
+  "products": [
+   {
+    "slug": "yeogi-6607",
+    "partner": "yeogi",
+    "title": "소노캄 여수",
+    "source": "https://www.yeogi.com/domestic-accommodations/6607",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6626",
+    "partner": "yeogi",
+    "title": "히든베이 호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/6626",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-59268",
+    "partner": "yeogi",
+    "title": "유탑 마리나 호텔 & 리조트 여수",
+    "source": "https://www.yeogi.com/domestic-accommodations/59268",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-65762",
+    "partner": "yeogi",
+    "title": "여수 라마다 프라자 호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/65762",
+    "image": ""
+   }
+  ]
+ },
+ "incheon": {
+  "name": "인천",
+  "slug": "incheon",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-incheon"
+  },
+  "products": [
+   {
+    "slug": "yeogi-80334",
+    "partner": "yeogi",
+    "title": "인스파이어 엔터테인먼트 리조트",
+    "source": "https://www.yeogi.com/domestic-accommodations/80334",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-45684",
+    "partner": "yeogi",
+    "title": "파라다이스시티",
+    "source": "https://www.yeogi.com/domestic-accommodations/45684",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-7061",
+    "partner": "yeogi",
+    "title": "네스트호텔 인천",
+    "source": "https://www.yeogi.com/domestic-accommodations/7061",
+    "image": ""
+   }
+  ]
+ },
+ "yangyang": {
+  "name": "양양",
+  "slug": "yangyang",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-yangyang"
+  },
+  "products": [
+   {
+    "slug": "yeogi-6800",
+    "partner": "yeogi",
+    "title": "쏠비치 양양 호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/6800",
+    "image": ""
+   }
+  ]
+ },
+ "jeonju": {
+  "name": "전주",
+  "slug": "jeonju",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-jeonju"
+  },
+  "products": [
+   {
+    "slug": "yeogi-64806",
+    "partner": "yeogi",
+    "title": "라한호텔 전주",
+    "source": "https://www.yeogi.com/domestic-accommodations/64806",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-66268",
+    "partner": "yeogi",
+    "title": "베스트웨스턴 플러스 전주",
+    "source": "https://www.yeogi.com/domestic-accommodations/66268",
+    "image": ""
+   }
+  ]
+ },
+ "daegu": {
+  "name": "대구",
+  "slug": "daegu",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-daegu"
+  },
+  "products": [
+   {
+    "slug": "yeogi-67159",
+    "partner": "yeogi",
+    "title": "대구 메리어트 호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/67159",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-63188",
+    "partner": "yeogi",
+    "title": "호텔 인터불고 대구",
+    "source": "https://www.yeogi.com/domestic-accommodations/63188",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6519",
+    "partner": "yeogi",
+    "title": "인터불고 엑스코 호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/6519",
+    "image": ""
+   }
+  ]
+ },
+ "daejeon": {
+  "name": "대전",
+  "slug": "daejeon",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-daejeon"
+  },
+  "products": [
+   {
+    "slug": "yeogi-68867",
+    "partner": "yeogi",
+    "title": "호텔 오노마 대전",
+    "source": "https://www.yeogi.com/domestic-accommodations/68867",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-12698",
+    "partner": "yeogi",
+    "title": "대전 ICC호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/12698",
+    "image": ""
+   }
+  ]
+ },
+ "geoje": {
+  "name": "거제",
+  "slug": "geoje",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-geoje"
+  },
+  "products": [
+   {
+    "slug": "yeogi-6605",
+    "partner": "yeogi",
+    "title": "소노캄 거제",
+    "source": "https://www.yeogi.com/domestic-accommodations/6605",
+    "image": ""
+   }
+  ]
+ },
+ "namhae": {
+  "name": "남해",
+  "slug": "namhae",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-namhae"
+  },
+  "products": [
+   {
+    "slug": "yeogi-78899",
+    "partner": "yeogi",
+    "title": "아난티 앳 남해",
+    "source": "https://www.yeogi.com/domestic-accommodations/78899",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-79005",
+    "partner": "yeogi",
+    "title": "사우스케이프 스파 앤 스위트",
+    "source": "https://www.yeogi.com/domestic-accommodations/79005",
+    "image": ""
+   }
+  ]
+ },
+ "pyeongchang": {
+  "name": "평창",
+  "slug": "pyeongchang",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-pyeongchang"
+  },
+  "products": [
+   {
+    "slug": "yeogi-6770",
+    "partner": "yeogi",
+    "title": "인터컨티넨탈 알펜시아",
+    "source": "https://www.yeogi.com/domestic-accommodations/6770",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-6518",
+    "partner": "yeogi",
+    "title": "켄싱턴호텔 평창",
+    "source": "https://www.yeogi.com/domestic-accommodations/6518",
+    "image": ""
+   }
+  ]
+ },
+ "gapyeong": {
+  "name": "가평",
+  "slug": "gapyeong",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-gapyeong"
+  },
+  "products": [
+   {
+    "slug": "yeogi-53770",
+    "partner": "yeogi",
+    "title": "마이다스 호텔&리조트",
+    "source": "https://www.yeogi.com/domestic-accommodations/53770",
+    "image": ""
+   }
+  ]
+ },
+ "chuncheon": {
+  "name": "춘천",
+  "slug": "chuncheon",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-chuncheon"
+  },
+  "products": [
+   {
+    "slug": "yeogi-75829",
+    "partner": "yeogi",
+    "title": "엘리시안 강촌 리조트",
+    "source": "https://www.yeogi.com/domestic-accommodations/75829",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-74511",
+    "partner": "yeogi",
+    "title": "춘천 베어스호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/74511",
+    "image": ""
+   }
+  ]
+ },
+ "suwon": {
+  "name": "수원",
+  "slug": "suwon",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-suwon"
+  },
+  "products": [
+   {
+    "slug": "yeogi-6489",
+    "partner": "yeogi",
+    "title": "노보텔 앰배서더 수원",
+    "source": "https://www.yeogi.com/domestic-accommodations/6489",
+    "image": ""
+   }
+  ]
+ },
+ "cheonan": {
+  "name": "천안",
+  "slug": "cheonan",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-cheonan"
+  },
+  "products": [
+   {
+    "slug": "yeogi-68374",
+    "partner": "yeogi",
+    "title": "소노벨 천안 EAST동",
+    "source": "https://www.yeogi.com/domestic-accommodations/68374",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-7496",
+    "partner": "yeogi",
+    "title": "신라스테이 천안",
+    "source": "https://www.yeogi.com/domestic-accommodations/7496",
+    "image": ""
+   }
+  ]
+ },
+ "gwangju": {
+  "name": "광주",
+  "slug": "gwangju",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-gwangju"
+  },
+  "products": [
+   {
+    "slug": "yeogi-46710",
+    "partner": "yeogi",
+    "title": "홀리데이 인 광주호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/46710",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-90215",
+    "partner": "yeogi",
+    "title": "브리브 광주 바이 롯데호텔",
+    "source": "https://www.yeogi.com/domestic-accommodations/90215",
+    "image": ""
+   }
+  ]
+ },
+ "ulsan": {
+  "name": "울산",
+  "slug": "ulsan",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-ulsan"
+  },
+  "products": [
+   {
+    "slug": "yeogi-7023",
+    "partner": "yeogi",
+    "title": "롯데호텔 울산",
+    "source": "https://www.yeogi.com/domestic-accommodations/7023",
+    "image": ""
+   },
+   {
+    "slug": "yeogi-8168",
+    "partner": "yeogi",
+    "title": "호텔현대 바이 라한 울산",
+    "source": "https://www.yeogi.com/domestic-accommodations/8168",
+    "image": ""
+   }
+  ]
+ },
+ "pohang": {
+  "name": "포항",
+  "slug": "pohang",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-pohang"
+  },
+  "products": [
+   {
+    "slug": "yeogi-7375",
+    "partner": "yeogi",
+    "title": "라한호텔 포항",
+    "source": "https://www.yeogi.com/domestic-accommodations/7375",
+    "image": ""
+   }
+  ]
+ },
+ "tongyeong": {
+  "name": "통영",
+  "slug": "tongyeong",
+  "klookOnly": false,
+  "links": {
+   "hotelYeogi": "hotel-yeogi-tongyeong"
+  },
+  "products": [
+   {
+    "slug": "yeogi-49850",
+    "partner": "yeogi",
+    "title": "스탠포드 호텔앤리조트 통영",
+    "source": "https://www.yeogi.com/domestic-accommodations/49850",
+    "image": ""
+   }
+  ]
  }
 }

@@ -77,7 +77,6 @@ export const partners = [
 export const deals = [
   // Read from the studio promotion pages on 2026-11-02. Replace the coupon pack link and dates when the month changes.
   { title: '국내 숙소 쿠폰팩', partner: 'yeogi', category: 'hotels', type: 'event', benefit: '최대 10%, 최대 5만 원 할인', code: null, conditions: '국내 숙소 예약 시점별 최대 10% 할인, 8만 원 이상 결제 시 최대 5만 원 할인. 쿠폰 페이지에서 받아 11월 30일까지 쓸 수 있습니다.', endsAt: '2026-11-30', link: 'yeogi-coupon-1130', featured: true, order: 28 },
-  { title: '제주신화월드 브랜드전', partner: 'yeogi', category: 'hotels', type: 'event', benefit: '브랜드 특가', code: null, conditions: '11월 8일까지 열리는 국내 숙소 기획전입니다.', endsAt: '2026-11-08', link: 'yeogi-jeju-shinhwa', featured: false, order: 29, image: 'yeogi-jeju-shinhwa' },
   { title: '아고다 신규 회원 12% 할인코드', partner: 'agoda', category: 'hotels', type: 'code', benefit: '12% 할인, 최대 $50', code: 'NEWMOMENT12', conditions: '아고다 신규 회원, 로그인 후 적용. 이 사이트의 링크로 들어간 페이지에서만 적용됩니다. 투숙은 2027년 6월 30일까지입니다.', endsAt: '2026-11-30', link: 'agoda-home', featured: false, order: 33 },
   { title: '아고다 해외 숙소 8% 할인코드', partner: 'agoda', category: 'hotels', type: 'code', benefit: '8% 할인, 최대 $30', code: 'MOMENT08AGD', conditions: '해외여행 한정, 전체 회원, 로그인 후 적용. 이 사이트의 링크로 들어간 페이지에서만 적용됩니다.', endsAt: '2026-11-30', link: 'agoda-home', featured: false, order: 34 },
   { title: '5만 원 이상 전 상품 쿠폰', partner: 'klook', category: 'tours', type: 'code', benefit: '2,000원 할인', code: '세시간전2600001', conditions: '5만 원 이상 구매 시. 일부 상품 제외, 계정당 1회, 예산 소진 시 종료될 수 있습니다.', endsAt: END_2026, link: 'klook-coupon', featured: true, order: 1, image: 'klook-coupon-1' },
