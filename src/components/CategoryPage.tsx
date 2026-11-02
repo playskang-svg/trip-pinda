@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { DealList } from '@/components/DealList'
 import { DestinationLinks } from '@/components/DestinationLinks'
@@ -7,6 +9,7 @@ import { PostList } from '@/components/PostList'
 import { ProductGrid } from '@/components/ProductGrid'
 import { ShareBar } from '@/components/ShareBar'
 import { getActiveDeals } from '@/lib/deals'
+import { isDomestic } from '@/lib/korea'
 import { getClient, publishedWhere, SITE_URL } from '@/lib/payload'
 import type { Category } from '@/payload-types'
 
@@ -32,7 +35,7 @@ export async function CategoryPage({ category }: { category: Category }) {
       depth: 1,
       sort: '-publishedAt',
     }),
-    cityKind ? payload.find({ collection: 'destinations', limit: 50, depth: 1, pagination: false, sort: 'order' }) : null,
+    cityKind ? payload.find({ collection: 'destinations', limit: 100, depth: 1, pagination: false, sort: 'order' }) : null,
     category.slug === 'tours'
       ? payload.find({ collection: 'products', where: { featured: { equals: true } }, limit: 24, depth: 1, pagination: false, sort: 'order' })
       : null,
@@ -56,11 +59,22 @@ export async function CategoryPage({ category }: { category: Category }) {
           </div>
         </section>
       ) : null}
+      {cityKind === 'hotel' && destinations ? (
+        <section className="section">
+          <div className="frame">
+            <h2>국내 호텔, 지역별로 바로 보기</h2>
+            <DestinationLinks destinations={destinations.docs.filter(isDomestic)} kind={cityKind} />
+            <Link className="text-link" href="/korea">
+              국내 호텔 리뷰와 쿠폰 모아 보기
+            </Link>
+          </div>
+        </section>
+      ) : null}
       {cityKind && destinations ? (
         <section className="section">
           <div className="frame">
-            <h2>도시별로 바로 보기</h2>
-            <DestinationLinks destinations={destinations.docs} kind={cityKind} />
+            <h2>{cityKind === 'hotel' ? '해외 호텔, 도시별로 바로 보기' : '도시별로 바로 보기'}</h2>
+            <DestinationLinks destinations={destinations.docs.filter((item) => !isDomestic(item))} kind={cityKind} />
           </div>
         </section>
       ) : null}

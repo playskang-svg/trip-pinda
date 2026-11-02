@@ -28,12 +28,13 @@ export const metadata: Metadata = {
 
 export default async function HomePage() {
   const payload = await getClient()
-  const [deals, categories, destinations, products, posts] = await Promise.all([
+  const [deals, categories, destinations, products, posts, domestic] = await Promise.all([
     getActiveDeals({ featured: { equals: true } }),
     payload.find({ collection: 'categories', where: { slug: { not_equals: 'blog' } }, limit: 20, depth: 0, pagination: false, sort: 'order' }),
     payload.find({ collection: 'destinations', limit: 8, depth: 0, pagination: false, sort: 'order' }),
     payload.find({ collection: 'products', where: { featured: { equals: true } }, limit: 12, depth: 1, pagination: false, sort: 'order' }),
     payload.find({ collection: 'posts', where: publishedWhere(), limit: 6, depth: 1, sort: '-publishedAt' }),
+    payload.find({ collection: 'destinations', where: { country: { like: '국내' } }, limit: 8, depth: 0, pagination: false, sort: 'order' }),
   ])
 
   return (
@@ -105,6 +106,18 @@ export default async function HomePage() {
           </Link>
         </div>
       </section>
+
+      {domestic.docs.length ? (
+        <section className="section">
+          <div className="frame">
+            <h2>국내 호텔·숙소, 지역별로 고르기</h2>
+            <DestinationGrid destinations={domestic.docs} />
+            <Link className="text-link" href="/korea">
+              국내 호텔 리뷰와 쿠폰 보기
+            </Link>
+          </div>
+        </section>
+      ) : null}
 
       <section className="section section--tone">
         <div className="frame">

@@ -7,7 +7,8 @@ import { blogPosts } from './seed-blog.ts'
 import { trendPosts } from './seed-trends.ts'
 import { categories, posts as guidePosts } from './seed-data.ts'
 
-const posts = [...trendPosts, ...blogPosts, ...guidePosts]
+const reviews = JSON.parse(readFileSync('scripts/reviews.json', 'utf8'))
+const posts = [...reviews, ...trendPosts, ...blogPosts, ...guidePosts]
 
 const SKILL = 'C:/Window_DEV/.claude/skills/snsogg/render.mjs'
 const { renderCard } = await import(pathToFileURL(SKILL).href)

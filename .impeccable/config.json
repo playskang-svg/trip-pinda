@@ -10,7 +10,7 @@
           "src/app/(frontend)/styles.css"
         ],
         "createdAt": "2026-11-01T04:30:49.376Z",
-        "reason": "project CLAUDE.md section 2 requires H2 boxes with a 6px left accent bar"
+        "reason": "CLAUDE.md section 2 mandates the H2 box with a 6px left accent bar: project standard, predates this session"
       }
     ]
   }

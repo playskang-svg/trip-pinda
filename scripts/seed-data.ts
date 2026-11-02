@@ -11,6 +11,8 @@ export type Block =
   | { ul: string[] }
   | { ol: string[] }
   | { cta: { hook: string; name: string; button: string; link: string } }
+  | { photo: { src: string; alt: string; caption: string } }
+  | { facts: { name: string; score: string; count: string; rows: { label: string; value: string }[] } }
 
 export const photos: Record<string, string> = {
   tokyo: '밤의 도쿄 시부야 교차로',
@@ -73,6 +75,11 @@ export const partners = [
 ]
 
 export const deals = [
+  // Read from the studio promotion pages on 2026-11-02. Replace the coupon pack link and dates when the month changes.
+  { title: '국내 숙소 쿠폰팩', partner: 'yeogi', category: 'hotels', type: 'event', benefit: '최대 10%, 최대 5만 원 할인', code: null, conditions: '국내 숙소 예약 시점별 최대 10% 할인, 8만 원 이상 결제 시 최대 5만 원 할인. 쿠폰 페이지에서 받아 11월 30일까지 쓸 수 있습니다.', endsAt: '2026-11-30', link: 'yeogi-coupon-1130', featured: true, order: 28 },
+  { title: '제주신화월드 브랜드전', partner: 'yeogi', category: 'hotels', type: 'event', benefit: '브랜드 특가', code: null, conditions: '11월 8일까지 열리는 국내 숙소 기획전입니다.', endsAt: '2026-11-08', link: 'yeogi-jeju-shinhwa', featured: false, order: 29, image: 'yeogi-jeju-shinhwa' },
+  { title: '아고다 신규 회원 12% 할인코드', partner: 'agoda', category: 'hotels', type: 'code', benefit: '12% 할인, 최대 $50', code: 'NEWMOMENT12', conditions: '아고다 신규 회원, 로그인 후 적용. 이 사이트의 링크로 들어간 페이지에서만 적용됩니다. 투숙은 2027년 6월 30일까지입니다.', endsAt: '2026-11-30', link: 'agoda-home', featured: false, order: 33 },
+  { title: '아고다 해외 숙소 8% 할인코드', partner: 'agoda', category: 'hotels', type: 'code', benefit: '8% 할인, 최대 $30', code: 'MOMENT08AGD', conditions: '해외여행 한정, 전체 회원, 로그인 후 적용. 이 사이트의 링크로 들어간 페이지에서만 적용됩니다.', endsAt: '2026-11-30', link: 'agoda-home', featured: false, order: 34 },
   { title: '5만 원 이상 전 상품 쿠폰', partner: 'klook', category: 'tours', type: 'code', benefit: '2,000원 할인', code: '세시간전2600001', conditions: '5만 원 이상 구매 시. 일부 상품 제외, 계정당 1회, 예산 소진 시 종료될 수 있습니다.', endsAt: END_2026, link: 'klook-coupon', featured: true, order: 1, image: 'klook-coupon-1' },
   { title: '10만 원 이상 전 상품 쿠폰', partner: 'klook', category: 'tours', type: 'code', benefit: '3,000원 할인', code: '세시간전2600002', conditions: '10만 원 이상 구매 시. 일부 상품 제외, 계정당 1회, 예산 소진 시 종료될 수 있습니다.', endsAt: END_2026, link: 'klook-coupon', featured: false, order: 2, image: 'klook-coupon-2' },
   { title: '20만 원 이상 전 상품 쿠폰', partner: 'klook', category: 'tours', type: 'code', benefit: '7,000원 할인', code: '세시간전2600003', conditions: '20만 원 이상 구매 시. 일부 상품 제외, 계정당 1회, 예산 소진 시 종료될 수 있습니다.', endsAt: END_2026, link: 'klook-coupon', featured: true, order: 3, image: 'klook-coupon-3' },
@@ -119,6 +126,30 @@ export const destinations: Record<string, { country: string; lede: string; alt: 
   paris: { country: '프랑스', lede: '루브르와 베르사유, 몽생미셸 투어를 클룩에서 바로 찾아보세요.', alt: '파리 시내' },
   rome: { country: '이탈리아', lede: '콜로세움과 바티칸, 포지타노 당일 투어를 클룩에서 바로 찾아보세요.', alt: '로마 콜로세움' },
   barcelona: { country: '스페인', lede: '사그라다 파밀리아와 가우디 투어, 몬세라트 일일 투어를 클룩에서 바로 찾아보세요.', alt: '바르셀로나 사그라다 파밀리아' },
+  // Domestic cities: the card photo is the leading hotel of that city, from its partner page.
+  seoul: { country: '국내 · 수도권', lede: '잠실, 명동, 강남, 광화문까지 서울 호텔 추천과 호캉스 리뷰, 숙소 특가를 모았습니다.', alt: '시그니엘 서울' },
+  busan: { country: '국내 · 경상', lede: '해운대와 광안리 오션뷰, 기장 리조트까지 부산 호텔 추천과 호캉스 리뷰, 숙소 특가를 모았습니다.', alt: '시그니엘 부산' },
+  jeju: { country: '국내 · 제주', lede: '중문과 표선의 리조트, 제주시 호텔까지 제주 호텔 추천과 호캉스 리뷰, 숙소 특가를 모았습니다.', alt: '제주신라호텔' },
+  gangneung: { country: '국내 · 강원', lede: '강문과 경포 해변 앞 호텔을 중심으로 강릉 호텔 추천과 오션뷰 리뷰, 숙소 특가를 모았습니다.', alt: '세인트존스 호텔' },
+  sokcho: { country: '국내 · 강원', lede: '속초 오션뷰 호텔과 리조트의 리뷰, 수영장 조건, 숙소 특가를 모았습니다.', alt: '롯데리조트 속초' },
+  gyeongju: { country: '국내 · 경상', lede: '보문단지 호텔을 중심으로 경주 호캉스 리뷰와 숙소 특가를 모았습니다.', alt: '라한셀렉트 경주' },
+  yeosu: { country: '국내 · 전라', lede: '여수 오션뷰 호텔과 수영장 호캉스 리뷰, 숙소 특가를 모았습니다.', alt: '소노캄 여수' },
+  incheon: { country: '국내 · 수도권', lede: '영종도 리조트와 공항 근처 호텔의 호캉스 리뷰, 숙소 특가를 모았습니다.', alt: '파라다이스시티' },
+  yangyang: { country: '국내 · 강원', lede: '양양 오션뷰 호텔 리뷰와 숙소 특가를 모았습니다.', alt: '쏠비치 양양 호텔' },
+  jeonju: { country: '국내 · 전라', lede: '한옥마을 근처 호텔을 중심으로 전주 호캉스 리뷰와 숙소 특가를 모았습니다.', alt: '라한호텔 전주' },
+  daegu: { country: '국내 · 경상', lede: '대구 호텔 추천과 호캉스 리뷰, 숙소 특가를 모았습니다.', alt: '대구 메리어트 호텔' },
+  daejeon: { country: '국내 · 충청', lede: '대전 호텔 추천과 호캉스 리뷰, 숙소 특가를 모았습니다.', alt: '호텔 오노마 대전' },
+  geoje: { country: '국내 · 경상', lede: '거제 호텔과 리조트 리뷰, 수영장 조건, 숙소 특가를 모았습니다.', alt: '소노캄 거제' },
+  namhae: { country: '국내 · 경상', lede: '남해 호텔과 리조트 리뷰, 숙소 특가를 모았습니다.', alt: '사우스케이프 스파 앤 스위트' },
+  pyeongchang: { country: '국내 · 강원', lede: '평창 호텔과 리조트의 숙소 특가를 모았습니다.', alt: '인터컨티넨탈 알펜시아' },
+  gapyeong: { country: '국내 · 수도권', lede: '가평 호텔과 리조트의 숙소 특가를 모았습니다.', alt: '마이다스 호텔&리조트' },
+  chuncheon: { country: '국내 · 강원', lede: '춘천 호텔과 리조트의 숙소 특가를 모았습니다.', alt: '엘리시안 강촌 리조트' },
+  suwon: { country: '국내 · 수도권', lede: '수원 호텔 추천과 숙소 특가를 모았습니다.', alt: '노보텔 앰배서더 수원' },
+  cheonan: { country: '국내 · 충청', lede: '천안 호텔과 리조트의 숙소 특가를 모았습니다.', alt: '소노벨 천안' },
+  gwangju: { country: '국내 · 전라', lede: '광주 호텔 추천과 숙소 특가를 모았습니다.', alt: '홀리데이 인 광주호텔' },
+  ulsan: { country: '국내 · 경상', lede: '울산 호텔 추천과 숙소 특가를 모았습니다.', alt: '롯데호텔 울산' },
+  pohang: { country: '국내 · 경상', lede: '포항 오션뷰 호텔과 숙소 특가를 모았습니다.', alt: '라한호텔 포항' },
+  tongyeong: { country: '국내 · 경상', lede: '통영 호텔과 리조트의 숙소 특가를 모았습니다.', alt: '스탠포드 호텔앤리조트 통영' },
 }
 
 // Written once the catalog titles were reviewed by hand; these products lead the home and tours pages.
@@ -164,6 +195,7 @@ export const pages = [
 export const navigation = {
   header: [
     { label: '할인 모음', url: '/deals' },
+    { label: '국내 호텔', url: '/korea' },
     { label: '여행지', url: '/destinations' },
     { label: '호텔', url: '/hotels' },
     { label: '항공권', url: '/flights' },

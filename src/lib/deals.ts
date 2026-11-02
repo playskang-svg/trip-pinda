@@ -16,3 +16,8 @@ export const getActiveDeals = async (where: Record<string, unknown> = {}): Promi
   const now = new Date()
   return docs.filter((deal) => isActiveDeal(deal, now))
 }
+
+export const getDomesticDeals = async (): Promise<Deal[]> => {
+  const deals = await getActiveDeals({ category: { equals: 'hotels' } })
+  return deals.filter((deal) => /국내/.test(`${deal.title} ${deal.conditions ?? ''}`))
+}

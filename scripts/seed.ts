@@ -22,8 +22,6 @@ import {
 import { blogPosts } from './seed-blog'
 import { coined, trendPosts } from './seed-trends'
 
-const posts = [...trendPosts, ...blogPosts, ...guidePosts]
-
 type IssuedLink = { url?: string; title?: string; program?: string; landing: string; error?: string }
 type CatalogEntry = {
   name: string
@@ -32,12 +30,19 @@ type CatalogEntry = {
   products: { slug: string; partner: string; title: string; image?: string }[]
 }
 
+const readJson = <T,>(file: string): T => JSON.parse(fs.readFileSync(path.resolve('scripts', file), 'utf8'))
+// Hotel reviews, written from the partner's ratings, guest reviews and facility data. Nobody here stayed at these hotels.
+const REVIEW_VERIFIED = '2026-11-02T12:00:00.000Z'
+const REVIEW_NOTE = '직접 투숙한 후기가 아닙니다. 판매처에 표시된 평점·투숙객 후기·시설 정보를 2026년 11월 2일에 확인해 정리했으며, 운영 조건은 바뀔 수 있습니다.'
+const reviews = readJson<(typeof blogPosts)[number][]>('reviews.json')
+const reviewSlugs = new Set(reviews.map((post) => post.slug))
+const posts = [...reviews, ...trendPosts, ...blogPosts, ...guidePosts]
+
 // These programs pay nothing for content whose title carries their brand name.
 for (const { title } of [...posts, ...pages, ...categories]) {
   if (/여기어때|찜카/.test(title)) throw new Error(`forbidden brand in title: ${title}`)
 }
 
-const readJson = <T,>(file: string): T => JSON.parse(fs.readFileSync(path.resolve('scripts', file), 'utf8'))
 const issued = readJson<Record<string, IssuedLink>>('links.json')
 const catalog = readJson<Record<string, CatalogEntry>>('catalog.json')
 const logos = readJson<Record<string, string>>('logos.json')
@@ -109,6 +114,12 @@ const toLexical = (blocks: Block[]) => ({
       if ('h3' in block) return [element('heading', [textNode(block.h3)], { tag: 'h3' })]
       if ('ul' in block) return [list(block.ul, 'ul')]
       if ('ol' in block) return [list(block.ol, 'ol')]
+      if ('photo' in block) {
+        return [{ type: 'block', version: 2, format: '', fields: { id: block.photo.src, blockName: '', blockType: 'photo', ...block.photo } }]
+      }
+      if ('facts' in block) {
+        return [{ type: 'block', version: 2, format: '', fields: { id: `facts-${block.facts.name}`, blockName: '', blockType: 'facts', ...block.facts, note: REVIEW_NOTE } }]
+      }
       if ('cta' in block) {
         const { link, ...fields } = block.cta
         const url = issued[link]?.url
@@ -161,7 +172,8 @@ for (const [slug, link] of Object.entries(issued)) {
 console.log('links', Object.keys(linkIds).length)
 
 const media: Record<string, number> = {}
-for (const [name, alt] of Object.entries(photos)) {
+const reviewPhotos = reviews.map((post) => [post.hero, post.title] as const)
+for (const [name, alt] of [...Object.entries(photos), ...reviewPhotos]) {
   media[name] = await uploadOnce(path.join(PHOTO_DIR, `${name}.webp`), alt)
 }
 console.log('photos', Object.keys(media).length)
@@ -212,6 +224,7 @@ for (const deal of deals) {
 console.log('deals', deals.length)
 
 const KIND_LABELS: [string, 'hotel' | 'flight' | 'tour', string][] = [
+  ['hotelYeogi', 'hotel', '숙소 특가 보기'],
   ['hotelAgoda', 'hotel', '호텔 보기'],
   ['hotelTrip', 'hotel', '트립닷컴 호텔'],
   ['flightTrip', 'flight', '항공권 보기'],
@@ -219,7 +232,7 @@ const KIND_LABELS: [string, 'hotel' | 'flight' | 'tour', string][] = [
   ['tourKlook', 'tour', '클룩 투어'],
   ['tourKkday', 'tour', 'KKday 투어'],
 ]
-const PARTNER_NAMES: Record<string, string> = { klook: '클룩', kkday: 'KKday', tripcom: '트립닷컴', agoda: '아고다' }
+const PARTNER_NAMES: Record<string, string> = { klook: '클룩', kkday: 'KKday', tripcom: '트립닷컴', agoda: '아고다', yeogi: '여기어때' }
 let productCount = 0
 for (const [order, entry] of Object.values(catalog).entries()) {
   const copy = destinations[entry.slug]
@@ -302,7 +315,7 @@ for (const [index, post] of posts.entries()) {
         if (!dealIds[key]) throw new Error(`post ${post.slug}: unknown deal ${key}`)
         return dealIds[key]
       }),
-      verifiedAt: VERIFIED,
+      verifiedAt: reviewSlugs.has(post.slug) ? REVIEW_VERIFIED : VERIFIED,
       // Spaced by a minute so the newest-first list keeps the planned order.
       publishedAt: new Date(Date.parse(VERIFIED) - index * 60_000).toISOString(),
       _status: 'published',
