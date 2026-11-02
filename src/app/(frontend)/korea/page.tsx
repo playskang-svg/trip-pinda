@@ -29,7 +29,7 @@ export default async function KoreaPage() {
     payload.find({
       collection: 'posts',
       where: { and: [...publishedWhere().and, { slug: { in: ALL_REVIEWS } }] },
-      limit: ALL_REVIEWS.length,
+      limit: 8,
       depth: 1,
       sort: '-publishedAt',
     }),
@@ -72,6 +72,9 @@ export default async function KoreaPage() {
           <div className="frame">
             <h2>호캉스 전에 읽는 호텔 리뷰</h2>
             <PostList posts={posts.docs} />
+            <Link className="text-link" href="/posts">
+              호텔 리뷰 전체 보기
+            </Link>
           </div>
         </section>
       ) : null}
