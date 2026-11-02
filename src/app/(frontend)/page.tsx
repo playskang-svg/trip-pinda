@@ -42,8 +42,8 @@ export default async function HomePage() {
       <JsonLd
         data={{
           '@type': 'WebSite',
-          name: SITE_NAME_COMPACT,
-          alternateName: [SITE_NAME, 'trip.pinda.kr'],
+          name: SITE_NAME,
+          alternateName: [SITE_NAME_COMPACT, '여행할인 정보센터', 'trip.pinda.kr'],
           url: SITE_URL,
           inLanguage: 'ko-KR',
           description: SITE_DESCRIPTION,
@@ -51,8 +51,8 @@ export default async function HomePage() {
         }}
       />
       <PhotoHead
-        eyebrow={<p className="post__category">{SITE_NAME_COMPACT}</p>}
-        lede="호텔, 항공권, 투어, 렌터카, 이심까지 지금 쓸 수 있는 코드를 조건과 기간으로 정리했습니다."
+        eyebrow={<p className="post__category">{SITE_NAME} · {SITE_NAME_COMPACT}</p>}
+        lede="핀다여행쿠폰은 호텔, 항공권, 투어, 렌터카, 이심까지 지금 쓸 수 있는 코드와 쿠폰을 조건과 기간으로 정리했습니다."
         photo="/photos/hero.webp"
         photoAlt="여행 가방을 끌고 공항을 걷는 한국인 여성"
         tall

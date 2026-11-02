@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: { default: SITE_TITLE, template: `%s | ${SITE_NAME}` },
   description: SITE_DESCRIPTION,
   keywords: [
+    SITE_NAME,
     '여행할인정보센터',
     '호텔 할인코드',
     '아고다 할인코드',
@@ -60,7 +61,7 @@ export const metadata: Metadata = {
     '방콕 자유여행',
   ],
   applicationName: SITE_NAME,
-  authors: [{ name: '여행할인정보센터' }],
+  authors: [{ name: SITE_NAME }],
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
   // Prices must not turn into phone links on mobile browsers.
   formatDetection: { telephone: false },
@@ -109,7 +110,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                   '@type': 'WebSite',
                   '@id': 'https://trip.pinda.kr/#website',
                   url: 'https://trip.pinda.kr',
-                  name: '여행할인정보센터',
+                  name: SITE_NAME,
+                  alternateName: '여행할인정보센터',
                   description: '호텔·항공권·투어·렌터카·이심 공식 프로모션 코드 및 할인 정보',
                   inLanguage: 'ko-KR',
                   potentialAction: {
@@ -124,7 +126,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 {
                   '@type': 'Organization',
                   '@id': 'https://trip.pinda.kr/#organization',
-                  name: '여행할인정보센터',
+                  name: SITE_NAME,
                   url: 'https://trip.pinda.kr',
                   logo: 'https://trip.pinda.kr/og-default.png',
                 },
