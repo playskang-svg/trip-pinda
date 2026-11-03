@@ -36,7 +36,11 @@ const REVIEW_VERIFIED = '2026-11-02T12:00:00.000Z'
 const REVIEW_NOTE = '직접 투숙한 후기가 아닙니다. 판매처에 표시된 평점·투숙객 후기·시설 정보를 2026년 11월 2일에 확인해 정리했으며, 운영 조건은 바뀔 수 있습니다.'
 const reviews = readJson<(typeof blogPosts)[number][]>('reviews.json')
 const reviewSlugs = new Set(reviews.map((post) => post.slug))
-const posts = [...reviews, ...trendPosts, ...blogPosts, ...guidePosts]
+// Topics people ask about in Naver review blogs and cafes, written from partner data and public rules, not from a trip.
+const BLOG_VERIFIED = '2026-11-03T12:00:00.000Z'
+const blog = fs.existsSync(path.resolve('scripts', 'blog.json')) ? readJson<(typeof blogPosts)[number][]>('blog.json') : []
+const blogSlugs = new Set(blog.map((post) => post.slug))
+const posts = [...blog, ...reviews, ...trendPosts, ...blogPosts, ...guidePosts]
 
 // These programs pay nothing for content whose title carries their brand name.
 for (const { title } of [...posts, ...pages, ...categories]) {
@@ -118,7 +122,25 @@ const toLexical = (blocks: Block[]) => ({
         return [{ type: 'block', version: 2, format: '', fields: { id: block.photo.src, blockName: '', blockType: 'photo', ...block.photo } }]
       }
       if ('facts' in block) {
-        return [{ type: 'block', version: 2, format: '', fields: { id: `facts-${block.facts.name}`, blockName: '', blockType: 'facts', ...block.facts, note: REVIEW_NOTE } }]
+        return [{ type: 'block', version: 2, format: '', fields: { id: `facts-${block.facts.name}`, blockName: '', blockType: 'facts', ...block.facts, note: block.facts.note ?? REVIEW_NOTE } }]
+      }
+      if ('compare' in block) {
+        const { caption, columns, rows } = block.compare
+        return [
+          {
+            type: 'block',
+            version: 2,
+            format: '',
+            fields: {
+              id: `compare-${caption}`,
+              blockName: '',
+              blockType: 'compare',
+              caption,
+              columns: columns.map((label) => ({ label })),
+              rows: rows.map((row) => ({ label: row.label, cells: row.cells.map((value) => ({ value })) })),
+            },
+          },
+        ]
       }
       if ('cta' in block) {
         const { link, ...fields } = block.cta
@@ -172,9 +194,13 @@ for (const [slug, link] of Object.entries(issued)) {
 console.log('links', Object.keys(linkIds).length)
 
 const media: Record<string, number> = {}
-const reviewPhotos = reviews.map((post) => [post.hero, post.title] as const)
+const reviewPhotos = [...blog, ...reviews].map((post) => [post.hero, post.title] as const)
 for (const [name, alt] of [...Object.entries(photos), ...reviewPhotos]) {
+  if (media[name]) continue
   media[name] = await uploadOnce(path.join(PHOTO_DIR, `${name}.webp`), alt)
+  // The post page finds this twin by file name and offers it to wide and high-density screens.
+  const twin = path.join(PHOTO_DIR, `${name}@2x.webp`)
+  if (fs.existsSync(twin)) await uploadOnce(twin, alt)
 }
 console.log('photos', Object.keys(media).length)
 
@@ -315,7 +341,7 @@ for (const [index, post] of posts.entries()) {
         if (!dealIds[key]) throw new Error(`post ${post.slug}: unknown deal ${key}`)
         return dealIds[key]
       }),
-      verifiedAt: reviewSlugs.has(post.slug) ? REVIEW_VERIFIED : VERIFIED,
+      verifiedAt: blogSlugs.has(post.slug) ? BLOG_VERIFIED : reviewSlugs.has(post.slug) ? REVIEW_VERIFIED : VERIFIED,
       // Spaced by a minute so the newest-first list keeps the planned order.
       publishedAt: new Date(Date.parse(VERIFIED) - index * 60_000).toISOString(),
       _status: 'published',

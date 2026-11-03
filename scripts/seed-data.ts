@@ -12,7 +12,8 @@ export type Block =
   | { ol: string[] }
   | { cta: { hook: string; name: string; button: string; link: string } }
   | { photo: { src: string; alt: string; caption: string } }
-  | { facts: { name: string; score: string; count: string; rows: { label: string; value: string }[] } }
+  | { facts: { name: string; score: string; count: string; note?: string; rows: { label: string; value: string }[] } }
+  | { compare: { caption: string; columns: string[]; rows: { label: string; cells: string[] }[] } }
 
 export const photos: Record<string, string> = {
   tokyo: '밤의 도쿄 시부야 교차로',

@@ -34,8 +34,8 @@ export default async function DealsPage() {
       <PhotoHead
         eyebrow={<Breadcrumbs items={[{ name: '할인 모음', path: '/deals' }]} />}
         lede="핀다여행쿠폰의 여행코드표입니다. 코드는 복사한 뒤 같은 카드를 눌러 들어간 예약 화면에서 넣으세요. 다른 경로로 들어가면 적용되지 않는 코드가 많습니다."
-        photo="/photos/deals.webp"
-        photoAlt="공항 벤치에서 휴대폰으로 할인코드를 확인하는 한국인 여성"
+        clip={{ src: '/video/deals.mp4', mobileSrc: '/video/deals-m.mp4', poster: '/video/deals.webp', mobilePoster: '/video/deals-m.webp' }}
+        photoAlt="공항 라운지 창가에서 휴대폰으로 쿠폰을 확인하는 장면"
         title={title}
       />
       <nav aria-label="분야별 할인" className="section section--slim">

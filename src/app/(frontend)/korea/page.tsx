@@ -40,8 +40,8 @@ export default async function KoreaPage() {
       <PhotoHead
         eyebrow={<Breadcrumbs items={[{ name: '국내 호텔', path: '/korea' }]} />}
         lede={description}
-        photo="/photos/hotel-66687.webp"
-        photoAlt="그랜드 조선 제주 전경"
+        clip={{ src: '/video/korea.mp4', mobileSrc: '/video/korea-m.mp4', poster: '/video/korea.webp', mobilePoster: '/video/korea-m.webp' }}
+        photoAlt="호텔 객실에서 커튼을 열자 바다가 보이는 장면"
         title={title}
       />
       {deals.length ? (

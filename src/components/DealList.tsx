@@ -1,5 +1,6 @@
 import { AffiliateAnchor } from '@/components/AffiliateAnchor'
 import { CopyCode } from '@/components/CopyCode'
+import { retina } from '@/lib/images'
 import { formatDate } from '@/lib/pricing'
 import type { Deal } from '@/payload-types'
 
@@ -24,7 +25,7 @@ export function DealList({ deals }: { deals: Deal[] }) {
           <li className="deal" key={deal.id}>
             {deal.image ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img alt="" className="deal__image" height={300} loading="lazy" src={deal.image} width={600} />
+              <img alt="" className="deal__image" height={300} loading="lazy" src={deal.image} srcSet={retina(deal.image)} width={600} />
             ) : null}
             <div className="deal__body">
               <div className="deal__partner">

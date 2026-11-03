@@ -5,9 +5,16 @@ import {
 } from '@payloadcms/richtext-lexical/react'
 import type React from 'react'
 
+import { retina } from '@/lib/images'
+
 type CtaFields = { hook: string; name: string; button: string; url: string; image?: string | null }
 type PhotoFields = { src: string; alt: string; caption: string }
 type FactsFields = { name: string; score: string; count: string; note: string; rows?: { label: string; value: string }[] }
+type CompareFields = {
+  caption: string
+  columns?: { label: string }[]
+  rows?: { label: string; cells?: { value: string }[] }[]
+}
 
 const startsWithCaptionMark = (node: { children?: unknown[] }): boolean => {
   const first = node.children?.[0] as { text?: string } | undefined
@@ -28,7 +35,7 @@ export function RichText({ data, midway }: { data: unknown; midway?: React.React
           <a className="post-cta" href={url} rel="sponsored nofollow noopener" target="_blank">
             {image ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img alt={name} height={300} loading="lazy" src={image} width={400} />
+              <img alt={name} height={300} loading="lazy" src={image} srcSet={retina(image)} width={400} />
             ) : null}
             <span className="post-cta__body">
               <strong>{hook}</strong>
@@ -43,9 +50,42 @@ export function RichText({ data, midway }: { data: unknown; midway?: React.React
         return (
           <figure className="post-photo">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt={alt} height={667} loading="lazy" src={src} width={1000} />
+            <img alt={alt} height={667} loading="lazy" src={src} srcSet={retina(src)} width={1000} />
             <figcaption>▲ {caption}</figcaption>
           </figure>
+        )
+      },
+      compare: ({ node }: { node: { fields: CompareFields } }) => {
+        const { caption, columns, rows } = node.fields
+        return (
+          // Scrolls sideways inside its own box on narrow phones instead of widening the page.
+          <div aria-label={caption} className="compare" role="region" tabIndex={0}>
+            <table>
+              <caption>{caption}</caption>
+              <thead>
+                <tr>
+                  <th scope="col">
+                    <span className="sr-only">항목</span>
+                  </th>
+                  {columns?.map((column) => (
+                    <th key={column.label} scope="col">
+                      {column.label}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {rows?.map((row) => (
+                  <tr key={row.label}>
+                    <th scope="row">{row.label}</th>
+                    {row.cells?.map((cell, index) => (
+                      <td key={index}>{cell.value}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         )
       },
       facts: ({ node }: { node: { fields: FactsFields } }) => {

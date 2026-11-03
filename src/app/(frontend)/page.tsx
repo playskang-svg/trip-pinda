@@ -8,6 +8,7 @@ import { PhotoHead } from '@/components/PhotoHead'
 import { PostList } from '@/components/PostList'
 import { ProductGrid } from '@/components/ProductGrid'
 import { getActiveDeals } from '@/lib/deals'
+import { retina } from '@/lib/images'
 import {
   getClient,
   publishedWhere,
@@ -53,8 +54,8 @@ export default async function HomePage() {
       <PhotoHead
         eyebrow={<p className="post__category">{SITE_NAME} · {SITE_NAME_COMPACT}</p>}
         lede="핀다여행쿠폰은 호텔, 항공권, 투어, 렌터카, 이심까지 지금 쓸 수 있는 코드와 쿠폰을 조건과 기간으로 정리했습니다."
-        photo="/photos/hero.webp"
-        photoAlt="여행 가방을 끌고 공항을 걷는 한국인 여성"
+        clip={{ src: '/video/hero.mp4', mobileSrc: '/video/hero-m.mp4', poster: '/video/hero.webp', mobilePoster: '/video/hero-m.webp' }}
+        photoAlt="공항 창가를 걷는 여행객이 휴대폰을 보는 장면"
         tall
         title="결제 버튼 누르기 전, 코드부터 넣으세요"
       >
@@ -75,7 +76,7 @@ export default async function HomePage() {
               <li key={category.id}>
                 <Link href={`/${category.slug}`}>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img alt="" height={200} loading="lazy" src={category.photo} width={320} />
+                  <img alt="" height={200} loading="lazy" src={category.photo} srcSet={retina(category.photo)} width={320} />
                   <span>{category.title}</span>
                 </Link>
               </li>

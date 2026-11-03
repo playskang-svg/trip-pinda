@@ -55,6 +55,11 @@ export default async function PostPage({ params }: Props) {
   if (!post) notFound()
 
   const hero = typeof post.heroImage === 'object' ? post.heroImage : null
+  // Seeded heroes have an @2x twin uploaded beside them; admin uploads may not, so look it up instead of guessing the URL.
+  const twinFile = hero?.filename?.endsWith('.webp') ? hero.filename.replace(/\.webp$/, '@2x.webp') : null
+  const heroTwin = twinFile
+    ? (await (await getClient()).find({ collection: 'media', where: { filename: { equals: twinFile } }, limit: 1, depth: 0 })).docs[0]
+    : undefined
   const category = typeof post.category === 'object' ? post.category : null
   const now = new Date()
   const deals = (post.deals ?? []).filter((d): d is Deal => typeof d === 'object' && isActiveDeal(d, now))
@@ -90,6 +95,7 @@ export default async function PostPage({ params }: Props) {
         lede={`${formatDate(post.verifiedAt)} 프로모션 안내 기준으로 확인`}
         photo={hero?.url}
         photoAlt={hero?.alt}
+        srcSet={hero?.url && heroTwin?.url ? `${hero.url} 1200w, ${heroTwin.url} 2400w` : undefined}
         title={post.title}
       />
       <div className="frame frame--text post__body">

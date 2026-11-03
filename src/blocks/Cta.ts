@@ -44,3 +44,27 @@ export const FactsBlock: Block = {
     },
   ],
 }
+
+// Side-by-side table for choosing between areas, platforms or products; rows are the questions readers ask.
+export const CompareBlock: Block = {
+  slug: 'compare',
+  labels: { singular: '비교표', plural: '비교표' },
+  fields: [
+    { name: 'caption', label: '표 제목', type: 'text', required: true },
+    {
+      name: 'columns',
+      label: '비교 대상',
+      type: 'array',
+      fields: [{ name: 'label', label: '이름', type: 'text', required: true }],
+    },
+    {
+      name: 'rows',
+      label: '항목',
+      type: 'array',
+      fields: [
+        { name: 'label', label: '항목 이름', type: 'text', required: true },
+        { name: 'cells', label: '값', type: 'array', fields: [{ name: 'value', label: '값', type: 'text', required: true }] },
+      ],
+    },
+  ],
+}
