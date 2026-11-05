@@ -6,3 +6,5 @@ Disallow: /api
 Disallow: /search
 
 Sitemap: https://trip.pinda.kr/sitemap.xml
+
+#DaumWebMasterTool:a9fee8776f1913baa5fb16fe15bd97aac64db77477555193271a8ef529b5e30b:u1KY4V8+6gddZ3NiGzwUZw==
